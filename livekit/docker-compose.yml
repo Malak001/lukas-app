@@ -1,0 +1,24 @@
+services:
+  # Reverse proxy: terminates TLS (auto Let's Encrypt cert) and forwards the
+  # WebSocket signaling connection to LiveKit on localhost:7880.
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+
+  # network_mode: host is required so LiveKit can use the large UDP port
+  # range for WebRTC media without mapping thousands of individual ports.
+  # Only works on a Linux host (any real VPS) — not Docker Desktop.
+  livekit:
+    image: livekit/livekit-server:latest
+    command: --config /etc/livekit.yaml
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./livekit.yaml:/etc/livekit.yaml
+
+volumes:
+  caddy_data:

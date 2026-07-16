@@ -1,0 +1,150 @@
+import type { LanguageCode } from "./languages";
+
+export const STAGE3_STRINGS: Record<
+  LanguageCode,
+  {
+    introText: string;
+    translatePlaceholder: string;
+    submitBtn: string;
+    finishBtn: string;
+    grading: string;
+    passedTitle: string;
+    failedTitle: string;
+    yourScore: string;
+    tryAgainBtn: string;
+    backToVideos: string;
+    segmentLabel: string;
+    progressLabel: string;
+    neededLabel: string;
+    continueBtn: string;
+  }
+> = {
+  en: {
+    introText: "Watch the video, then translate each segment into your native language.",
+    translatePlaceholder: "Type your translation...",
+    submitBtn: "Check translation",
+    finishBtn: "Finish",
+    grading: "Grading…",
+    passedTitle: "You passed this video!",
+    failedTitle: "Not quite — keep practicing",
+    yourScore: "Your score:",
+    tryAgainBtn: "Try again",
+    backToVideos: "Back to videos",
+    segmentLabel: "Segment",
+    progressLabel: "videos passed",
+    neededLabel: "Pass 3 of 5 videos to complete Stage 3.",
+    continueBtn: "Continue to Stage 4",
+  },
+  es: {
+    introText: "Mira el video y luego traduce cada segmento a tu idioma nativo.",
+    translatePlaceholder: "Escribe tu traducción...",
+    submitBtn: "Comprobar traducción",
+    finishBtn: "Terminar",
+    grading: "Calificando…",
+    passedTitle: "¡Aprobaste este video!",
+    failedTitle: "Todavía no — sigue practicando",
+    yourScore: "Tu puntuación:",
+    tryAgainBtn: "Intentar de nuevo",
+    backToVideos: "Volver a los videos",
+    segmentLabel: "Segmento",
+    progressLabel: "videos aprobados",
+    neededLabel: "Aprueba 3 de 5 videos para completar la Etapa 3.",
+    continueBtn: "Continuar a la Etapa 4",
+  },
+  fr: {
+    introText: "Regardez la vidéo, puis traduisez chaque segment dans votre langue maternelle.",
+    translatePlaceholder: "Tapez votre traduction...",
+    submitBtn: "Vérifier la traduction",
+    finishBtn: "Terminer",
+    grading: "Évaluation en cours…",
+    passedTitle: "Vous avez réussi cette vidéo !",
+    failedTitle: "Pas encore — continuez à pratiquer",
+    yourScore: "Votre score :",
+    tryAgainBtn: "Réessayer",
+    backToVideos: "Retour aux vidéos",
+    segmentLabel: "Segment",
+    progressLabel: "vidéos réussies",
+    neededLabel: "Réussissez 3 vidéos sur 5 pour terminer l'étape 3.",
+    continueBtn: "Passer à l'étape 4",
+  },
+  de: {
+    introText: "Schau dir das Video an und übersetze dann jeden Abschnitt in deine Muttersprache.",
+    translatePlaceholder: "Übersetzung eingeben...",
+    submitBtn: "Übersetzung prüfen",
+    finishBtn: "Fertig",
+    grading: "Wird bewertet…",
+    passedTitle: "Du hast dieses Video bestanden!",
+    failedTitle: "Noch nicht — übe weiter",
+    yourScore: "Deine Punktzahl:",
+    tryAgainBtn: "Erneut versuchen",
+    backToVideos: "Zurück zu den Videos",
+    segmentLabel: "Abschnitt",
+    progressLabel: "Videos bestanden",
+    neededLabel: "Bestehe 3 von 5 Videos, um Stufe 3 abzuschließen.",
+    continueBtn: "Weiter zu Stufe 4",
+  },
+  ar: {
+    introText: "شاهد الفيديو، ثم ترجم كل مقطع إلى لغتك الأم.",
+    translatePlaceholder: "اكتب ترجمتك...",
+    submitBtn: "تحقق من الترجمة",
+    finishBtn: "إنهاء",
+    grading: "جارٍ التقييم…",
+    passedTitle: "لقد اجتزت هذا الفيديو!",
+    failedTitle: "ليس بعد — واصل التدريب",
+    yourScore: "نتيجتك:",
+    tryAgainBtn: "حاول مرة أخرى",
+    backToVideos: "العودة إلى الفيديوهات",
+    segmentLabel: "المقطع",
+    progressLabel: "فيديوهات ناجحة",
+    neededLabel: "اجتز 3 من 5 فيديوهات لإكمال المرحلة 3.",
+    continueBtn: "الانتقال إلى المرحلة 4",
+  },
+  zh: {
+    introText: "观看视频，然后将每个片段翻译成你的母语。",
+    translatePlaceholder: "输入你的翻译...",
+    submitBtn: "检查翻译",
+    finishBtn: "完成",
+    grading: "正在评分…",
+    passedTitle: "你通过了这个视频！",
+    failedTitle: "还没通过——继续练习",
+    yourScore: "你的得分：",
+    tryAgainBtn: "再试一次",
+    backToVideos: "返回视频列表",
+    segmentLabel: "片段",
+    progressLabel: "个视频已通过",
+    neededLabel: "通过5个视频中的3个即可完成第三阶段。",
+    continueBtn: "进入第四阶段",
+  },
+  pt: {
+    introText: "Assista ao vídeo e depois traduza cada segmento para o seu idioma nativo.",
+    translatePlaceholder: "Digite sua tradução...",
+    submitBtn: "Verificar tradução",
+    finishBtn: "Concluir",
+    grading: "Avaliando…",
+    passedTitle: "Você passou neste vídeo!",
+    failedTitle: "Ainda não — continue praticando",
+    yourScore: "Sua pontuação:",
+    tryAgainBtn: "Tentar novamente",
+    backToVideos: "Voltar aos vídeos",
+    segmentLabel: "Segmento",
+    progressLabel: "vídeos aprovados",
+    neededLabel: "Passe em 3 de 5 vídeos para concluir o Estágio 3.",
+    continueBtn: "Continuar para o Estágio 4",
+  },
+  ja: {
+    introText: "動画を見てから、各セグメントを母国語に翻訳してください。",
+    translatePlaceholder: "翻訳を入力...",
+    submitBtn: "翻訳を確認",
+    finishBtn: "終了",
+    grading: "採点中…",
+    passedTitle: "この動画に合格しました！",
+    failedTitle: "まだです — 練習を続けましょう",
+    yourScore: "あなたのスコア：",
+    tryAgainBtn: "もう一度挑戦",
+    backToVideos: "動画一覧に戻る",
+    segmentLabel: "セグメント",
+    progressLabel: "本の動画に合格",
+    neededLabel: "ステージ3を完了するには5本中3本の動画に合格してください。",
+    continueBtn: "ステージ4へ進む",
+  },
+};

@@ -1,0 +1,442 @@
+[
+  {
+    "lesson_order": 1,
+    "title": { "en": "Introducing Yourself: Your Name", "es": "Presentarte: Tu nombre", "fr": "Se présenter : ton prénom", "de": "Sich vorstellen: Dein Name", "ar": "التعريف بنفسك: اسمك", "zh": "自我介绍：你的名字", "pt": "Apresentando-se: Seu nome", "ja": "自己紹介：あなたの名前" },
+    "phrases": [
+      {
+        "target_text": "Salut",
+        "pronunciation": "sah-LUU",
+        "translations": { "en": "Hi", "es": "Hola", "fr": "Salut", "de": "Hallo", "ar": "مرحباً", "zh": "嗨", "pt": "Oi", "ja": "やあ" }
+      },
+      {
+        "target_text": "Bonjour",
+        "pronunciation": "bohn-ZHOOR (nasal 'on', silent final consonants)",
+        "translations": { "en": "Hello", "es": "Buenos días", "fr": "Bonjour", "de": "Guten Tag", "ar": "صباح الخير / مرحباً", "zh": "你好", "pt": "Bom dia / Olá", "ja": "こんにちは" }
+      },
+      {
+        "target_text": "Je m'appelle Mariam",
+        "pronunciation": "zhuh mah-PELL mah-ree-AM (silent 'e' in 'je')",
+        "translations": { "en": "My name is Mariam", "es": "Me llamo Mariam", "fr": "Je m'appelle Mariam", "de": "Ich heiße Mariam", "ar": "اسمي مريم", "zh": "我叫玛丽亚姆", "pt": "Meu nome é Mariam", "ja": "私の名前はマリアムです" }
+      },
+      {
+        "target_text": "Comment tu t'appelles ?",
+        "pronunciation": "koh-MAHN tu tah-PELL (nasal 'en')",
+        "translations": { "en": "What's your name?", "es": "¿Cómo te llamas?", "fr": "Comment tu t'appelles ?", "de": "Wie heißt du?", "ar": "ما اسمك؟", "zh": "你叫什么名字？", "pt": "Qual é o seu nome?", "ja": "お名前は何ですか？" }
+      },
+      {
+        "target_text": "Enchanté",
+        "pronunciation": "ahn-shahn-TAY (nasal 'en', 'an'; say 'Enchantée' if you're a woman)",
+        "translations": { "en": "Nice to meet you", "es": "Encantado/a", "fr": "Enchanté", "de": "Freut mich", "ar": "تشرفت بمعرفتك", "zh": "很高兴认识你", "pt": "Prazer em conhecê-lo", "ja": "はじめまして" }
+      },
+      {
+        "target_text": "C'est un plaisir de te rencontrer",
+        "pronunciation": "seh tuhn play-ZEER duh tuh rahn-kohn-TRAY (liaison: 'c'est_un')",
+        "translations": { "en": "It's a pleasure to meet you", "es": "Es un placer conocerte", "fr": "C'est un plaisir de te rencontrer", "de": "Es ist mir ein Vergnügen, dich kennenzulernen", "ar": "من دواعي سروري لقاؤك", "zh": "很荣幸认识你", "pt": "É um prazer te conhecer", "ja": "お会いできて光栄です" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Salut ! Comment tu t'appelles ?", "pronunciation": "sah-LUU! koh-MAHN tu tah-PELL", "translations": { "en": "Hi! What's your name?", "es": "¡Hola! ¿Cómo te llamas?", "fr": "Salut ! Comment tu t'appelles ?", "de": "Hallo! Wie heißt du?", "ar": "مرحباً! ما اسمك؟", "zh": "嗨！你叫什么名字？", "pt": "Oi! Qual é o seu nome?", "ja": "やあ！お名前は？" } },
+      { "speaker": "B", "target_text": "Je m'appelle Léa, et toi ?", "pronunciation": "zhuh mah-PELL lay-AH, ay TWAH", "translations": { "en": "My name is Léa, and you?", "es": "Me llamo Léa, ¿y tú?", "fr": "Je m'appelle Léa, et toi ?", "de": "Ich heiße Léa, und du?", "ar": "اسمي ليا، وأنت؟", "zh": "我叫蕾雅，你呢？", "pt": "Meu nome é Léa, e você?", "ja": "私はレアです、あなたは？" } },
+      { "speaker": "A", "target_text": "Moi, c'est Marc.", "pronunciation": "mwah, seh MARK", "translations": { "en": "I'm Marc.", "es": "Yo soy Marc.", "fr": "Moi, c'est Marc.", "de": "Ich bin Marc.", "ar": "أنا مارك.", "zh": "我是马克。", "pt": "Eu sou o Marc.", "ja": "僕はマルクです。" } },
+      { "speaker": "B", "target_text": "Enchantée, Marc !", "pronunciation": "ahn-shahn-TAY, MARK", "translations": { "en": "Nice to meet you, Marc!", "es": "¡Encantada, Marc!", "fr": "Enchantée, Marc !", "de": "Freut mich, Marc!", "ar": "تشرفت بلقائك، مارك!", "zh": "很高兴认识你，马克！", "pt": "Prazer, Marc!", "ja": "はじめまして、マルク！" } },
+      { "speaker": "A", "target_text": "Enchanté aussi. C'est un plaisir de te rencontrer.", "pronunciation": "ahn-shahn-TAY oh-SEE. seh tuhn play-ZEER duh tuh rahn-kohn-TRAY", "translations": { "en": "Nice to meet you too. It's a pleasure.", "es": "Encantado también. Es un placer conocerte.", "fr": "Enchanté aussi. C'est un plaisir de te rencontrer.", "de": "Mich auch. Es ist mir ein Vergnügen.", "ar": "وأنا أيضاً، من دواعي سروري لقاؤك.", "zh": "我也是，很荣幸认识你。", "pt": "Prazer também. É um prazer te conhecer.", "ja": "こちらこそ。お会いできて光栄です。" } },
+      { "speaker": "B", "target_text": "Bonjour à toute l'équipe, au fait !", "pronunciation": "bohn-ZHOOR ah toot lay-KEEP, oh FET", "translations": { "en": "Hello to the whole team, by the way!", "es": "¡Hola a todo el equipo, por cierto!", "fr": "Bonjour à toute l'équipe, au fait !", "de": "Übrigens, hallo an das ganze Team!", "ar": "بالمناسبة، مرحباً بكل الفريق!", "zh": "对了，向整个团队问好！", "pt": "A propósito, oi para toda a equipe!", "ja": "ところで、チームの皆さんにもよろしく！" } }
+    ]
+  },
+  {
+    "lesson_order": 2,
+    "title": { "en": "Where You're From", "es": "De dónde eres", "fr": "D'où tu viens", "de": "Woher du kommst", "ar": "من أين أنت", "zh": "你来自哪里", "pt": "De onde você é", "ja": "出身はどこですか" },
+    "phrases": [
+      {
+        "target_text": "Tu viens d'où ?",
+        "pronunciation": "tu vyan DOO (nasal 'ien')",
+        "translations": { "en": "Where are you from?", "es": "¿De dónde eres?", "fr": "Tu viens d'où ?", "de": "Woher kommst du?", "ar": "من أين أنت؟", "zh": "你从哪里来？", "pt": "De onde você é?", "ja": "出身はどこですか？" }
+      },
+      {
+        "target_text": "Je viens de France",
+        "pronunciation": "zhuh vyan duh FRAHNSS (nasal 'ien', 'an')",
+        "translations": { "en": "I'm from France", "es": "Soy de Francia", "fr": "Je viens de France", "de": "Ich komme aus Frankreich", "ar": "أنا من فرنسا", "zh": "我来自法国", "pt": "Eu sou da França", "ja": "私はフランス出身です" }
+      },
+      {
+        "target_text": "J'habite à Paris",
+        "pronunciation": "zhah-BEET ah pah-REE (silent 'h')",
+        "translations": { "en": "I live in Paris", "es": "Vivo en París", "fr": "J'habite à Paris", "de": "Ich wohne in Paris", "ar": "أسكن في باريس", "zh": "我住在巴黎", "pt": "Eu moro em Paris", "ja": "私はパリに住んでいます" }
+      },
+      {
+        "target_text": "Je suis américain",
+        "pronunciation": "zhuh swee ah-may-ree-KAN (nasal ending; say 'américaine' if you're a woman)",
+        "translations": { "en": "I'm American", "es": "Soy estadounidense", "fr": "Je suis américain", "de": "Ich bin Amerikaner", "ar": "أنا أمريكي", "zh": "我是美国人", "pt": "Eu sou americano", "ja": "私はアメリカ人です" }
+      },
+      {
+        "target_text": "D'où viens-tu exactement ?",
+        "pronunciation": "doo vyan-TU ex-ak-teh-MAHN",
+        "translations": { "en": "Where exactly are you from?", "es": "¿De dónde eres exactamente?", "fr": "D'où viens-tu exactement ?", "de": "Woher genau kommst du?", "ar": "من أين أنت بالضبط؟", "zh": "你具体是哪里人？", "pt": "De onde você é exatamente?", "ja": "正確にはどこの出身ですか？" }
+      },
+      {
+        "target_text": "Je suis né au Canada",
+        "pronunciation": "zhuh swee nay oh kah-nah-DAH (liaison: 'né_au')",
+        "translations": { "en": "I was born in Canada", "es": "Nací en Canadá", "fr": "Je suis né au Canada", "de": "Ich bin in Kanada geboren", "ar": "وُلدت في كندا", "zh": "我出生在加拿大", "pt": "Eu nasci no Canadá", "ja": "私はカナダ生まれです" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Tu viens d'où ?", "pronunciation": "tu vyan DOO", "translations": { "en": "Where are you from?", "es": "¿De dónde eres?", "fr": "Tu viens d'où ?", "de": "Woher kommst du?", "ar": "من أين أنت؟", "zh": "你从哪里来？", "pt": "De onde você é?", "ja": "出身はどこですか？" } },
+      { "speaker": "B", "target_text": "Je viens de France, et toi ?", "pronunciation": "zhuh vyan duh FRAHNSS, ay TWAH", "translations": { "en": "I'm from France, and you?", "es": "Soy de Francia, ¿y tú?", "fr": "Je viens de France, et toi ?", "de": "Ich komme aus Frankreich, und du?", "ar": "أنا من فرنسا، وأنت؟", "zh": "我来自法国，你呢？", "pt": "Eu sou da França, e você?", "ja": "私はフランス出身です、あなたは？" } },
+      { "speaker": "A", "target_text": "Moi, je suis américain, mais j'habite à Paris.", "pronunciation": "mwah, zhuh swee ah-may-ree-KAN, may zhah-BEET ah pah-REE", "translations": { "en": "I'm American, but I live in Paris.", "es": "Yo soy estadounidense, pero vivo en París.", "fr": "Moi, je suis américain, mais j'habite à Paris.", "de": "Ich bin Amerikaner, aber ich wohne in Paris.", "ar": "أنا أمريكي، لكنني أسكن في باريس.", "zh": "我是美国人，但我住在巴黎。", "pt": "Eu sou americano, mas moro em Paris.", "ja": "私はアメリカ人ですが、パリに住んでいます。" } },
+      { "speaker": "B", "target_text": "Ah super ! Tu es né aux États-Unis ?", "pronunciation": "ah soo-PEHR! tu ay nay oh zay-tah-ZUUNEE", "translations": { "en": "Oh great! Were you born in the US?", "es": "¡Ah, qué bien! ¿Naciste en Estados Unidos?", "fr": "Ah super ! Tu es né aux États-Unis ?", "de": "Oh toll! Bist du in den USA geboren?", "ar": "رائع! هل وُلدت في الولايات المتحدة؟", "zh": "太好了！你出生在美国吗？", "pt": "Ah, legal! Você nasceu nos Estados Unidos?", "ja": "へえ、いいね！アメリカ生まれですか？" } },
+      { "speaker": "A", "target_text": "Non, en fait je suis né au Canada.", "pronunciation": "noh, ahn fet zhuh swee nay oh kah-nah-DAH", "translations": { "en": "No, actually I was born in Canada.", "es": "No, en realidad nací en Canadá.", "fr": "Non, en fait je suis né au Canada.", "de": "Nein, eigentlich bin ich in Kanada geboren.", "ar": "لا، في الواقع وُلدت في كندا.", "zh": "不，其实我出生在加拿大。", "pt": "Não, na verdade nasci no Canadá.", "ja": "いいえ、実はカナダ生まれです。" } },
+      { "speaker": "B", "target_text": "D'accord, c'est intéressant !", "pronunciation": "dah-KOR, seh tan-tay-reh-SAHN", "translations": { "en": "Okay, that's interesting!", "es": "Vale, ¡qué interesante!", "fr": "D'accord, c'est intéressant !", "de": "Okay, das ist interessant!", "ar": "حسناً، هذا مثير للاهتمام!", "zh": "好的，真有意思！", "pt": "Entendi, que interessante!", "ja": "なるほど、面白いですね！" } }
+    ]
+  },
+  {
+    "lesson_order": 3,
+    "title": { "en": "Greetings", "es": "Saludos", "fr": "Salutations", "de": "Begrüßungen", "ar": "التحيات", "zh": "问候语", "pt": "Cumprimentos", "ja": "挨拶" },
+    "phrases": [
+      {
+        "target_text": "Bonjour",
+        "pronunciation": "bohn-ZHOOR (nasal 'on')",
+        "translations": { "en": "Good morning", "es": "Buenos días", "fr": "Bonjour", "de": "Guten Morgen", "ar": "صباح الخير", "zh": "早上好", "pt": "Bom dia", "ja": "おはようございます" }
+      },
+      {
+        "target_text": "Bon après-midi",
+        "pronunciation": "bohn ah-preh-mee-DEE (nasal 'on')",
+        "translations": { "en": "Good afternoon", "es": "Buenas tardes", "fr": "Bon après-midi", "de": "Guten Nachmittag", "ar": "طاب مساؤك (بعد الظهر)", "zh": "下午好", "pt": "Boa tarde", "ja": "こんにちは（午後）" }
+      },
+      {
+        "target_text": "Bonsoir",
+        "pronunciation": "bohn-SWAHR (nasal 'on')",
+        "translations": { "en": "Good evening", "es": "Buenas tardes/noches", "fr": "Bonsoir", "de": "Guten Abend", "ar": "مساء الخير", "zh": "晚上好", "pt": "Boa noite", "ja": "こんばんは" }
+      },
+      {
+        "target_text": "Bonne nuit",
+        "pronunciation": "bun NWEE (nasal-ish 'on' softened by double n)",
+        "translations": { "en": "Good night", "es": "Buenas noches", "fr": "Bonne nuit", "de": "Gute Nacht", "ar": "تصبح على خير", "zh": "晚安", "pt": "Boa noite (ao dormir)", "ja": "おやすみなさい" }
+      },
+      {
+        "target_text": "Coucou !",
+        "pronunciation": "koo-KOO",
+        "translations": { "en": "Hey there! (casual)", "es": "¡Hola! (informal)", "fr": "Coucou !", "de": "Hallöchen!", "ar": "أهلاً! (بشكل ودي)", "zh": "嗨（亲切）！", "pt": "Oi, oi! (informal)", "ja": "やっほー！" }
+      },
+      {
+        "target_text": "Comment ça va ?",
+        "pronunciation": "koh-mahn sah VAH (nasal 'omm')",
+        "translations": { "en": "How are you?", "es": "¿Cómo estás?", "fr": "Comment ça va ?", "de": "Wie geht's?", "ar": "كيف حالك؟", "zh": "你好吗？", "pt": "Como você está?", "ja": "元気ですか？" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Coucou ! Bonjour !", "pronunciation": "koo-KOO! bohn-ZHOOR!", "translations": { "en": "Hey! Good morning!", "es": "¡Hola! ¡Buenos días!", "fr": "Coucou ! Bonjour !", "de": "Hallöchen! Guten Morgen!", "ar": "أهلاً! صباح الخير!", "zh": "嗨！早上好！", "pt": "Oi! Bom dia!", "ja": "やっほー！おはよう！" } },
+      { "speaker": "B", "target_text": "Salut ! Comment ça va ?", "pronunciation": "sah-LUU! koh-mahn sah VAH", "translations": { "en": "Hi! How are you?", "es": "¡Hola! ¿Cómo estás?", "fr": "Salut ! Comment ça va ?", "de": "Hallo! Wie geht's?", "ar": "مرحباً! كيف حالك؟", "zh": "嗨！你好吗？", "pt": "Oi! Como você está?", "ja": "やあ！元気？" } },
+      { "speaker": "A", "target_text": "Ça va bien, merci ! On se voit cet après-midi ?", "pronunciation": "sah vah byan, mehr-SEE! ohn suh vwah set ah-preh-mee-DEE", "translations": { "en": "I'm doing well, thanks! Are we meeting this afternoon?", "es": "Estoy bien, ¡gracias! ¿Nos vemos esta tarde?", "fr": "Ça va bien, merci ! On se voit cet après-midi ?", "de": "Mir geht's gut, danke! Sehen wir uns heute Nachmittag?", "ar": "أنا بخير، شكراً! هل سنلتقي بعد الظهر؟", "zh": "我很好，谢谢！我们下午见面吗？", "pt": "Estou bem, obrigado! A gente se vê à tarde?", "ja": "元気だよ、ありがとう！今日の午後会う？" } },
+      { "speaker": "B", "target_text": "Oui, bon après-midi en perspective alors !", "pronunciation": "wee, bohn ah-preh-mee-DEE ahn pehr-spek-TEEV ah-LOR", "translations": { "en": "Yes, looking forward to a good afternoon then!", "es": "Sí, ¡buena tarde nos espera entonces!", "fr": "Oui, bon après-midi en perspective alors !", "de": "Ja, dann steht uns ein schöner Nachmittag bevor!", "ar": "نعم، بعد ظهر جميل ينتظرنا إذاً!", "zh": "好啊，那看来会是个愉快的下午！", "pt": "Sim, boa tarde nos espera então!", "ja": "うん、それじゃ楽しみな午後になりそう！" } },
+      { "speaker": "A", "target_text": "Bonsoir, à ce soir peut-être aussi ?", "pronunciation": "bohn-SWAHR, ah suh SWAHR puh-TET oh-SEE", "translations": { "en": "Good evening, maybe see you tonight too?", "es": "Buenas noches, ¿tal vez nos vemos esta noche también?", "fr": "Bonsoir, à ce soir peut-être aussi ?", "de": "Guten Abend, vielleicht bis heute Abend auch?", "ar": "مساء الخير، ربما نلتقي الليلة أيضاً؟", "zh": "晚上好，也许今晚也能见面？", "pt": "Boa noite, talvez a gente se vê à noite também?", "ja": "こんばんは、もしかしたら今夜も会える？" } },
+      { "speaker": "B", "target_text": "On verra ! Bonne nuit en attendant.", "pronunciation": "ohn veh-RAH! bun NWEE ahn nah-tahn-DAHN", "translations": { "en": "We'll see! Good night in the meantime.", "es": "¡Ya veremos! Buenas noches mientras tanto.", "fr": "On verra ! Bonne nuit en attendant.", "de": "Mal sehen! Bis dahin, gute Nacht.", "ar": "سنرى! تصبح على خير في الوقت الحالي.", "zh": "再看看吧！先说晚安啦。", "pt": "Vamos ver! Boa noite enquanto isso.", "ja": "まあ見てみよう！とりあえずおやすみ。" } }
+    ]
+  },
+  {
+    "lesson_order": 4,
+    "title": { "en": "Politeness & Manners", "es": "Cortesía y modales", "fr": "Politesse et bonnes manières", "de": "Höflichkeit und gute Manieren", "ar": "الأدب واللباقة", "zh": "礼貌用语", "pt": "Educação e boas maneiras", "ja": "礼儀とマナー" },
+    "phrases": [
+      {
+        "target_text": "S'il te plaît",
+        "pronunciation": "seel tuh PLEH",
+        "translations": { "en": "Please", "es": "Por favor", "fr": "S'il te plaît", "de": "Bitte", "ar": "من فضلك", "zh": "请", "pt": "Por favor", "ja": "お願いします" }
+      },
+      {
+        "target_text": "Merci beaucoup",
+        "pronunciation": "mehr-SEE boh-KOO",
+        "translations": { "en": "Thank you very much", "es": "Muchas gracias", "fr": "Merci beaucoup", "de": "Vielen Dank", "ar": "شكراً جزيلاً", "zh": "非常感谢", "pt": "Muito obrigado", "ja": "どうもありがとう" }
+      },
+      {
+        "target_text": "De rien",
+        "pronunciation": "duh RYAN (nasal ending)",
+        "translations": { "en": "You're welcome", "es": "De nada", "fr": "De rien", "de": "Bitte schön / Keine Ursache", "ar": "عفواً / على الرحب والسعة", "zh": "不客气", "pt": "De nada", "ja": "どういたしまして" }
+      },
+      {
+        "target_text": "Excuse-moi",
+        "pronunciation": "ex-KUUZ mwah",
+        "translations": { "en": "Excuse me", "es": "Disculpa", "fr": "Excuse-moi", "de": "Entschuldigung", "ar": "المعذرة", "zh": "打扰一下", "pt": "Com licença", "ja": "すみません" }
+      },
+      {
+        "target_text": "Désolé",
+        "pronunciation": "day-zoh-LAY (say 'désolée' if you're a woman)",
+        "translations": { "en": "Sorry", "es": "Lo siento", "fr": "Désolé", "de": "Es tut mir leid", "ar": "آسف", "zh": "对不起", "pt": "Desculpa", "ja": "ごめんなさい" }
+      },
+      {
+        "target_text": "Pas de problème",
+        "pronunciation": "pah duh proh-BLEM",
+        "translations": { "en": "No problem", "es": "No hay problema", "fr": "Pas de problème", "de": "Kein Problem", "ar": "لا مشكلة", "zh": "没问题", "pt": "Sem problema", "ja": "問題ないよ" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Excuse-moi, tu peux m'aider s'il te plaît ?", "pronunciation": "ex-KUUZ mwah, tu puh may-DAY seel tuh PLEH", "translations": { "en": "Excuse me, can you help me please?", "es": "Disculpa, ¿puedes ayudarme por favor?", "fr": "Excuse-moi, tu peux m'aider s'il te plaît ?", "de": "Entschuldigung, kannst du mir bitte helfen?", "ar": "المعذرة، هل يمكنك مساعدتي من فضلك؟", "zh": "打扰一下，你能帮帮我吗？", "pt": "Com licença, você pode me ajudar, por favor?", "ja": "すみません、手伝ってもらえますか？" } },
+      { "speaker": "B", "target_text": "Bien sûr, pas de problème !", "pronunciation": "byan SUUR, pah duh proh-BLEM", "translations": { "en": "Of course, no problem!", "es": "Claro, ¡no hay problema!", "fr": "Bien sûr, pas de problème !", "de": "Klar, kein Problem!", "ar": "بالطبع، لا مشكلة!", "zh": "当然，没问题！", "pt": "Claro, sem problema!", "ja": "もちろん、問題ないよ！" } },
+      { "speaker": "A", "target_text": "Merci beaucoup, c'est gentil.", "pronunciation": "mehr-SEE boh-KOO, seh zhahn-TEE", "translations": { "en": "Thank you very much, that's kind.", "es": "Muchas gracias, qué amable.", "fr": "Merci beaucoup, c'est gentil.", "de": "Vielen Dank, das ist nett.", "ar": "شكراً جزيلاً، هذا لطف منك.", "zh": "非常感谢，你真好。", "pt": "Muito obrigado, muito gentil.", "ja": "どうもありがとう、優しいね。" } },
+      { "speaker": "B", "target_text": "De rien ! Oh, désolé, je t'ai marché sur le pied.", "pronunciation": "duh RYAN! oh, day-zoh-LAY, zhuh tay mar-SHAY suur luh PYAY", "translations": { "en": "You're welcome! Oh, sorry, I stepped on your foot.", "es": "¡De nada! Ay, lo siento, te pisé el pie.", "fr": "De rien ! Oh, désolé, je t'ai marché sur le pied.", "de": "Keine Ursache! Oh, tut mir leid, ich bin dir auf den Fuß getreten.", "ar": "عفواً! آه، آسف، لقد وطأت قدمك.", "zh": "不客气！哦，对不起，我踩到你的脚了。", "pt": "De nada! Ah, desculpa, pisei no seu pé.", "ja": "どういたしまして！あ、ごめん、足踏んじゃった。" } },
+      { "speaker": "A", "target_text": "Pas de problème, ça va !", "pronunciation": "pah duh proh-BLEM, sah VAH", "translations": { "en": "No problem, it's fine!", "es": "No hay problema, ¡está bien!", "fr": "Pas de problème, ça va !", "de": "Kein Problem, alles gut!", "ar": "لا مشكلة، كل شيء بخير!", "zh": "没关系，没事的！", "pt": "Sem problema, tudo bem!", "ja": "大丈夫、平気だよ！" } },
+      { "speaker": "B", "target_text": "Merci de ta compréhension.", "pronunciation": "mehr-SEE duh tah kohn-pray-ahn-SYOHN", "translations": { "en": "Thanks for understanding.", "es": "Gracias por tu comprensión.", "fr": "Merci de ta compréhension.", "de": "Danke für dein Verständnis.", "ar": "شكراً على تفهمك.", "zh": "谢谢你的理解。", "pt": "Obrigado pela compreensão.", "ja": "理解してくれてありがとう。" } }
+    ]
+  },
+  {
+    "lesson_order": 5,
+    "title": { "en": "Asking About Someone Else", "es": "Preguntar sobre otra persona", "fr": "Parler de quelqu'un d'autre", "de": "Über jemand anderen sprechen", "ar": "السؤال عن شخص آخر", "zh": "询问对方情况", "pt": "Perguntando sobre outra pessoa", "ja": "相手について尋ねる" },
+    "phrases": [
+      {
+        "target_text": "Ça va, et toi ?",
+        "pronunciation": "sah VAH, ay TWAH",
+        "translations": { "en": "I'm good, and you?", "es": "Estoy bien, ¿y tú?", "fr": "Ça va, et toi ?", "de": "Mir geht's gut, und dir?", "ar": "أنا بخير، وأنت؟", "zh": "我很好，你呢？", "pt": "Estou bem, e você?", "ja": "元気だよ、あなたは？" }
+      },
+      {
+        "target_text": "Qu'est-ce que tu fais dans la vie ?",
+        "pronunciation": "kess kuh tu feh dahn lah VEE",
+        "translations": { "en": "What do you do (for a living)?", "es": "¿A qué te dedicas?", "fr": "Qu'est-ce que tu fais dans la vie ?", "de": "Was machst du beruflich?", "ar": "ماذا تعمل؟", "zh": "你是做什么工作的？", "pt": "O que você faz da vida?", "ja": "お仕事は何をしていますか？" }
+      },
+      {
+        "target_text": "Tu parles anglais ?",
+        "pronunciation": "tu parl ahn-GLEH (nasal 'an')",
+        "translations": { "en": "Do you speak English?", "es": "¿Hablas inglés?", "fr": "Tu parles anglais ?", "de": "Sprichst du Englisch?", "ar": "هل تتحدث الإنجليزية؟", "zh": "你会说英语吗？", "pt": "Você fala inglês?", "ja": "英語を話しますか？" }
+      },
+      {
+        "target_text": "Je ne comprends pas",
+        "pronunciation": "zhuh nuh kohn-prahn PAH (nasal 'om', 'an')",
+        "translations": { "en": "I don't understand", "es": "No entiendo", "fr": "Je ne comprends pas", "de": "Ich verstehe nicht", "ar": "لا أفهم", "zh": "我不明白", "pt": "Eu não entendo", "ja": "分かりません" }
+      },
+      {
+        "target_text": "Tu peux répéter, s'il te plaît ?",
+        "pronunciation": "tu puh ray-pay-TAY, seel tuh PLEH",
+        "translations": { "en": "Can you repeat that, please?", "es": "¿Puedes repetirlo, por favor?", "fr": "Tu peux répéter, s'il te plaît ?", "de": "Kannst du das bitte wiederholen?", "ar": "هل يمكنك التكرار من فضلك؟", "zh": "你能再说一遍吗？", "pt": "Você pode repetir, por favor?", "ja": "もう一度言ってもらえますか？" }
+      },
+      {
+        "target_text": "Et toi, comment tu vas ?",
+        "pronunciation": "ay TWAH, koh-mahn tu VAH",
+        "translations": { "en": "And you, how are you doing?", "es": "¿Y tú, cómo estás?", "fr": "Et toi, comment tu vas ?", "de": "Und du, wie geht es dir?", "ar": "وأنت، كيف حالك؟", "zh": "那你呢，你怎么样？", "pt": "E você, como está?", "ja": "あなたはどう？" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Salut ! Comment tu vas ?", "pronunciation": "sah-LUU! koh-mahn tu VAH", "translations": { "en": "Hi! How are you doing?", "es": "¡Hola! ¿Cómo estás?", "fr": "Salut ! Comment tu vas ?", "de": "Hallo! Wie geht es dir?", "ar": "مرحباً! كيف حالك؟", "zh": "嗨！你怎么样？", "pt": "Oi! Como você está?", "ja": "やあ！元気？" } },
+      { "speaker": "B", "target_text": "Ça va, et toi ?", "pronunciation": "sah VAH, ay TWAH", "translations": { "en": "I'm good, and you?", "es": "Estoy bien, ¿y tú?", "fr": "Ça va, et toi ?", "de": "Mir geht's gut, und dir?", "ar": "أنا بخير، وأنت؟", "zh": "我很好，你呢？", "pt": "Estou bem, e você?", "ja": "元気だよ、あなたは？" } },
+      { "speaker": "A", "target_text": "Très bien, merci ! Qu'est-ce que tu fais dans la vie ?", "pronunciation": "treh byan, mehr-SEE! kess kuh tu feh dahn lah VEE", "translations": { "en": "Very well, thanks! What do you do for a living?", "es": "Muy bien, ¡gracias! ¿A qué te dedicas?", "fr": "Très bien, merci ! Qu'est-ce que tu fais dans la vie ?", "de": "Sehr gut, danke! Was machst du beruflich?", "ar": "بخير جداً، شكراً! ماذا تعمل؟", "zh": "很好，谢谢！你是做什么工作的？", "pt": "Muito bem, obrigado! O que você faz da vida?", "ja": "とても元気だよ、ありがとう！お仕事は何をしているの？" } },
+      { "speaker": "B", "target_text": "Je suis prof. Et toi, tu parles anglais ?", "pronunciation": "zhuh swee PROF. ay TWAH, tu parl ahn-GLEH", "translations": { "en": "I'm a teacher. And you, do you speak English?", "es": "Soy profesor. ¿Y tú, hablas inglés?", "fr": "Je suis prof. Et toi, tu parles anglais ?", "de": "Ich bin Lehrer. Und du, sprichst du Englisch?", "ar": "أنا معلم. وأنت، هل تتحدث الإنجليزية؟", "zh": "我是老师。那你呢，你会说英语吗？", "pt": "Eu sou professor. E você, fala inglês?", "ja": "先生をしています。あなたは英語を話しますか？" } },
+      { "speaker": "A", "target_text": "Un peu. Désolé, je ne comprends pas tout en français.", "pronunciation": "uhn PUH. day-zoh-LAY, zhuh nuh kohn-prahn PAH too ahn frahn-SEH", "translations": { "en": "A little. Sorry, I don't understand everything in French.", "es": "Un poco. Lo siento, no entiendo todo en francés.", "fr": "Un peu. Désolé, je ne comprends pas tout en français.", "de": "Ein bisschen. Tut mir leid, ich verstehe nicht alles auf Französisch.", "ar": "قليلاً. آسف، لا أفهم كل شيء بالفرنسية.", "zh": "会一点。抱歉，我不能完全听懂法语。", "pt": "Um pouco. Desculpa, não entendo tudo em francês.", "ja": "少しだけ。ごめん、フランス語は全部は分からないんだ。" } },
+      { "speaker": "B", "target_text": "Pas de souci, tu peux répéter en anglais si tu veux.", "pronunciation": "pah duh soo-SEE, tu puh ray-pay-TAY ahn nahn-GLEH see tu VUH", "translations": { "en": "No worries, you can repeat in English if you want.", "es": "No te preocupes, puedes repetir en inglés si quieres.", "fr": "Pas de souci, tu peux répéter en anglais si tu veux.", "de": "Kein Problem, du kannst es auf Englisch wiederholen, wenn du willst.", "ar": "لا بأس، يمكنك التكرار بالإنجليزية إن أردت.", "zh": "没关系，你想的话可以用英语再说一遍。", "pt": "Sem problema, você pode repetir em inglês se quiser.", "ja": "大丈夫、英語でもう一度言ってもいいよ。" } }
+    ]
+  },
+  {
+    "lesson_order": 6,
+    "title": { "en": "Your Daily Routine", "es": "Tu rutina diaria", "fr": "Ta routine quotidienne", "de": "Dein Tagesablauf", "ar": "روتينك اليومي", "zh": "你的日常routine", "pt": "Sua rotina diária", "ja": "毎日のルーティン" },
+    "phrases": [
+      {
+        "target_text": "Je me réveille à sept heures",
+        "pronunciation": "zhuh muh ray-VAY ah seh-TUHR",
+        "translations": { "en": "I wake up at seven o'clock", "es": "Me despierto a las siete", "fr": "Je me réveille à sept heures", "de": "Ich wache um sieben Uhr auf", "ar": "أستيقظ في الساعة السابعة", "zh": "我七点起床", "pt": "Eu acordo às sete horas", "ja": "私は7時に起きます" }
+      },
+      {
+        "target_text": "Je prends le petit-déjeuner",
+        "pronunciation": "zhuh prahn luh puh-tee day-zhuh-NAY",
+        "translations": { "en": "I eat breakfast", "es": "Desayuno", "fr": "Je prends le petit-déjeuner", "de": "Ich frühstücke", "ar": "أتناول الفطور", "zh": "我吃早餐", "pt": "Eu tomo café da manhã", "ja": "私は朝食を食べます" }
+      },
+      {
+        "target_text": "Je vais au travail",
+        "pronunciation": "zhuh vay oh trah-VAI",
+        "translations": { "en": "I go to work", "es": "Voy al trabajo", "fr": "Je vais au travail", "de": "Ich gehe zur Arbeit", "ar": "أذهب إلى العمل", "zh": "我去上班", "pt": "Eu vou para o trabalho", "ja": "私は仕事に行きます" }
+      },
+      {
+        "target_text": "Je rentre à la maison le soir",
+        "pronunciation": "zhuh rahntr ah lah may-ZOHN luh SWAHR",
+        "translations": { "en": "I come home in the evening", "es": "Vuelvo a casa por la noche", "fr": "Je rentre à la maison le soir", "de": "Ich komme abends nach Hause", "ar": "أعود إلى المنزل في المساء", "zh": "我晚上回家", "pt": "Eu volto para casa à noite", "ja": "私は夜、家に帰ります" }
+      },
+      {
+        "target_text": "Je me couche vers minuit",
+        "pronunciation": "zhuh muh KOOSH vehr mee-NWEE",
+        "translations": { "en": "I go to sleep around midnight", "es": "Me acuesto alrededor de medianoche", "fr": "Je me couche vers minuit", "de": "Ich gehe gegen Mitternacht schlafen", "ar": "أخلد إلى النوم قرابة منتصف الليل", "zh": "我大约午夜睡觉", "pt": "Eu durmo por volta da meia-noite", "ja": "私は真夜中頃に寝ます" }
+      },
+      {
+        "target_text": "L'après-midi, je fais une pause",
+        "pronunciation": "lah-preh-mee-DEE, zhuh feh uun POHZ",
+        "translations": { "en": "In the afternoon, I take a break", "es": "Por la tarde, hago una pausa", "fr": "L'après-midi, je fais une pause", "de": "Am Nachmittag mache ich eine Pause", "ar": "بعد الظهر، آخذ استراحة", "zh": "下午我会休息一下", "pt": "À tarde, eu faço uma pausa", "ja": "午後は休憩を取ります" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "À quelle heure tu te réveilles le matin ?", "pronunciation": "ah kell UHR tu tuh ray-VAY luh mah-TAN", "translations": { "en": "What time do you wake up in the morning?", "es": "¿A qué hora te despiertas por la mañana?", "fr": "À quelle heure tu te réveilles le matin ?", "de": "Um wie viel Uhr wachst du morgens auf?", "ar": "في أي ساعة تستيقظ صباحاً؟", "zh": "你早上几点起床？", "pt": "A que horas você acorda de manhã?", "ja": "朝は何時に起きますか？" } },
+      { "speaker": "B", "target_text": "Je me réveille à sept heures, puis je prends le petit-déjeuner.", "pronunciation": "zhuh muh ray-VAY ah seh-TUHR, puu zhuh prahn luh puh-tee day-zhuh-NAY", "translations": { "en": "I wake up at seven, then I eat breakfast.", "es": "Me despierto a las siete, luego desayuno.", "fr": "Je me réveille à sept heures, puis je prends le petit-déjeuner.", "de": "Ich wache um sieben Uhr auf, dann frühstücke ich.", "ar": "أستيقظ في السابعة، ثم أتناول الفطور.", "zh": "我七点起床，然后吃早餐。", "pt": "Eu acordo às sete, depois tomo café da manhã.", "ja": "7時に起きて、それから朝食を食べます。" } },
+      { "speaker": "A", "target_text": "Et après, tu vas au travail ?", "pronunciation": "ay ah-PREH, tu vay oh trah-VAI", "translations": { "en": "And after that, do you go to work?", "es": "¿Y después vas al trabajo?", "fr": "Et après, tu vas au travail ?", "de": "Und danach gehst du zur Arbeit?", "ar": "وبعد ذلك، تذهب إلى العمل؟", "zh": "然后你去上班吗？", "pt": "E depois você vai para o trabalho?", "ja": "その後、仕事に行くの？" } },
+      { "speaker": "B", "target_text": "Oui, et l'après-midi, je fais une petite pause.", "pronunciation": "wee, ay lah-preh-mee-DEE, zhuh feh uun puh-TEET POHZ", "translations": { "en": "Yes, and in the afternoon, I take a short break.", "es": "Sí, y por la tarde hago una pequeña pausa.", "fr": "Oui, et l'après-midi, je fais une petite pause.", "de": "Ja, und am Nachmittag mache ich eine kleine Pause.", "ar": "نعم، وبعد الظهر آخذ استراحة صغيرة.", "zh": "对，下午我会稍微休息一下。", "pt": "Sim, e à tarde eu faço uma pequena pausa.", "ja": "うん、午後は少し休憩を取るよ。" } },
+      { "speaker": "A", "target_text": "Tu rentres à quelle heure le soir ?", "pronunciation": "tu rahntr ah kell UHR luh SWAHR", "translations": { "en": "What time do you come home in the evening?", "es": "¿A qué hora vuelves por la noche?", "fr": "Tu rentres à quelle heure le soir ?", "de": "Um wie viel Uhr kommst du abends nach Hause?", "ar": "في أي ساعة تعود مساءً؟", "zh": "你晚上几点回家？", "pt": "A que horas você volta à noite?", "ja": "夜は何時に帰るの？" } },
+      { "speaker": "B", "target_text": "Vers dix-neuf heures, et je me couche vers minuit.", "pronunciation": "vehr dees-nuhv UHR, ay zhuh muh KOOSH vehr mee-NWEE", "translations": { "en": "Around 7 pm, and I go to sleep around midnight.", "es": "Sobre las siete de la tarde, y me acuesto hacia medianoche.", "fr": "Vers dix-neuf heures, et je me couche vers minuit.", "de": "Gegen neunzehn Uhr, und ich gehe gegen Mitternacht schlafen.", "ar": "قرابة الساعة السابعة مساءً، وأخلد للنوم قرابة منتصف الليل.", "zh": "大约晚上七点，然后我大概午夜睡觉。", "pt": "Por volta das dezenove horas, e durmo por volta da meia-noite.", "ja": "夜7時頃で、真夜中頃に寝るよ。" } }
+    ]
+  },
+  {
+    "lesson_order": 7,
+    "title": { "en": "Work & School", "es": "Trabajo y estudios", "fr": "Travail et études", "de": "Arbeit und Schule", "ar": "العمل والدراسة", "zh": "工作与学习", "pt": "Trabalho e escola", "ja": "仕事と学校" },
+    "phrases": [
+      {
+        "target_text": "Je travaille comme ingénieur",
+        "pronunciation": "zhuh trah-VAI kohm an-zhay-NYUHR",
+        "translations": { "en": "I work as an engineer", "es": "Trabajo como ingeniero", "fr": "Je travaille comme ingénieur", "de": "Ich arbeite als Ingenieur", "ar": "أعمل كمهندس", "zh": "我是一名工程师", "pt": "Eu trabalho como engenheiro", "ja": "私はエンジニアとして働いています" }
+      },
+      {
+        "target_text": "J'étudie le marketing",
+        "pronunciation": "zhay-tuu-DEE luh mar-keh-TEENG",
+        "translations": { "en": "I study marketing", "es": "Estudio marketing", "fr": "J'étudie le marketing", "de": "Ich studiere Marketing", "ar": "أدرس التسويق", "zh": "我学习市场营销", "pt": "Eu estudo marketing", "ja": "私はマーケティングを勉強しています" }
+      },
+      {
+        "target_text": "Je suis étudiant",
+        "pronunciation": "zhuh swee ay-tuu-DYAHN (say 'étudiante' if you're a woman)",
+        "translations": { "en": "I am a student", "es": "Soy estudiante", "fr": "Je suis étudiant", "de": "Ich bin Student", "ar": "أنا طالب", "zh": "我是学生", "pt": "Eu sou estudante", "ja": "私は学生です" }
+      },
+      {
+        "target_text": "Tu fais quoi comme travail ?",
+        "pronunciation": "tu feh kwah kohm trah-VAI",
+        "translations": { "en": "What do you do for work?", "es": "¿En qué trabajas?", "fr": "Tu fais quoi comme travail ?", "de": "Was arbeitest du?", "ar": "ما هو عملك؟", "zh": "你做什么工作？", "pt": "Você trabalha com o quê?", "ja": "お仕事は何をしていますか？" }
+      },
+      {
+        "target_text": "Je travaille au bureau tous les jours",
+        "pronunciation": "zhuh trah-VAI oh buu-ROH too lay ZHOOR",
+        "translations": { "en": "I work at the office every day", "es": "Trabajo en la oficina todos los días", "fr": "Je travaille au bureau tous les jours", "de": "Ich arbeite jeden Tag im Büro", "ar": "أعمل في المكتب كل يوم", "zh": "我每天在办公室工作", "pt": "Eu trabalho no escritório todos os dias", "ja": "私は毎日オフィスで働いています" }
+      },
+      {
+        "target_text": "Elle va à l'université le matin",
+        "pronunciation": "ell vah ah luu-nee-vehr-see-TAY luh mah-TAN",
+        "translations": { "en": "She goes to university in the morning", "es": "Ella va a la universidad por la mañana", "fr": "Elle va à l'université le matin", "de": "Sie geht morgens zur Universität", "ar": "تذهب إلى الجامعة في الصباح", "zh": "她早上去大学上课", "pt": "Ela vai para a universidade de manhã", "ja": "彼女は午前中に大学へ行きます" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Tu fais quoi comme travail ?", "pronunciation": "tu feh kwah kohm trah-VAI", "translations": { "en": "What do you do for work?", "es": "¿En qué trabajas?", "fr": "Tu fais quoi comme travail ?", "de": "Was arbeitest du?", "ar": "ما هو عملك؟", "zh": "你做什么工作？", "pt": "Você trabalha com o quê?", "ja": "お仕事は何をしていますか？" } },
+      { "speaker": "B", "target_text": "Je travaille comme ingénieur, au bureau tous les jours.", "pronunciation": "zhuh trah-VAI kohm an-zhay-NYUHR, oh buu-ROH too lay ZHOOR", "translations": { "en": "I work as an engineer, at the office every day.", "es": "Trabajo como ingeniero, en la oficina todos los días.", "fr": "Je travaille comme ingénieur, au bureau tous les jours.", "de": "Ich arbeite als Ingenieur, jeden Tag im Büro.", "ar": "أعمل كمهندس، في المكتب كل يوم.", "zh": "我是工程师，每天在办公室工作。", "pt": "Eu trabalho como engenheiro, no escritório todos os dias.", "ja": "エンジニアとして働いていて、毎日オフィスに行きます。" } },
+      { "speaker": "A", "target_text": "Et toi, tu n'es pas étudiant aussi ?", "pronunciation": "ay TWAH, tu neh pah zay-tuu-DYAHN oh-SEE", "translations": { "en": "And you, aren't you also a student?", "es": "¿Y tú, no eres también estudiante?", "fr": "Et toi, tu n'es pas étudiant aussi ?", "de": "Und du, bist du nicht auch Student?", "ar": "وأنت، ألست طالباً أيضاً؟", "zh": "那你呢，你不也是学生吗？", "pt": "E você, não é estudante também?", "ja": "君は？学生じゃないの？" } },
+      { "speaker": "B", "target_text": "Si, le soir j'étudie le marketing à distance.", "pronunciation": "see, luh SWAHR zhay-tuu-DEE luh mar-keh-TEENG ah dee-STAHNSS", "translations": { "en": "Yes, in the evening I study marketing online.", "es": "Sí, por la noche estudio marketing a distancia.", "fr": "Si, le soir j'étudie le marketing à distance.", "de": "Doch, abends studiere ich Marketing per Fernstudium.", "ar": "بلى، في المساء أدرس التسويق عن بعد.", "zh": "是的，晚上我远程学习市场营销。", "pt": "Sim, à noite eu estudo marketing a distância.", "ja": "うん、夜はオンラインでマーケティングを勉強してるよ。" } },
+      { "speaker": "A", "target_text": "Impressionnant ! Et ta sœur, elle va à l'université ?", "pronunciation": "an-preh-syo-NAHN! ay tah SUHR, ell vah ah luu-nee-vehr-see-TAY", "translations": { "en": "Impressive! And your sister, does she go to university?", "es": "¡Impresionante! ¿Y tu hermana, va a la universidad?", "fr": "Impressionnant ! Et ta sœur, elle va à l'université ?", "de": "Beeindruckend! Und deine Schwester, geht sie zur Universität?", "ar": "مثير للإعجاب! وأختك، هل تذهب إلى الجامعة؟", "zh": "真厉害！那你妹妹呢，她上大学吗？", "pt": "Impressionante! E sua irmã, ela vai para a universidade?", "ja": "すごいね！お姉さんは大学に行ってるの？" } },
+      { "speaker": "B", "target_text": "Oui, elle y va tous les matins.", "pronunciation": "wee, ell ee vah too lay mah-TAN", "translations": { "en": "Yes, she goes there every morning.", "es": "Sí, va allí todas las mañanas.", "fr": "Oui, elle y va tous les matins.", "de": "Ja, sie geht jeden Morgen dorthin.", "ar": "نعم، تذهب إليها كل صباح.", "zh": "对，她每天早上都去。", "pt": "Sim, ela vai lá todas as manhãs.", "ja": "うん、毎朝行ってるよ。" } }
+    ]
+  },
+  {
+    "lesson_order": 8,
+    "title": { "en": "Feelings & Emotions", "es": "Sentimientos y emociones", "fr": "Sentiments et émotions", "de": "Gefühle und Emotionen", "ar": "المشاعر والعواطف", "zh": "感受与情绪", "pt": "Sentimentos e emoções", "ja": "気持ちと感情" },
+    "phrases": [
+      {
+        "target_text": "Je suis content",
+        "pronunciation": "zhuh swee kohn-TAHN (say 'contente' if you're a woman)",
+        "translations": { "en": "I'm happy", "es": "Estoy contento", "fr": "Je suis content", "de": "Ich bin glücklich", "ar": "أنا سعيد", "zh": "我很开心", "pt": "Eu estou feliz", "ja": "私は嬉しいです" }
+      },
+      {
+        "target_text": "Je suis fatigué",
+        "pronunciation": "zhuh swee fah-tee-GAY (say 'fatiguée' if you're a woman)",
+        "translations": { "en": "I'm tired", "es": "Estoy cansado", "fr": "Je suis fatigué", "de": "Ich bin müde", "ar": "أنا متعب", "zh": "我很累", "pt": "Eu estou cansado", "ja": "私は疲れています" }
+      },
+      {
+        "target_text": "Je suis un peu triste",
+        "pronunciation": "zhuh swee uhn puh TREEST",
+        "translations": { "en": "I'm a little sad", "es": "Estoy un poco triste", "fr": "Je suis un peu triste", "de": "Ich bin ein bisschen traurig", "ar": "أنا حزين قليلاً", "zh": "我有点难过", "pt": "Estou um pouco triste", "ja": "私は少し悲しいです" }
+      },
+      {
+        "target_text": "Je suis vraiment excité",
+        "pronunciation": "zhuh swee vray-MAHN ex-see-TAY (say 'excitée' if you're a woman; note: means eager/thrilled, not sexual in this context)",
+        "translations": { "en": "I'm really excited", "es": "Estoy muy emocionado", "fr": "Je suis vraiment excité", "de": "Ich bin wirklich aufgeregt", "ar": "أنا متحمس جداً", "zh": "我真的很兴奋", "pt": "Estou muito animado", "ja": "私は本当にワクワクしています" }
+      },
+      {
+        "target_text": "J'ai faim",
+        "pronunciation": "zhay FAN (nasal ending, silent 'h')",
+        "translations": { "en": "I'm hungry", "es": "Tengo hambre", "fr": "J'ai faim", "de": "Ich habe Hunger", "ar": "أنا جائع", "zh": "我饿了", "pt": "Estou com fome", "ja": "お腹が空きました" }
+      },
+      {
+        "target_text": "Comment tu te sens ?",
+        "pronunciation": "koh-mahn tu tuh SAHN",
+        "translations": { "en": "How do you feel?", "es": "¿Cómo te sientes?", "fr": "Comment tu te sens ?", "de": "Wie fühlst du dich?", "ar": "كيف تشعر؟", "zh": "你感觉怎么样？", "pt": "Como você se sente?", "ja": "気分はどうですか？" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Comment tu te sens aujourd'hui ?", "pronunciation": "koh-mahn tu tuh SAHN oh-zhoor-DWEE", "translations": { "en": "How do you feel today?", "es": "¿Cómo te sientes hoy?", "fr": "Comment tu te sens aujourd'hui ?", "de": "Wie fühlst du dich heute?", "ar": "كيف تشعر اليوم؟", "zh": "你今天感觉怎么样？", "pt": "Como você está se sentindo hoje?", "ja": "今日の気分はどう？" } },
+      { "speaker": "B", "target_text": "Un peu fatigué, mais content quand même.", "pronunciation": "uhn puh fah-tee-GAY, may kohn-TAHN kahn MEM", "translations": { "en": "A bit tired, but happy anyway.", "es": "Un poco cansado, pero contento de todos modos.", "fr": "Un peu fatigué, mais content quand même.", "de": "Etwas müde, aber trotzdem glücklich.", "ar": "متعب قليلاً، لكنني سعيد رغم ذلك.", "zh": "有点累，但还是很开心。", "pt": "Um pouco cansado, mas feliz mesmo assim.", "ja": "ちょっと疲れてるけど、それでも嬉しいよ。" } },
+      { "speaker": "A", "target_text": "Ah bon ? Pourquoi content ?", "pronunciation": "ah BOHN? poor-KWAH kohn-TAHN", "translations": { "en": "Oh really? Why happy?", "es": "¿Ah sí? ¿Por qué contento?", "fr": "Ah bon ? Pourquoi content ?", "de": "Ach ja? Warum glücklich?", "ar": "حقاً؟ لماذا سعيد؟", "zh": "是吗？为什么开心？", "pt": "Ah é? Por que feliz?", "ja": "え、そうなの？何が嬉しいの？" } },
+      { "speaker": "B", "target_text": "Je suis vraiment excité pour mon voyage demain.", "pronunciation": "zhuh swee vray-MAHN ex-see-TAY poor mohn vwah-YAHZH duh-MAN", "translations": { "en": "I'm really excited about my trip tomorrow.", "es": "Estoy muy emocionado por mi viaje de mañana.", "fr": "Je suis vraiment excité pour mon voyage demain.", "de": "Ich freue mich wirklich auf meine Reise morgen.", "ar": "أنا متحمس جداً لرحلتي غداً.", "zh": "我对明天的旅行很兴奋。", "pt": "Estou muito animado com minha viagem amanhã.", "ja": "明日の旅行が本当に楽しみなんだ。" } },
+      { "speaker": "A", "target_text": "Super ! Et là, tu as faim ? On mange ?", "pronunciation": "soo-PEHR! ay LAH, tu ah FAN? ohn MAHNZH", "translations": { "en": "Great! And right now, are you hungry? Shall we eat?", "es": "¡Genial! ¿Y ahora, tienes hambre? ¿Comemos?", "fr": "Super ! Et là, tu as faim ? On mange ?", "de": "Toll! Und jetzt, hast du Hunger? Sollen wir essen?", "ar": "رائع! والآن، هل أنت جائع؟ هل نأكل؟", "zh": "太好了！那你现在饿了吗？我们吃饭吧？", "pt": "Ótimo! E agora, você está com fome? Vamos comer?", "ja": "いいね！ところで、お腹空いた？食べに行く？" } },
+      { "speaker": "B", "target_text": "Oui, j'ai faim, allons-y !", "pronunciation": "wee, zhay FAN, ah-lohn-ZEE", "translations": { "en": "Yes, I'm hungry, let's go!", "es": "Sí, tengo hambre, ¡vamos!", "fr": "Oui, j'ai faim, allons-y !", "de": "Ja, ich habe Hunger, los geht's!", "ar": "نعم، أنا جائع، هيا بنا!", "zh": "对，我饿了，走吧！", "pt": "Sim, estou com fome, vamos!", "ja": "うん、お腹空いた、行こう！" } }
+    ]
+  },
+  {
+    "lesson_order": 9,
+    "title": { "en": "Making Plans", "es": "Hacer planes", "fr": "Faire des projets", "de": "Pläne schmieden", "ar": "وضع الخطط", "zh": "制定计划", "pt": "Fazendo planos", "ja": "予定を立てる" },
+    "phrases": [
+      {
+        "target_text": "Qu'est-ce que tu fais aujourd'hui ?",
+        "pronunciation": "kess kuh tu feh oh-zhoor-DWEE",
+        "translations": { "en": "What are you doing today?", "es": "¿Qué haces hoy?", "fr": "Qu'est-ce que tu fais aujourd'hui ?", "de": "Was machst du heute?", "ar": "ماذا تفعل اليوم؟", "zh": "你今天要做什么？", "pt": "O que você vai fazer hoje?", "ja": "今日は何をしますか？" }
+      },
+      {
+        "target_text": "On se voit plus tard ?",
+        "pronunciation": "ohn suh vwah pluu TAR",
+        "translations": { "en": "Shall we meet up later?", "es": "¿Nos vemos más tarde?", "fr": "On se voit plus tard ?", "de": "Sehen wir uns später?", "ar": "هل نلتقي لاحقاً؟", "zh": "我们晚点见面吧？", "pt": "A gente se vê mais tarde?", "ja": "後で会おうか？" }
+      },
+      {
+        "target_text": "Tu es libre demain ?",
+        "pronunciation": "tu eh LEEBR duh-MAN",
+        "translations": { "en": "Are you free tomorrow?", "es": "¿Estás libre mañana?", "fr": "Tu es libre demain ?", "de": "Hast du morgen Zeit?", "ar": "هل أنت متفرغ غداً؟", "zh": "你明天有空吗？", "pt": "Você está livre amanhã?", "ja": "明日は空いてる？" }
+      },
+      {
+        "target_text": "J'ai déjà des projets",
+        "pronunciation": "zhay day-ZHAH day proh-ZHAY",
+        "translations": { "en": "I already have plans", "es": "Ya tengo planes", "fr": "J'ai déjà des projets", "de": "Ich habe schon etwas vor", "ar": "لدي خطط بالفعل", "zh": "我已经有安排了", "pt": "Eu já tenho planos", "ja": "もう予定があります" }
+      },
+      {
+        "target_text": "À plus tard !",
+        "pronunciation": "ah pluu TAR",
+        "translations": { "en": "See you later!", "es": "¡Hasta luego!", "fr": "À plus tard !", "de": "Bis später!", "ar": "أراك لاحقاً!", "zh": "回头见！", "pt": "Até mais tarde!", "ja": "また後でね！" }
+      },
+      {
+        "target_text": "On se retrouve à quelle heure ?",
+        "pronunciation": "ohn suh ruh-TROOV ah kell UHR",
+        "translations": { "en": "What time shall we meet?", "es": "¿A qué hora nos encontramos?", "fr": "On se retrouve à quelle heure ?", "de": "Um wie viel Uhr treffen wir uns?", "ar": "في أي ساعة سنلتقي؟", "zh": "我们几点见面？", "pt": "A que horas a gente se encontra?", "ja": "何時に待ち合わせる？" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Qu'est-ce que tu fais aujourd'hui ?", "pronunciation": "kess kuh tu feh oh-zhoor-DWEE", "translations": { "en": "What are you doing today?", "es": "¿Qué haces hoy?", "fr": "Qu'est-ce que tu fais aujourd'hui ?", "de": "Was machst du heute?", "ar": "ماذا تفعل اليوم؟", "zh": "你今天要做什么？", "pt": "O que você vai fazer hoje?", "ja": "今日は何をしますか？" } },
+      { "speaker": "B", "target_text": "Pas grand-chose. Et toi, tu es libre demain ?", "pronunciation": "pah grahn-SHOHZ. ay TWAH, tu eh LEEBR duh-MAN", "translations": { "en": "Not much. And you, are you free tomorrow?", "es": "No mucho. ¿Y tú, estás libre mañana?", "fr": "Pas grand-chose. Et toi, tu es libre demain ?", "de": "Nicht viel. Und du, hast du morgen Zeit?", "ar": "لا شيء يذكر. وأنت، هل أنت متفرغ غداً؟", "zh": "没什么事。那你呢，你明天有空吗？", "pt": "Nada de mais. E você, está livre amanhã?", "ja": "特に何も。君は？明日空いてる？" } },
+      { "speaker": "A", "target_text": "Non, j'ai déjà des projets demain. On se voit plus tard aujourd'hui ?", "pronunciation": "noh, zhay day-ZHAH day proh-ZHAY duh-MAN. ohn suh vwah pluu TAR oh-zhoor-DWEE", "translations": { "en": "No, I already have plans tomorrow. Shall we meet up later today?", "es": "No, ya tengo planes mañana. ¿Nos vemos más tarde hoy?", "fr": "Non, j'ai déjà des projets demain. On se voit plus tard aujourd'hui ?", "de": "Nein, ich habe morgen schon etwas vor. Sehen wir uns heute später?", "ar": "لا، لدي خطط بالفعل غداً. هل نلتقي لاحقاً اليوم؟", "zh": "不行，我明天已经有安排了。我们今天晚点见个面吧？", "pt": "Não, já tenho planos amanhã. A gente se vê mais tarde hoje?", "ja": "ううん、明日はもう予定があるんだ。今日、後で会おうか？" } },
+      { "speaker": "B", "target_text": "Bonne idée ! On se retrouve à quelle heure ?", "pronunciation": "bun ee-DAY! ohn suh ruh-TROOV ah kell UHR", "translations": { "en": "Good idea! What time shall we meet?", "es": "¡Buena idea! ¿A qué hora nos encontramos?", "fr": "Bonne idée ! On se retrouve à quelle heure ?", "de": "Gute Idee! Um wie viel Uhr treffen wir uns?", "ar": "فكرة جيدة! في أي ساعة سنلتقي؟", "zh": "好主意！我们几点见面？", "pt": "Boa ideia! A que horas a gente se encontra?", "ja": "いいね！何時に待ち合わせる？" } },
+      { "speaker": "A", "target_text": "Vers dix-huit heures, ça te va ?", "pronunciation": "vehr deez-weet UHR, sah tuh VAH", "translations": { "en": "Around 6 pm, does that work for you?", "es": "Sobre las seis de la tarde, ¿te parece bien?", "fr": "Vers dix-huit heures, ça te va ?", "de": "Gegen achtzehn Uhr, passt das?", "ar": "قرابة الساعة السادسة مساءً، هل يناسبك؟", "zh": "大约晚上六点，你方便吗？", "pt": "Por volta das dezoito horas, tá bom para você?", "ja": "夕方6時頃、大丈夫？" } },
+      { "speaker": "B", "target_text": "Parfait, à plus tard !", "pronunciation": "par-FAY, ah pluu TAR", "translations": { "en": "Perfect, see you later!", "es": "Perfecto, ¡hasta luego!", "fr": "Parfait, à plus tard !", "de": "Perfekt, bis später!", "ar": "ممتاز، أراك لاحقاً!", "zh": "太好了，回头见！", "pt": "Perfeito, até mais tarde!", "ja": "完璧、また後でね！" } }
+    ]
+  },
+  {
+    "lesson_order": 10,
+    "title": { "en": "Small Talk & Saying Goodbye", "es": "Charla informal y despedidas", "fr": "Petites conversations et adieux", "de": "Small Talk und Abschied", "ar": "الحديث العابر والوداع", "zh": "闲聊与告别", "pt": "Conversa fiada e despedidas", "ja": "世間話とお別れ" },
+    "phrases": [
+      {
+        "target_text": "Il fait beau aujourd'hui",
+        "pronunciation": "eel feh BOH oh-zhoor-DWEE",
+        "translations": { "en": "It's nice weather today", "es": "Hace buen tiempo hoy", "fr": "Il fait beau aujourd'hui", "de": "Heute ist schönes Wetter", "ar": "الطقس جميل اليوم", "zh": "今天天气很好", "pt": "Está fazendo um dia bonito hoje", "ja": "今日はいい天気ですね" }
+      },
+      {
+        "target_text": "Il fait froid dehors",
+        "pronunciation": "eel feh FRWAH duh-OR",
+        "translations": { "en": "It's cold outside", "es": "Hace frío afuera", "fr": "Il fait froid dehors", "de": "Es ist kalt draußen", "ar": "الجو بارد بالخارج", "zh": "外面很冷", "pt": "Está frio lá fora", "ja": "外は寒いです" }
+      },
+      {
+        "target_text": "C'était sympa de parler avec toi",
+        "pronunciation": "say-TAY san-PAH duh par-LAY ah-VEK twah",
+        "translations": { "en": "It was nice talking to you", "es": "Fue agradable hablar contigo", "fr": "C'était sympa de parler avec toi", "de": "Es war schön, mit dir zu reden", "ar": "كان من الجميل التحدث معك", "zh": "很高兴和你聊天", "pt": "Foi legal falar com você", "ja": "話せて楽しかったです" }
+      },
+      {
+        "target_text": "Au revoir !",
+        "pronunciation": "oh ruh-VWAHR",
+        "translations": { "en": "Goodbye!", "es": "¡Adiós!", "fr": "Au revoir !", "de": "Auf Wiedersehen!", "ar": "إلى اللقاء!", "zh": "再见！", "pt": "Tchau!", "ja": "さようなら！" }
+      },
+      {
+        "target_text": "À bientôt !",
+        "pronunciation": "ah byan-TOH (nasal 'ien')",
+        "translations": { "en": "See you soon!", "es": "¡Hasta pronto!", "fr": "À bientôt !", "de": "Bis bald!", "ar": "أراك قريباً!", "zh": "很快见！", "pt": "Até logo!", "ja": "またすぐにね！" }
+      },
+      {
+        "target_text": "Prends soin de toi",
+        "pronunciation": "prahn SWAN duh twah (nasal 'en', 'oin')",
+        "translations": { "en": "Take care", "es": "Cuídate", "fr": "Prends soin de toi", "de": "Pass auf dich auf", "ar": "اعتنِ بنفسك", "zh": "照顾好自己", "pt": "Se cuida", "ja": "お大事に" }
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "target_text": "Il fait beau aujourd'hui, non ?", "pronunciation": "eel feh BOH oh-zhoor-DWEE, NOH", "translations": { "en": "Nice weather today, isn't it?", "es": "Hace buen tiempo hoy, ¿no?", "fr": "Il fait beau aujourd'hui, non ?", "de": "Heute ist schönes Wetter, oder?", "ar": "الطقس جميل اليوم، أليس كذلك؟", "zh": "今天天气不错，是吧？", "pt": "Está bonito hoje, né?", "ja": "今日はいい天気だね？" } },
+      { "speaker": "B", "target_text": "Oui, hier il faisait froid dehors, mais là c'est agréable.", "pronunciation": "wee, YEHR eel fuh-ZEH FRWAH duh-OR, may LAH seh tah-gray-AHBL", "translations": { "en": "Yes, yesterday it was cold outside, but now it's nice.", "es": "Sí, ayer hacía frío afuera, pero ahora está agradable.", "fr": "Oui, hier il faisait froid dehors, mais là c'est agréable.", "de": "Ja, gestern war es kalt draußen, aber jetzt ist es angenehm.", "ar": "نعم، البارحة كان الجو بارداً بالخارج، لكن الآن الجو لطيف.", "zh": "对，昨天外面很冷，但现在很舒服。", "pt": "Sim, ontem estava frio lá fora, mas agora está agradável.", "ja": "うん、昨日は外は寒かったけど、今はいい感じだね。" } },
+      { "speaker": "A", "target_text": "Bon, je dois y aller. C'était sympa de parler avec toi.", "pronunciation": "BOHN, zhuh dwah zee ah-LAY. say-TAY san-PAH duh par-LAY ah-VEK twah", "translations": { "en": "Well, I have to go. It was nice talking to you.", "es": "Bueno, tengo que irme. Fue agradable hablar contigo.", "fr": "Bon, je dois y aller. C'était sympa de parler avec toi.", "de": "Gut, ich muss los. Es war schön, mit dir zu reden.", "ar": "حسناً، يجب أن أذهب. كان من الجميل التحدث معك.", "zh": "好了，我得走了。很高兴和你聊天。", "pt": "Bom, eu tenho que ir. Foi legal falar com você.", "ja": "さて、もう行かなきゃ。話せて楽しかったよ。" } },
+      { "speaker": "B", "target_text": "Moi aussi ! Au revoir !", "pronunciation": "mwah oh-SEE! oh ruh-VWAHR", "translations": { "en": "Me too! Goodbye!", "es": "¡Yo también! ¡Adiós!", "fr": "Moi aussi ! Au revoir !", "de": "Ich auch! Auf Wiedersehen!", "ar": "وأنا أيضاً! إلى اللقاء!", "zh": "我也是！再见！", "pt": "Eu também! Tchau!", "ja": "私も！さようなら！" } },
+      { "speaker": "A", "target_text": "À bientôt, et prends soin de toi !", "pronunciation": "ah byan-TOH, ay prahn SWAN duh twah", "translations": { "en": "See you soon, and take care!", "es": "¡Hasta pronto, y cuídate!", "fr": "À bientôt, et prends soin de toi !", "de": "Bis bald, und pass auf dich auf!", "ar": "أراك قريباً، واعتنِ بنفسك!", "zh": "很快见，照顾好自己！", "pt": "Até logo, e se cuida!", "ja": "またすぐにね、お大事に！" } },
+      { "speaker": "B", "target_text": "Toi aussi, à bientôt !", "pronunciation": "twah oh-SEE, ah byan-TOH", "translations": { "en": "You too, see you soon!", "es": "Tú también, ¡hasta pronto!", "fr": "Toi aussi, à bientôt !", "de": "Du auch, bis bald!", "ar": "وأنت أيضاً، أراك قريباً!", "zh": "你也是，很快见！", "pt": "Você também, até logo!", "ja": "君もね、またすぐに！" } }
+    ]
+  }
+]

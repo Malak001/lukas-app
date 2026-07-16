@@ -1,0 +1,17 @@
+# LiveKit server config. See: https://docs.livekit.io/home/self-hosting/deployment/
+port: 7880
+
+rtc:
+  tcp_port: 7881
+  port_range_start: 50000
+  port_range_end: 60000
+  # Tells LiveKit to advertise this VPS's public IP in ICE candidates instead
+  # of a private/internal one, so peers can actually reach it.
+  use_external_ip: true
+
+# Replace with real output from:
+#   docker run --rm livekit/livekit-server generate-keys
+# The key on the left is LIVEKIT_API_KEY, the value on the right is
+# LIVEKIT_API_SECRET — same pair goes into Luka's .env.local.
+keys:
+  REPLACE_WITH_GENERATED_API_KEY: REPLACE_WITH_GENERATED_API_SECRET

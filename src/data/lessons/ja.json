@@ -1,0 +1,1912 @@
+[
+  {
+    "lesson_order": 1,
+    "title": {
+      "en": "Introducing Yourself: Your Name",
+      "es": "Presentándote: Tu Nombre",
+      "fr": "Se Présenter : Ton Nom",
+      "de": "Sich Vorstellen: Dein Name",
+      "ar": "تقديم نفسك: اسمك",
+      "zh": "自我介绍：你的名字",
+      "pt": "Apresentando-se: Seu Nome",
+      "ja": "自己紹介：名前"
+    },
+    "phrases": [
+      {
+        "target_text": "こんにちは",
+        "pronunciation": "konnichiwa",
+        "translations": {
+          "en": "Hello",
+          "es": "Hola",
+          "fr": "Bonjour",
+          "de": "Hallo",
+          "ar": "مرحبا",
+          "zh": "你好",
+          "pt": "Olá",
+          "ja": "こんにちは"
+        }
+      },
+      {
+        "target_text": "やあ",
+        "pronunciation": "yaa",
+        "translations": {
+          "en": "Hi",
+          "es": "Hola (informal)",
+          "fr": "Salut",
+          "de": "Hi",
+          "ar": "أهلا",
+          "zh": "嗨",
+          "pt": "Oi",
+          "ja": "やあ"
+        }
+      },
+      {
+        "target_text": "はじめまして",
+        "pronunciation": "hajimemashite",
+        "translations": {
+          "en": "Nice to meet you",
+          "es": "Mucho gusto",
+          "fr": "Enchanté(e)",
+          "de": "Freut mich",
+          "ar": "تشرفت بلقائك",
+          "zh": "初次见面，你好",
+          "pt": "Prazer em conhecê-lo",
+          "ja": "はじめまして"
+        }
+      },
+      {
+        "target_text": "私の名前はマリアムです",
+        "pronunciation": "watashi no namae wa Mariamu desu",
+        "translations": {
+          "en": "My name is Mariam",
+          "es": "Me llamo Mariam",
+          "fr": "Je m'appelle Mariam",
+          "de": "Ich heiße Mariam",
+          "ar": "اسمي مريم",
+          "zh": "我的名字是玛丽亚姆",
+          "pt": "Meu nome é Mariam",
+          "ja": "私の名前はマリアムです"
+        }
+      },
+      {
+        "target_text": "お名前は何ですか？",
+        "pronunciation": "onamae wa nan desu ka?",
+        "translations": {
+          "en": "What's your name?",
+          "es": "¿Cómo te llamas?",
+          "fr": "Comment tu t'appelles ?",
+          "de": "Wie heißt du?",
+          "ar": "ما اسمك؟",
+          "zh": "你叫什么名字？",
+          "pt": "Qual é o seu nome?",
+          "ja": "お名前は何ですか？"
+        }
+      },
+      {
+        "target_text": "よろしくお願いします",
+        "pronunciation": "yoroshiku onegaishimasu",
+        "translations": {
+          "en": "Nice to meet you / Please treat me well",
+          "es": "Encantado de conocerte",
+          "fr": "Ravi de faire ta connaissance",
+          "de": "Schön, dich kennenzulernen",
+          "ar": "سعيد بلقائك، أرجو حسن التعامل",
+          "zh": "请多关照",
+          "pt": "Muito prazer, conte comigo",
+          "ja": "よろしくお願いします"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "こんにちは！",
+        "pronunciation": "konnichiwa!",
+        "translations": {
+          "en": "Hello!",
+          "es": "¡Hola!",
+          "fr": "Bonjour !",
+          "de": "Hallo!",
+          "ar": "مرحبا!",
+          "zh": "你好！",
+          "pt": "Olá!",
+          "ja": "こんにちは！"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "やあ、はじめまして",
+        "pronunciation": "yaa, hajimemashite",
+        "translations": {
+          "en": "Hi, nice to meet you",
+          "es": "Hola, mucho gusto",
+          "fr": "Salut, enchanté",
+          "de": "Hi, freut mich",
+          "ar": "أهلا، تشرفت بلقائك",
+          "zh": "嗨，初次见面",
+          "pt": "Oi, prazer em conhecê-lo",
+          "ja": "やあ、はじめまして"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "私の名前はレダです",
+        "pronunciation": "watashi no namae wa Reda desu",
+        "translations": {
+          "en": "My name is Reda",
+          "es": "Me llamo Reda",
+          "fr": "Je m'appelle Reda",
+          "de": "Ich heiße Reda",
+          "ar": "اسمي رضا",
+          "zh": "我的名字是雷达",
+          "pt": "Meu nome é Reda",
+          "ja": "私の名前はレダです"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "お名前は何ですか？",
+        "pronunciation": "onamae wa nan desu ka?",
+        "translations": {
+          "en": "What's your name?",
+          "es": "¿Cómo te llamas?",
+          "fr": "Comment tu t'appelles ?",
+          "de": "Wie heißt du?",
+          "ar": "ما اسمك؟",
+          "zh": "你叫什么名字？",
+          "pt": "Qual é o seu nome?",
+          "ja": "お名前は何ですか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "私はユキです",
+        "pronunciation": "watashi wa Yuki desu",
+        "translations": {
+          "en": "I'm Yuki",
+          "es": "Soy Yuki",
+          "fr": "Je suis Yuki",
+          "de": "Ich bin Yuki",
+          "ar": "أنا يوكي",
+          "zh": "我是雪",
+          "pt": "Eu sou Yuki",
+          "ja": "私はユキです"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "よろしくお願いします",
+        "pronunciation": "yoroshiku onegaishimasu",
+        "translations": {
+          "en": "Nice to meet you",
+          "es": "Encantada de conocerte",
+          "fr": "Ravie de faire ta connaissance",
+          "de": "Schön, dich kennenzulernen",
+          "ar": "سعيدة بلقائك",
+          "zh": "请多关照",
+          "pt": "Muito prazer",
+          "ja": "よろしくお願いします"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 2,
+    "title": {
+      "en": "Where You're From",
+      "es": "De Dónde Eres",
+      "fr": "D'où Tu Viens",
+      "de": "Woher Du Kommst",
+      "ar": "من أين أنت",
+      "zh": "你来自哪里",
+      "pt": "De Onde Você É",
+      "ja": "出身はどこですか"
+    },
+    "phrases": [
+      {
+        "target_text": "どこの出身ですか？",
+        "pronunciation": "doko no shusshin desu ka?",
+        "translations": {
+          "en": "Where are you from?",
+          "es": "¿De dónde eres?",
+          "fr": "D'où viens-tu ?",
+          "de": "Woher kommst du?",
+          "ar": "من أين أنت؟",
+          "zh": "你是哪里人？",
+          "pt": "De onde você é?",
+          "ja": "どこの出身ですか？"
+        }
+      },
+      {
+        "target_text": "私はエジプト出身です",
+        "pronunciation": "watashi wa Ejiputo shusshin desu",
+        "translations": {
+          "en": "I'm from Egypt",
+          "es": "Soy de Egipto",
+          "fr": "Je viens d'Égypte",
+          "de": "Ich komme aus Ägypten",
+          "ar": "أنا من مصر",
+          "zh": "我来自埃及",
+          "pt": "Eu sou do Egito",
+          "ja": "私はエジプト出身です"
+        }
+      },
+      {
+        "target_text": "今は東京に住んでいます",
+        "pronunciation": "ima wa Toukyou ni sunde imasu",
+        "translations": {
+          "en": "I live in Tokyo now",
+          "es": "Ahora vivo en Tokio",
+          "fr": "J'habite maintenant à Tokyo",
+          "de": "Ich wohne jetzt in Tokio",
+          "ar": "أعيش الآن في طوكيو",
+          "zh": "我现在住在东京",
+          "pt": "Agora moro em Tóquio",
+          "ja": "今は東京に住んでいます"
+        }
+      },
+      {
+        "target_text": "私はエジプト人です",
+        "pronunciation": "watashi wa Ejiputo-jin desu",
+        "translations": {
+          "en": "I'm Egyptian",
+          "es": "Soy egipcio",
+          "fr": "Je suis égyptien",
+          "de": "Ich bin Ägypter",
+          "ar": "أنا مصري",
+          "zh": "我是埃及人",
+          "pt": "Eu sou egípcio",
+          "ja": "私はエジプト人です"
+        }
+      },
+      {
+        "target_text": "どこに住んでいますか？",
+        "pronunciation": "doko ni sunde imasu ka?",
+        "translations": {
+          "en": "Where do you live?",
+          "es": "¿Dónde vives?",
+          "fr": "Où habites-tu ?",
+          "de": "Wo wohnst du?",
+          "ar": "أين تعيش؟",
+          "zh": "你住在哪里？",
+          "pt": "Onde você mora?",
+          "ja": "どこに住んでいますか？"
+        }
+      },
+      {
+        "target_text": "日本は初めてですか？",
+        "pronunciation": "Nihon wa hajimete desu ka?",
+        "translations": {
+          "en": "Is this your first time in Japan?",
+          "es": "¿Es tu primera vez en Japón?",
+          "fr": "C'est ta première fois au Japon ?",
+          "de": "Ist das dein erstes Mal in Japan?",
+          "ar": "هل هذه أول مرة لك في اليابان؟",
+          "zh": "这是你第一次来日本吗？",
+          "pt": "É a sua primeira vez no Japão?",
+          "ja": "日本は初めてですか？"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "どこの出身ですか？",
+        "pronunciation": "doko no shusshin desu ka?",
+        "translations": {
+          "en": "Where are you from?",
+          "es": "¿De dónde eres?",
+          "fr": "D'où viens-tu ?",
+          "de": "Woher kommst du?",
+          "ar": "من أين أنت؟",
+          "zh": "你是哪里人？",
+          "pt": "De onde você é?",
+          "ja": "どこの出身ですか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "私はエジプト出身です。エジプト人です",
+        "pronunciation": "watashi wa Ejiputo shusshin desu. Ejiputo-jin desu",
+        "translations": {
+          "en": "I'm from Egypt. I'm Egyptian",
+          "es": "Soy de Egipto. Soy egipcio",
+          "fr": "Je viens d'Égypte. Je suis égyptien",
+          "de": "Ich komme aus Ägypten. Ich bin Ägypter",
+          "ar": "أنا من مصر. أنا مصري",
+          "zh": "我来自埃及。我是埃及人",
+          "pt": "Eu sou do Egito. Sou egípcio",
+          "ja": "私はエジプト出身です。エジプト人です"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "今は東京に住んでいます",
+        "pronunciation": "ima wa Toukyou ni sunde imasu",
+        "translations": {
+          "en": "I live in Tokyo now",
+          "es": "Ahora vivo en Tokio",
+          "fr": "J'habite maintenant à Tokyo",
+          "de": "Ich wohne jetzt in Tokio",
+          "ar": "أعيش الآن في طوكيو",
+          "zh": "我现在住在东京",
+          "pt": "Agora moro em Tóquio",
+          "ja": "今は東京に住んでいます"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "そうですか！日本は初めてですか？",
+        "pronunciation": "sou desu ka! Nihon wa hajimete desu ka?",
+        "translations": {
+          "en": "Oh really! Is this your first time in Japan?",
+          "es": "¡Ah, de verdad! ¿Es tu primera vez en Japón?",
+          "fr": "Ah bon ! C'est ta première fois au Japon ?",
+          "de": "Ach so! Ist das dein erstes Mal in Japan?",
+          "ar": "حقا! هل هذه أول مرة لك في اليابان؟",
+          "zh": "是吗！这是你第一次来日本吗？",
+          "pt": "Sério! É sua primeira vez no Japão?",
+          "ja": "そうですか！日本は初めてですか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "いいえ、二回目です",
+        "pronunciation": "iie, nikaime desu",
+        "translations": {
+          "en": "No, it's my second time",
+          "es": "No, es mi segunda vez",
+          "fr": "Non, c'est ma deuxième fois",
+          "de": "Nein, es ist mein zweites Mal",
+          "ar": "لا، هذه المرة الثانية",
+          "zh": "不，这是我第二次",
+          "pt": "Não, é a minha segunda vez",
+          "ja": "いいえ、二回目です"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "あなたはどこに住んでいますか？",
+        "pronunciation": "anata wa doko ni sunde imasu ka?",
+        "translations": {
+          "en": "Where do you live?",
+          "es": "¿Dónde vives tú?",
+          "fr": "Et toi, où habites-tu ?",
+          "de": "Wo wohnst du?",
+          "ar": "وأين تعيش أنت؟",
+          "zh": "你住在哪里？",
+          "pt": "E você, onde mora?",
+          "ja": "あなたはどこに住んでいますか？"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 3,
+    "title": {
+      "en": "Greetings",
+      "es": "Saludos",
+      "fr": "Salutations",
+      "de": "Begrüßungen",
+      "ar": "التحيات",
+      "zh": "问候语",
+      "pt": "Saudações",
+      "ja": "あいさつ"
+    },
+    "phrases": [
+      {
+        "target_text": "おはようございます",
+        "pronunciation": "ohayou gozaimasu",
+        "translations": {
+          "en": "Good morning",
+          "es": "Buenos días",
+          "fr": "Bonjour (le matin)",
+          "de": "Guten Morgen",
+          "ar": "صباح الخير",
+          "zh": "早上好",
+          "pt": "Bom dia",
+          "ja": "おはようございます"
+        }
+      },
+      {
+        "target_text": "こんにちは",
+        "pronunciation": "konnichiwa",
+        "translations": {
+          "en": "Good afternoon",
+          "es": "Buenas tardes",
+          "fr": "Bonjour (l'après-midi)",
+          "de": "Guten Tag",
+          "ar": "مساء الخير (بعد الظهر)",
+          "zh": "下午好",
+          "pt": "Boa tarde",
+          "ja": "こんにちは"
+        }
+      },
+      {
+        "target_text": "こんばんは",
+        "pronunciation": "konbanwa",
+        "translations": {
+          "en": "Good evening",
+          "es": "Buenas noches (al llegar)",
+          "fr": "Bonsoir",
+          "de": "Guten Abend",
+          "ar": "مساء الخير",
+          "zh": "晚上好",
+          "pt": "Boa noite (ao chegar)",
+          "ja": "こんばんは"
+        }
+      },
+      {
+        "target_text": "おやすみなさい",
+        "pronunciation": "oyasuminasai",
+        "translations": {
+          "en": "Good night",
+          "es": "Buenas noches (al dormir)",
+          "fr": "Bonne nuit",
+          "de": "Gute Nacht",
+          "ar": "تصبح على خير",
+          "zh": "晚安",
+          "pt": "Boa noite (ao dormir)",
+          "ja": "おやすみなさい"
+        }
+      },
+      {
+        "target_text": "元気？",
+        "pronunciation": "genki?",
+        "translations": {
+          "en": "How's it going?",
+          "es": "¿Qué tal?",
+          "fr": "Ça va ?",
+          "de": "Wie geht's?",
+          "ar": "كيف الحال؟",
+          "zh": "你好吗？",
+          "pt": "Tudo bem?",
+          "ja": "元気？"
+        }
+      },
+      {
+        "target_text": "お元気ですか？",
+        "pronunciation": "ogenki desu ka?",
+        "translations": {
+          "en": "How are you?",
+          "es": "¿Cómo estás?",
+          "fr": "Comment allez-vous ?",
+          "de": "Wie geht es Ihnen?",
+          "ar": "كيف حالك؟",
+          "zh": "你好吗？",
+          "pt": "Como você está?",
+          "ja": "お元気ですか？"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "おはようございます！",
+        "pronunciation": "ohayou gozaimasu!",
+        "translations": {
+          "en": "Good morning!",
+          "es": "¡Buenos días!",
+          "fr": "Bonjour !",
+          "de": "Guten Morgen!",
+          "ar": "صباح الخير!",
+          "zh": "早上好！",
+          "pt": "Bom dia!",
+          "ja": "おはようございます！"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "おはよう！お元気ですか？",
+        "pronunciation": "ohayou! ogenki desu ka?",
+        "translations": {
+          "en": "Morning! How are you?",
+          "es": "¡Buenos días! ¿Cómo estás?",
+          "fr": "Bonjour ! Comment vas-tu ?",
+          "de": "Morgen! Wie geht's dir?",
+          "ar": "صباح النور! كيف حالك؟",
+          "zh": "早！你好吗？",
+          "pt": "Bom dia! Como você está?",
+          "ja": "おはよう！お元気ですか？"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "元気です、ありがとう",
+        "pronunciation": "genki desu, arigatou",
+        "translations": {
+          "en": "I'm good, thanks",
+          "es": "Estoy bien, gracias",
+          "fr": "Je vais bien, merci",
+          "de": "Mir geht's gut, danke",
+          "ar": "أنا بخير، شكرا",
+          "zh": "我很好，谢谢",
+          "pt": "Estou bem, obrigado",
+          "ja": "元気です、ありがとう"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "今夜また会いましょう",
+        "pronunciation": "konya mata aimashou",
+        "translations": {
+          "en": "Let's meet again tonight",
+          "es": "Nos vemos de nuevo esta noche",
+          "fr": "On se revoit ce soir",
+          "de": "Lass uns heute Abend wiedersehen",
+          "ar": "لنلتقِ مرة أخرى الليلة",
+          "zh": "今晚再见吧",
+          "pt": "Vamos nos ver de novo à noite",
+          "ja": "今夜また会いましょう"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "こんばんは！じゃあ、また後で",
+        "pronunciation": "konbanwa! jaa, mata ato de",
+        "translations": {
+          "en": "Good evening! Okay, see you later",
+          "es": "¡Buenas noches! Bueno, nos vemos luego",
+          "fr": "Bonsoir ! Bon, à plus tard",
+          "de": "Guten Abend! Okay, bis später",
+          "ar": "مساء الخير! حسنا، أراك لاحقا",
+          "zh": "晚上好！那待会儿见",
+          "pt": "Boa noite! Então, até mais tarde",
+          "ja": "こんばんは！じゃあ、また後で"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "おやすみなさい",
+        "pronunciation": "oyasuminasai",
+        "translations": {
+          "en": "Good night",
+          "es": "Buenas noches",
+          "fr": "Bonne nuit",
+          "de": "Gute Nacht",
+          "ar": "تصبح على خير",
+          "zh": "晚安",
+          "pt": "Boa noite",
+          "ja": "おやすみなさい"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 4,
+    "title": {
+      "en": "Politeness & Manners",
+      "es": "Cortesía y Buenos Modales",
+      "fr": "Politesse et Bonnes Manières",
+      "de": "Höflichkeit und Manieren",
+      "ar": "الأدب واللباقة",
+      "zh": "礼貌用语",
+      "pt": "Educação e Boas Maneiras",
+      "ja": "礼儀とマナー"
+    },
+    "phrases": [
+      {
+        "target_text": "お願いします",
+        "pronunciation": "onegaishimasu",
+        "translations": {
+          "en": "Please",
+          "es": "Por favor",
+          "fr": "S'il te plaît",
+          "de": "Bitte",
+          "ar": "من فضلك",
+          "zh": "请",
+          "pt": "Por favor",
+          "ja": "お願いします"
+        }
+      },
+      {
+        "target_text": "ありがとうございます",
+        "pronunciation": "arigatou gozaimasu",
+        "translations": {
+          "en": "Thank you",
+          "es": "Gracias",
+          "fr": "Merci",
+          "de": "Danke",
+          "ar": "شكرا لك",
+          "zh": "谢谢",
+          "pt": "Obrigado",
+          "ja": "ありがとうございます"
+        }
+      },
+      {
+        "target_text": "どういたしまして",
+        "pronunciation": "dou itashimashite",
+        "translations": {
+          "en": "You're welcome",
+          "es": "De nada",
+          "fr": "Je t'en prie",
+          "de": "Bitte schön / Gern geschehen",
+          "ar": "عفوا",
+          "zh": "不客气",
+          "pt": "De nada",
+          "ja": "どういたしまして"
+        }
+      },
+      {
+        "target_text": "すみません",
+        "pronunciation": "sumimasen",
+        "translations": {
+          "en": "Excuse me",
+          "es": "Disculpa",
+          "fr": "Excusez-moi",
+          "de": "Entschuldigung",
+          "ar": "عفوا (لجذب الانتباه)",
+          "zh": "打扰一下",
+          "pt": "Com licença",
+          "ja": "すみません"
+        }
+      },
+      {
+        "target_text": "ごめんなさい",
+        "pronunciation": "gomen'nasai",
+        "translations": {
+          "en": "I'm sorry",
+          "es": "Lo siento",
+          "fr": "Je suis désolé(e)",
+          "de": "Es tut mir leid",
+          "ar": "أنا آسف",
+          "zh": "对不起",
+          "pt": "Desculpe",
+          "ja": "ごめんなさい"
+        }
+      },
+      {
+        "target_text": "大丈夫です",
+        "pronunciation": "daijoubu desu",
+        "translations": {
+          "en": "No problem / It's okay",
+          "es": "No hay problema / Está bien",
+          "fr": "Pas de problème / Ça va",
+          "de": "Kein Problem / Alles gut",
+          "ar": "لا مشكلة / لا بأس",
+          "zh": "没问题 / 没关系",
+          "pt": "Sem problemas / Está tudo bem",
+          "ja": "大丈夫です"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "すみません、これをお願いします",
+        "pronunciation": "sumimasen, kore o onegaishimasu",
+        "translations": {
+          "en": "Excuse me, this please",
+          "es": "Disculpa, esto por favor",
+          "fr": "Excusez-moi, ceci s'il vous plaît",
+          "de": "Entschuldigung, das bitte",
+          "ar": "عفوا، هذا من فضلك",
+          "zh": "打扰一下，请给我这个",
+          "pt": "Com licença, isso por favor",
+          "ja": "すみません、これをお願いします"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "はい、どうぞ",
+        "pronunciation": "hai, douzo",
+        "translations": {
+          "en": "Yes, here you go",
+          "es": "Sí, aquí tienes",
+          "fr": "Oui, voilà",
+          "de": "Ja, bitte sehr",
+          "ar": "نعم، تفضل",
+          "zh": "好的，给你",
+          "pt": "Sim, aqui está",
+          "ja": "はい、どうぞ"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "ありがとうございます",
+        "pronunciation": "arigatou gozaimasu",
+        "translations": {
+          "en": "Thank you",
+          "es": "Gracias",
+          "fr": "Merci",
+          "de": "Danke",
+          "ar": "شكرا لك",
+          "zh": "谢谢",
+          "pt": "Obrigado",
+          "ja": "ありがとうございます"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "どういたしまして",
+        "pronunciation": "dou itashimashite",
+        "translations": {
+          "en": "You're welcome",
+          "es": "De nada",
+          "fr": "Je t'en prie",
+          "de": "Gern geschehen",
+          "ar": "عفوا",
+          "zh": "不客气",
+          "pt": "De nada",
+          "ja": "どういたしまして"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "あ、ごめんなさい、足を踏んでしまいました",
+        "pronunciation": "a, gomen'nasai, ashi o funde shimaimashita",
+        "translations": {
+          "en": "Oh, sorry, I stepped on your foot",
+          "es": "Ay, lo siento, te pisé el pie",
+          "fr": "Oh, désolé, je t'ai marché sur le pied",
+          "de": "Oh, tut mir leid, ich bin dir auf den Fuß getreten",
+          "ar": "آسف، لقد وطئت قدمك",
+          "zh": "啊，对不起，我踩到你的脚了",
+          "pt": "Ah, desculpe, pisei no seu pé",
+          "ja": "あ、ごめんなさい、足を踏んでしまいました"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "大丈夫です",
+        "pronunciation": "daijoubu desu",
+        "translations": {
+          "en": "No problem",
+          "es": "No hay problema",
+          "fr": "Pas de problème",
+          "de": "Kein Problem",
+          "ar": "لا مشكلة",
+          "zh": "没关系",
+          "pt": "Sem problemas",
+          "ja": "大丈夫です"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 5,
+    "title": {
+      "en": "Asking About Someone Else",
+      "es": "Preguntar Sobre Otra Persona",
+      "fr": "Demander des Nouvelles de Quelqu'un",
+      "de": "Nach Jemand Anderem Fragen",
+      "ar": "السؤال عن شخص آخر",
+      "zh": "询问对方的情况",
+      "pt": "Perguntando Sobre Outra Pessoa",
+      "ja": "相手について尋ねる"
+    },
+    "phrases": [
+      {
+        "target_text": "元気です",
+        "pronunciation": "genki desu",
+        "translations": {
+          "en": "I'm doing well",
+          "es": "Estoy bien",
+          "fr": "Je vais bien",
+          "de": "Mir geht's gut",
+          "ar": "أنا بخير",
+          "zh": "我很好",
+          "pt": "Estou bem",
+          "ja": "元気です"
+        }
+      },
+      {
+        "target_text": "あなたは？",
+        "pronunciation": "anata wa?",
+        "translations": {
+          "en": "And you?",
+          "es": "¿Y tú?",
+          "fr": "Et toi ?",
+          "de": "Und du?",
+          "ar": "وأنت؟",
+          "zh": "你呢？",
+          "pt": "E você?",
+          "ja": "あなたは？"
+        }
+      },
+      {
+        "target_text": "お仕事は何をしていますか？",
+        "pronunciation": "oshigoto wa nani o shite imasu ka?",
+        "translations": {
+          "en": "What do you do for work?",
+          "es": "¿A qué te dedicas?",
+          "fr": "Qu'est-ce que tu fais dans la vie ?",
+          "de": "Was machst du beruflich?",
+          "ar": "ما هو عملك؟",
+          "zh": "你是做什么工作的？",
+          "pt": "O que você faz da vida?",
+          "ja": "お仕事は何をしていますか？"
+        }
+      },
+      {
+        "target_text": "英語を話せますか？",
+        "pronunciation": "eigo o hanasemasu ka?",
+        "translations": {
+          "en": "Do you speak English?",
+          "es": "¿Hablas inglés?",
+          "fr": "Tu parles anglais ?",
+          "de": "Sprichst du Englisch?",
+          "ar": "هل تتحدث الإنجليزية؟",
+          "zh": "你会说英语吗？",
+          "pt": "Você fala inglês?",
+          "ja": "英語を話せますか？"
+        }
+      },
+      {
+        "target_text": "わかりません",
+        "pronunciation": "wakarimasen",
+        "translations": {
+          "en": "I don't understand",
+          "es": "No entiendo",
+          "fr": "Je ne comprends pas",
+          "de": "Ich verstehe nicht",
+          "ar": "لا أفهم",
+          "zh": "我不明白",
+          "pt": "Eu não entendo",
+          "ja": "わかりません"
+        }
+      },
+      {
+        "target_text": "もう一度言ってもらえますか？",
+        "pronunciation": "mou ichido itte moraemasu ka?",
+        "translations": {
+          "en": "Can you say that again?",
+          "es": "¿Puedes repetirlo?",
+          "fr": "Tu peux répéter, s'il te plaît ?",
+          "de": "Kannst du das nochmal sagen?",
+          "ar": "هل يمكنك أن تكرر ذلك؟",
+          "zh": "你能再说一遍吗？",
+          "pt": "Você pode repetir isso?",
+          "ja": "もう一度言ってもらえますか？"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "お元気ですか？",
+        "pronunciation": "ogenki desu ka?",
+        "translations": {
+          "en": "How are you?",
+          "es": "¿Cómo estás?",
+          "fr": "Comment vas-tu ?",
+          "de": "Wie geht es dir?",
+          "ar": "كيف حالك؟",
+          "zh": "你好吗？",
+          "pt": "Como você está?",
+          "ja": "お元気ですか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "元気です、あなたは？",
+        "pronunciation": "genki desu, anata wa?",
+        "translations": {
+          "en": "I'm good, and you?",
+          "es": "Estoy bien, ¿y tú?",
+          "fr": "Je vais bien, et toi ?",
+          "de": "Mir geht's gut, und dir?",
+          "ar": "أنا بخير، وأنت؟",
+          "zh": "我很好，你呢？",
+          "pt": "Estou bem, e você?",
+          "ja": "元気です、あなたは？"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "私も元気です。お仕事は何をしていますか？",
+        "pronunciation": "watashi mo genki desu. oshigoto wa nani o shite imasu ka?",
+        "translations": {
+          "en": "I'm good too. What do you do for work?",
+          "es": "Yo también estoy bien. ¿A qué te dedicas?",
+          "fr": "Moi aussi ça va. Qu'est-ce que tu fais dans la vie ?",
+          "de": "Mir geht's auch gut. Was machst du beruflich?",
+          "ar": "أنا أيضا بخير. ما هو عملك؟",
+          "zh": "我也很好。你是做什么工作的？",
+          "pt": "Eu também estou bem. O que você faz da vida?",
+          "ja": "私も元気です。お仕事は何をしていますか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "すみません、わかりません。もう一度言ってもらえますか？",
+        "pronunciation": "sumimasen, wakarimasen. mou ichido itte moraemasu ka?",
+        "translations": {
+          "en": "Sorry, I don't understand. Can you say that again?",
+          "es": "Perdón, no entiendo. ¿Puedes repetirlo?",
+          "fr": "Désolé, je ne comprends pas. Tu peux répéter ?",
+          "de": "Entschuldigung, ich verstehe nicht. Kannst du das wiederholen?",
+          "ar": "آسف، لا أفهم. هل يمكنك أن تكرر ذلك؟",
+          "zh": "对不起，我不明白。你能再说一遍吗？",
+          "pt": "Desculpe, não entendi. Pode repetir?",
+          "ja": "すみません、わかりません。もう一度言ってもらえますか？"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "英語を話せますか？",
+        "pronunciation": "eigo o hanasemasu ka?",
+        "translations": {
+          "en": "Do you speak English?",
+          "es": "¿Hablas inglés?",
+          "fr": "Tu parles anglais ?",
+          "de": "Sprichst du Englisch?",
+          "ar": "هل تتحدث الإنجليزية؟",
+          "zh": "你会说英语吗？",
+          "pt": "Você fala inglês?",
+          "ja": "英語を話せますか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "はい、少し話せます",
+        "pronunciation": "hai, sukoshi hanasemasu",
+        "translations": {
+          "en": "Yes, I speak a little",
+          "es": "Sí, hablo un poco",
+          "fr": "Oui, je parle un peu",
+          "de": "Ja, ich spreche ein bisschen",
+          "ar": "نعم، أتحدث قليلا",
+          "zh": "是的，我会说一点",
+          "pt": "Sim, falo um pouco",
+          "ja": "はい、少し話せます"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 6,
+    "title": {
+      "en": "Your Daily Routine",
+      "es": "Tu Rutina Diaria",
+      "fr": "Ta Routine Quotidienne",
+      "de": "Dein Tagesablauf",
+      "ar": "روتينك اليومي",
+      "zh": "你的日常生活",
+      "pt": "Sua Rotina Diária",
+      "ja": "毎日の生活"
+    },
+    "phrases": [
+      {
+        "target_text": "毎朝7時に起きます",
+        "pronunciation": "maiasa shichi-ji ni okimasu",
+        "translations": {
+          "en": "I wake up at 7 every morning",
+          "es": "Me levanto a las 7 todas las mañanas",
+          "fr": "Je me réveille à 7 heures tous les matins",
+          "de": "Ich stehe jeden Morgen um 7 Uhr auf",
+          "ar": "أستيقظ الساعة السابعة كل صباح",
+          "zh": "我每天早上七点起床",
+          "pt": "Eu acordo às 7 todas as manhãs",
+          "ja": "毎朝7時に起きます"
+        }
+      },
+      {
+        "target_text": "朝ごはんを食べます",
+        "pronunciation": "asagohan o tabemasu",
+        "translations": {
+          "en": "I eat breakfast",
+          "es": "Desayuno",
+          "fr": "Je prends le petit-déjeuner",
+          "de": "Ich esse Frühstück",
+          "ar": "أتناول الفطور",
+          "zh": "我吃早饭",
+          "pt": "Eu tomo café da manhã",
+          "ja": "朝ごはんを食べます"
+        }
+      },
+      {
+        "target_text": "会社に行きます",
+        "pronunciation": "kaisha ni ikimasu",
+        "translations": {
+          "en": "I go to work",
+          "es": "Voy al trabajo",
+          "fr": "Je vais au travail",
+          "de": "Ich gehe zur Arbeit",
+          "ar": "أذهب إلى العمل",
+          "zh": "我去上班",
+          "pt": "Eu vou para o trabalho",
+          "ja": "会社に行きます"
+        }
+      },
+      {
+        "target_text": "夕方、家に帰ります",
+        "pronunciation": "yuugata, ie ni kaerimasu",
+        "translations": {
+          "en": "I come home in the evening",
+          "es": "Vuelvo a casa por la tarde",
+          "fr": "Je rentre à la maison le soir",
+          "de": "Ich komme abends nach Hause",
+          "ar": "أعود إلى المنزل في المساء",
+          "zh": "我傍晚回家",
+          "pt": "Eu volto para casa à noite",
+          "ja": "夕方、家に帰ります"
+        }
+      },
+      {
+        "target_text": "夜11時に寝ます",
+        "pronunciation": "yoru juuichi-ji ni nemasu",
+        "translations": {
+          "en": "I go to sleep at 11 at night",
+          "es": "Me duermo a las 11 de la noche",
+          "fr": "Je me couche à 23 heures",
+          "de": "Ich gehe um 23 Uhr schlafen",
+          "ar": "أخلد إلى النوم الساعة 11 مساء",
+          "zh": "我晚上十一点睡觉",
+          "pt": "Eu durmo às 11 da noite",
+          "ja": "夜11時に寝ます"
+        }
+      },
+      {
+        "target_text": "昼間は忙しいです",
+        "pronunciation": "hiruma wa isogashii desu",
+        "translations": {
+          "en": "I'm busy during the day",
+          "es": "Estoy ocupado durante el día",
+          "fr": "Je suis occupé pendant la journée",
+          "de": "Tagsüber bin ich beschäftigt",
+          "ar": "أنا مشغول خلال النهار",
+          "zh": "我白天很忙",
+          "pt": "Estou ocupado durante o dia",
+          "ja": "昼間は忙しいです"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "毎日何時に起きますか？",
+        "pronunciation": "mainichi nanji ni okimasu ka?",
+        "translations": {
+          "en": "What time do you wake up every day?",
+          "es": "¿A qué hora te levantas cada día?",
+          "fr": "Tu te réveilles à quelle heure chaque jour ?",
+          "de": "Um wie viel Uhr stehst du jeden Tag auf?",
+          "ar": "في أي ساعة تستيقظ كل يوم؟",
+          "zh": "你每天几点起床？",
+          "pt": "A que horas você acorda todos os dias?",
+          "ja": "毎日何時に起きますか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "毎朝7時に起きます。それから朝ごはんを食べます",
+        "pronunciation": "maiasa shichi-ji ni okimasu. sorekara asagohan o tabemasu",
+        "translations": {
+          "en": "I wake up at 7 every morning. Then I eat breakfast",
+          "es": "Me levanto a las 7 todas las mañanas. Luego desayuno",
+          "fr": "Je me réveille à 7 heures tous les matins. Ensuite je prends le petit-déjeuner",
+          "de": "Ich stehe jeden Morgen um 7 Uhr auf. Dann frühstücke ich",
+          "ar": "أستيقظ الساعة السابعة كل صباح. ثم أتناول الفطور",
+          "zh": "我每天早上七点起床，然后吃早饭",
+          "pt": "Eu acordo às 7 todas as manhãs. Depois tomo café da manhã",
+          "ja": "毎朝7時に起きます。それから朝ごはんを食べます"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "そのあとは？",
+        "pronunciation": "sono ato wa?",
+        "translations": {
+          "en": "And after that?",
+          "es": "¿Y después?",
+          "fr": "Et après ça ?",
+          "de": "Und danach?",
+          "ar": "وبعد ذلك؟",
+          "zh": "然后呢？",
+          "pt": "E depois?",
+          "ja": "そのあとは？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "会社に行きます。昼間は忙しいです",
+        "pronunciation": "kaisha ni ikimasu. hiruma wa isogashii desu",
+        "translations": {
+          "en": "I go to work. I'm busy during the day",
+          "es": "Voy al trabajo. Estoy ocupado durante el día",
+          "fr": "Je vais au travail. Je suis occupé pendant la journée",
+          "de": "Ich gehe zur Arbeit. Tagsüber bin ich beschäftigt",
+          "ar": "أذهب إلى العمل. أنا مشغول خلال النهار",
+          "zh": "我去上班。我白天很忙",
+          "pt": "Eu vou para o trabalho. Estou ocupado durante o dia",
+          "ja": "会社に行きます。昼間は忙しいです"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "何時に家に帰りますか？",
+        "pronunciation": "nanji ni ie ni kaerimasu ka?",
+        "translations": {
+          "en": "What time do you come home?",
+          "es": "¿A qué hora vuelves a casa?",
+          "fr": "Tu rentres à quelle heure ?",
+          "de": "Um wie viel Uhr kommst du nach Hause?",
+          "ar": "في أي ساعة تعود إلى المنزل؟",
+          "zh": "你几点回家？",
+          "pt": "A que horas você volta para casa?",
+          "ja": "何時に家に帰りますか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "夕方、家に帰ります。そして夜11時に寝ます",
+        "pronunciation": "yuugata, ie ni kaerimasu. soshite yoru juuichi-ji ni nemasu",
+        "translations": {
+          "en": "I come home in the evening. And I sleep at 11 at night",
+          "es": "Vuelvo a casa por la tarde. Y me duermo a las 11 de la noche",
+          "fr": "Je rentre le soir. Et je me couche à 23 heures",
+          "de": "Ich komme abends nach Hause. Und ich schlafe um 23 Uhr",
+          "ar": "أعود إلى المنزل في المساء. وأنام الساعة 11 مساء",
+          "zh": "我傍晚回家，然后晚上十一点睡觉",
+          "pt": "Eu volto para casa à noite. E durmo às 11",
+          "ja": "夕方、家に帰ります。そして夜11時に寝ます"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 7,
+    "title": {
+      "en": "Work & School",
+      "es": "Trabajo y Estudios",
+      "fr": "Travail et Études",
+      "de": "Arbeit und Schule",
+      "ar": "العمل والدراسة",
+      "zh": "工作与学校",
+      "pt": "Trabalho e Escola",
+      "ja": "仕事と学校"
+    },
+    "phrases": [
+      {
+        "target_text": "エンジニアとして働いています",
+        "pronunciation": "enjinia toshite hataraite imasu",
+        "translations": {
+          "en": "I work as an engineer",
+          "es": "Trabajo como ingeniero",
+          "fr": "Je travaille comme ingénieur",
+          "de": "Ich arbeite als Ingenieur",
+          "ar": "أعمل مهندسا",
+          "zh": "我是一名工程师",
+          "pt": "Eu trabalho como engenheiro",
+          "ja": "エンジニアとして働いています"
+        }
+      },
+      {
+        "target_text": "大学で経済学を勉強しています",
+        "pronunciation": "daigaku de keizaigaku o benkyou shite imasu",
+        "translations": {
+          "en": "I study economics at university",
+          "es": "Estudio economía en la universidad",
+          "fr": "J'étudie l'économie à l'université",
+          "de": "Ich studiere Wirtschaft an der Universität",
+          "ar": "أدرس الاقتصاد في الجامعة",
+          "zh": "我在大学学习经济学",
+          "pt": "Eu estudo economia na universidade",
+          "ja": "大学で経済学を勉強しています"
+        }
+      },
+      {
+        "target_text": "私は学生です",
+        "pronunciation": "watashi wa gakusei desu",
+        "translations": {
+          "en": "I'm a student",
+          "es": "Soy estudiante",
+          "fr": "Je suis étudiant(e)",
+          "de": "Ich bin Student(in)",
+          "ar": "أنا طالب",
+          "zh": "我是学生",
+          "pt": "Eu sou estudante",
+          "ja": "私は学生です"
+        }
+      },
+      {
+        "target_text": "お仕事は何ですか？",
+        "pronunciation": "oshigoto wa nan desu ka?",
+        "translations": {
+          "en": "What do you do for work?",
+          "es": "¿En qué trabajas?",
+          "fr": "Tu fais quoi comme travail ?",
+          "de": "Was ist dein Beruf?",
+          "ar": "ما هو عملك؟",
+          "zh": "你是做什么工作的？",
+          "pt": "Qual é o seu trabalho?",
+          "ja": "お仕事は何ですか？"
+        }
+      },
+      {
+        "target_text": "毎日オフィスに通っています",
+        "pronunciation": "mainichi ofisu ni kayotte imasu",
+        "translations": {
+          "en": "I commute to the office every day",
+          "es": "Voy a la oficina todos los días",
+          "fr": "Je vais au bureau tous les jours",
+          "de": "Ich pendle jeden Tag ins Büro",
+          "ar": "أذهب إلى المكتب كل يوم",
+          "zh": "我每天去办公室上班",
+          "pt": "Eu vou ao escritório todos os dias",
+          "ja": "毎日オフィスに通っています"
+        }
+      },
+      {
+        "target_text": "来年、大学を卒業します",
+        "pronunciation": "rainen, daigaku o sotsugyou shimasu",
+        "translations": {
+          "en": "I'm graduating from university next year",
+          "es": "Me gradúo de la universidad el próximo año",
+          "fr": "Je serai diplômé de l'université l'année prochaine",
+          "de": "Ich schließe nächstes Jahr die Universität ab",
+          "ar": "سأتخرج من الجامعة العام المقبل",
+          "zh": "我明年大学毕业",
+          "pt": "Eu me formo na universidade no ano que vem",
+          "ja": "来年、大学を卒業します"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "お仕事は何ですか？",
+        "pronunciation": "oshigoto wa nan desu ka?",
+        "translations": {
+          "en": "What do you do for work?",
+          "es": "¿En qué trabajas?",
+          "fr": "Tu fais quoi comme travail ?",
+          "de": "Was ist dein Beruf?",
+          "ar": "ما هو عملك؟",
+          "zh": "你是做什么工作的？",
+          "pt": "Qual é o seu trabalho?",
+          "ja": "お仕事は何ですか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "エンジニアとして働いています。毎日オフィスに通っています",
+        "pronunciation": "enjinia toshite hataraite imasu. mainichi ofisu ni kayotte imasu",
+        "translations": {
+          "en": "I work as an engineer. I commute to the office every day",
+          "es": "Trabajo como ingeniero. Voy a la oficina todos los días",
+          "fr": "Je travaille comme ingénieur. Je vais au bureau tous les jours",
+          "de": "Ich arbeite als Ingenieur. Ich pendle jeden Tag ins Büro",
+          "ar": "أعمل مهندسا. أذهب إلى المكتب كل يوم",
+          "zh": "我是工程师。我每天去办公室上班",
+          "pt": "Trabalho como engenheiro. Vou ao escritório todos os dias",
+          "ja": "エンジニアとして働いています。毎日オフィスに通っています"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "あなたは学生ですか？",
+        "pronunciation": "anata wa gakusei desu ka?",
+        "translations": {
+          "en": "Are you a student?",
+          "es": "¿Eres estudiante?",
+          "fr": "Tu es étudiant ?",
+          "de": "Bist du Student?",
+          "ar": "هل أنت طالب؟",
+          "zh": "你是学生吗？",
+          "pt": "Você é estudante?",
+          "ja": "あなたは学生ですか？"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "はい、大学で経済学を勉強しています",
+        "pronunciation": "hai, daigaku de keizaigaku o benkyou shite imasu",
+        "translations": {
+          "en": "Yes, I study economics at university",
+          "es": "Sí, estudio economía en la universidad",
+          "fr": "Oui, j'étudie l'économie à l'université",
+          "de": "Ja, ich studiere Wirtschaft an der Universität",
+          "ar": "نعم، أدرس الاقتصاد في الجامعة",
+          "zh": "是的，我在大学学习经济学",
+          "pt": "Sim, estudo economia na universidade",
+          "ja": "はい、大学で経済学を勉強しています"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "来年、大学を卒業します",
+        "pronunciation": "rainen, daigaku o sotsugyou shimasu",
+        "translations": {
+          "en": "I'm graduating next year",
+          "es": "Me gradúo el próximo año",
+          "fr": "Je serai diplômé l'année prochaine",
+          "de": "Ich schließe nächstes Jahr ab",
+          "ar": "سأتخرج العام المقبل",
+          "zh": "我明年毕业",
+          "pt": "Eu me formo no ano que vem",
+          "ja": "来年、大学を卒業します"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "それはいいですね！",
+        "pronunciation": "sore wa ii desu ne!",
+        "translations": {
+          "en": "That's great!",
+          "es": "¡Qué bien!",
+          "fr": "C'est génial !",
+          "de": "Das ist toll!",
+          "ar": "هذا رائع!",
+          "zh": "那太好了！",
+          "pt": "Que ótimo!",
+          "ja": "それはいいですね！"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 8,
+    "title": {
+      "en": "Feelings & Emotions",
+      "es": "Sentimientos y Emociones",
+      "fr": "Sentiments et Émotions",
+      "de": "Gefühle und Emotionen",
+      "ar": "المشاعر والعواطف",
+      "zh": "感受与情绪",
+      "pt": "Sentimentos e Emoções",
+      "ja": "気持ちと感情"
+    },
+    "phrases": [
+      {
+        "target_text": "嬉しいです",
+        "pronunciation": "ureshii desu",
+        "translations": {
+          "en": "I'm happy",
+          "es": "Estoy feliz",
+          "fr": "Je suis content(e)",
+          "de": "Ich bin glücklich",
+          "ar": "أنا سعيد",
+          "zh": "我很开心",
+          "pt": "Estou feliz",
+          "ja": "嬉しいです"
+        }
+      },
+      {
+        "target_text": "疲れました",
+        "pronunciation": "tsukaremashita",
+        "translations": {
+          "en": "I'm tired",
+          "es": "Estoy cansado",
+          "fr": "Je suis fatigué(e)",
+          "de": "Ich bin müde",
+          "ar": "أنا متعب",
+          "zh": "我累了",
+          "pt": "Estou cansado",
+          "ja": "疲れました"
+        }
+      },
+      {
+        "target_text": "悲しいです",
+        "pronunciation": "kanashii desu",
+        "translations": {
+          "en": "I'm sad",
+          "es": "Estoy triste",
+          "fr": "Je suis triste",
+          "de": "Ich bin traurig",
+          "ar": "أنا حزين",
+          "zh": "我很难过",
+          "pt": "Estou triste",
+          "ja": "悲しいです"
+        }
+      },
+      {
+        "target_text": "楽しみです",
+        "pronunciation": "tanoshimi desu",
+        "translations": {
+          "en": "I'm excited (looking forward to it)",
+          "es": "Estoy emocionado",
+          "fr": "J'ai hâte",
+          "de": "Ich freue mich darauf",
+          "ar": "أنا متحمس",
+          "zh": "我很期待",
+          "pt": "Estou animado",
+          "ja": "楽しみです"
+        }
+      },
+      {
+        "target_text": "お腹が空きました",
+        "pronunciation": "onaka ga sukimashita",
+        "translations": {
+          "en": "I'm hungry",
+          "es": "Tengo hambre",
+          "fr": "J'ai faim",
+          "de": "Ich habe Hunger",
+          "ar": "أنا جائع",
+          "zh": "我饿了",
+          "pt": "Estou com fome",
+          "ja": "お腹が空きました"
+        }
+      },
+      {
+        "target_text": "今日はどんな気分ですか？",
+        "pronunciation": "kyou wa donna kibun desu ka?",
+        "translations": {
+          "en": "How do you feel today?",
+          "es": "¿Cómo te sientes hoy?",
+          "fr": "Comment tu te sens aujourd'hui ?",
+          "de": "Wie fühlst du dich heute?",
+          "ar": "كيف تشعر اليوم؟",
+          "zh": "你今天感觉怎么样？",
+          "pt": "Como você está se sentindo hoje?",
+          "ja": "今日はどんな気分ですか？"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "今日はどんな気分ですか？",
+        "pronunciation": "kyou wa donna kibun desu ka?",
+        "translations": {
+          "en": "How do you feel today?",
+          "es": "¿Cómo te sientes hoy?",
+          "fr": "Comment tu te sens aujourd'hui ?",
+          "de": "Wie fühlst du dich heute?",
+          "ar": "كيف تشعر اليوم؟",
+          "zh": "你今天感觉怎么样？",
+          "pt": "Como você está se sentindo hoje?",
+          "ja": "今日はどんな気分ですか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "少し疲れました。でも大丈夫です",
+        "pronunciation": "sukoshi tsukaremashita. demo daijoubu desu",
+        "translations": {
+          "en": "I'm a little tired. But I'm okay",
+          "es": "Estoy un poco cansado. Pero estoy bien",
+          "fr": "Je suis un peu fatigué. Mais ça va",
+          "de": "Ich bin etwas müde. Aber es geht mir gut",
+          "ar": "أنا متعب قليلا. لكنني بخير",
+          "zh": "我有点累，不过还好",
+          "pt": "Estou um pouco cansado. Mas estou bem",
+          "ja": "少し疲れました。でも大丈夫です"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "お腹が空きましたか？",
+        "pronunciation": "onaka ga sukimashita ka?",
+        "translations": {
+          "en": "Are you hungry?",
+          "es": "¿Tienes hambre?",
+          "fr": "Tu as faim ?",
+          "de": "Hast du Hunger?",
+          "ar": "هل أنت جائع؟",
+          "zh": "你饿了吗？",
+          "pt": "Você está com fome?",
+          "ja": "お腹が空きましたか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "はい、とても！でも今夜のパーティーが楽しみです",
+        "pronunciation": "hai, totemo! demo konya no paatii ga tanoshimi desu",
+        "translations": {
+          "en": "Yes, very! But I'm excited for tonight's party",
+          "es": "¡Sí, mucho! Pero estoy emocionado por la fiesta de esta noche",
+          "fr": "Oui, très ! Mais j'ai hâte pour la fête de ce soir",
+          "de": "Ja, sehr! Aber ich freue mich auf die Party heute Abend",
+          "ar": "نعم، جدا! لكنني متحمس لحفلة الليلة",
+          "zh": "是的，很饿！不过我很期待今晚的派对",
+          "pt": "Sim, muito! Mas estou animado com a festa de hoje à noite",
+          "ja": "はい、とても！でも今夜のパーティーが楽しみです"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "私も嬉しいです！",
+        "pronunciation": "watashi mo ureshii desu!",
+        "translations": {
+          "en": "I'm happy too!",
+          "es": "¡Yo también estoy feliz!",
+          "fr": "Moi aussi je suis content !",
+          "de": "Ich bin auch glücklich!",
+          "ar": "أنا أيضا سعيد!",
+          "zh": "我也很开心！",
+          "pt": "Eu também estou feliz!",
+          "ja": "私も嬉しいです！"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "悲しいことは忘れましょう",
+        "pronunciation": "kanashii koto wa wasuremashou",
+        "translations": {
+          "en": "Let's forget about the sad things",
+          "es": "Olvidemos las cosas tristes",
+          "fr": "Oublions les choses tristes",
+          "de": "Lass uns die traurigen Dinge vergessen",
+          "ar": "لننسَ الأشياء الحزينة",
+          "zh": "让我们忘掉悲伤的事吧",
+          "pt": "Vamos esquecer as coisas tristes",
+          "ja": "悲しいことは忘れましょう"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 9,
+    "title": {
+      "en": "Making Plans",
+      "es": "Haciendo Planes",
+      "fr": "Faire des Projets",
+      "de": "Pläne Machen",
+      "ar": "وضع الخطط",
+      "zh": "制定计划",
+      "pt": "Fazendo Planos",
+      "ja": "予定を立てる"
+    },
+    "phrases": [
+      {
+        "target_text": "今日は何をしますか？",
+        "pronunciation": "kyou wa nani o shimasu ka?",
+        "translations": {
+          "en": "What are you doing today?",
+          "es": "¿Qué vas a hacer hoy?",
+          "fr": "Qu'est-ce que tu fais aujourd'hui ?",
+          "de": "Was machst du heute?",
+          "ar": "ماذا ستفعل اليوم؟",
+          "zh": "你今天要做什么？",
+          "pt": "O que você vai fazer hoje?",
+          "ja": "今日は何をしますか？"
+        }
+      },
+      {
+        "target_text": "今度会いましょう",
+        "pronunciation": "kondo aimashou",
+        "translations": {
+          "en": "Let's meet up sometime",
+          "es": "Quedemos algún día",
+          "fr": "On se retrouve bientôt",
+          "de": "Lass uns bald treffen",
+          "ar": "لنلتقِ قريبا",
+          "zh": "我们改天见面吧",
+          "pt": "Vamos nos encontrar em breve",
+          "ja": "今度会いましょう"
+        }
+      },
+      {
+        "target_text": "明日は暇ですか？",
+        "pronunciation": "ashita wa hima desu ka?",
+        "translations": {
+          "en": "Are you free tomorrow?",
+          "es": "¿Estás libre mañana?",
+          "fr": "Tu es libre demain ?",
+          "de": "Hast du morgen Zeit?",
+          "ar": "هل أنت متفرغ غدا؟",
+          "zh": "你明天有空吗？",
+          "pt": "Você está livre amanhã?",
+          "ja": "明日は暇ですか？"
+        }
+      },
+      {
+        "target_text": "予定があります",
+        "pronunciation": "yotei ga arimasu",
+        "translations": {
+          "en": "I have plans",
+          "es": "Tengo planes",
+          "fr": "J'ai des projets",
+          "de": "Ich habe schon etwas vor",
+          "ar": "لدي خطط",
+          "zh": "我有安排了",
+          "pt": "Eu tenho planos",
+          "ja": "予定があります"
+        }
+      },
+      {
+        "target_text": "何時にする？",
+        "pronunciation": "nanji ni suru?",
+        "translations": {
+          "en": "What time should we do it?",
+          "es": "¿A qué hora quedamos?",
+          "fr": "On dit quelle heure ?",
+          "de": "Um wie viel Uhr machen wir das?",
+          "ar": "في أي وقت نتفق؟",
+          "zh": "定几点？",
+          "pt": "Que horas a gente marca?",
+          "ja": "何時にする？"
+        }
+      },
+      {
+        "target_text": "また後で",
+        "pronunciation": "mata ato de",
+        "translations": {
+          "en": "See you later",
+          "es": "Nos vemos luego",
+          "fr": "À plus tard",
+          "de": "Bis später",
+          "ar": "أراك لاحقا",
+          "zh": "待会儿见",
+          "pt": "Até mais tarde",
+          "ja": "また後で"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "明日は暇ですか？",
+        "pronunciation": "ashita wa hima desu ka?",
+        "translations": {
+          "en": "Are you free tomorrow?",
+          "es": "¿Estás libre mañana?",
+          "fr": "Tu es libre demain ?",
+          "de": "Hast du morgen Zeit?",
+          "ar": "هل أنت متفرغ غدا؟",
+          "zh": "你明天有空吗？",
+          "pt": "Você está livre amanhã?",
+          "ja": "明日は暇ですか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "いいえ、明日は予定があります。今日はどうですか？",
+        "pronunciation": "iie, ashita wa yotei ga arimasu. kyou wa dou desu ka?",
+        "translations": {
+          "en": "No, I have plans tomorrow. What about today?",
+          "es": "No, mañana tengo planes. ¿Qué tal hoy?",
+          "fr": "Non, j'ai des projets demain. Et aujourd'hui ?",
+          "de": "Nein, morgen habe ich schon etwas vor. Wie wäre es heute?",
+          "ar": "لا، لدي خطط غدا. ماذا عن اليوم؟",
+          "zh": "不行，我明天有安排了。今天怎么样？",
+          "pt": "Não, amanhã eu tenho planos. Que tal hoje?",
+          "ja": "いいえ、明日は予定があります。今日はどうですか？"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "今日は何をしますか？",
+        "pronunciation": "kyou wa nani o shimasu ka?",
+        "translations": {
+          "en": "What are you doing today?",
+          "es": "¿Qué haces hoy?",
+          "fr": "Tu fais quoi aujourd'hui ?",
+          "de": "Was machst du heute?",
+          "ar": "ماذا ستفعل اليوم؟",
+          "zh": "你今天要做什么？",
+          "pt": "O que você vai fazer hoje?",
+          "ja": "今日は何をしますか？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "特に何もないです。今度会いましょう",
+        "pronunciation": "toku ni nani mo nai desu. kondo aimashou",
+        "translations": {
+          "en": "Nothing in particular. Let's meet up",
+          "es": "Nada en particular. Quedemos",
+          "fr": "Rien de spécial. On se retrouve",
+          "de": "Nichts Besonderes. Lass uns treffen",
+          "ar": "لا شيء خاص. لنلتقِ",
+          "zh": "没什么特别的。我们见面吧",
+          "pt": "Nada em especial. Vamos nos encontrar",
+          "ja": "特に何もないです。今度会いましょう"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "いいですね！何時にする？",
+        "pronunciation": "ii desu ne! nanji ni suru?",
+        "translations": {
+          "en": "Sounds good! What time?",
+          "es": "¡Suena bien! ¿A qué hora?",
+          "fr": "Ça marche ! On dit quelle heure ?",
+          "de": "Klingt gut! Um wie viel Uhr?",
+          "ar": "يبدو جيدا! في أي وقت؟",
+          "zh": "好啊！几点？",
+          "pt": "Combinado! Que horas?",
+          "ja": "いいですね！何時にする？"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "3時はどうですか？また後で",
+        "pronunciation": "sanji wa dou desu ka? mata ato de",
+        "translations": {
+          "en": "How about 3 o'clock? See you later",
+          "es": "¿Qué tal a las 3? Nos vemos luego",
+          "fr": "15 heures, ça te va ? À plus tard",
+          "de": "Wie wäre es um 15 Uhr? Bis später",
+          "ar": "ما رأيك في الساعة الثالثة؟ أراك لاحقا",
+          "zh": "三点怎么样？待会儿见",
+          "pt": "Que tal às 3? Até mais tarde",
+          "ja": "3時はどうですか？また後で"
+        }
+      }
+    ]
+  },
+  {
+    "lesson_order": 10,
+    "title": {
+      "en": "Small Talk & Saying Goodbye",
+      "es": "Charla Informal y Despedidas",
+      "fr": "Bavardage et Adieux",
+      "de": "Smalltalk und Abschied",
+      "ar": "الحديث العابر والوداع",
+      "zh": "闲聊与道别",
+      "pt": "Conversa Fiada e Despedidas",
+      "ja": "雑談とお別れ"
+    },
+    "phrases": [
+      {
+        "target_text": "今日はいい天気ですね",
+        "pronunciation": "kyou wa ii tenki desu ne",
+        "translations": {
+          "en": "It's nice weather today, isn't it",
+          "es": "Hace buen tiempo hoy, ¿verdad?",
+          "fr": "Il fait beau aujourd'hui, hein",
+          "de": "Heute ist schönes Wetter, oder?",
+          "ar": "الطقس جميل اليوم، أليس كذلك",
+          "zh": "今天天气真好啊",
+          "pt": "O tempo está bom hoje, né",
+          "ja": "今日はいい天気ですね"
+        }
+      },
+      {
+        "target_text": "お話しできて楽しかったです",
+        "pronunciation": "ohanashi dekite tanoshikatta desu",
+        "translations": {
+          "en": "It was nice talking to you",
+          "es": "Fue un placer hablar contigo",
+          "fr": "C'était un plaisir de parler avec toi",
+          "de": "Es war schön, mit dir zu reden",
+          "ar": "كان من الجميل التحدث معك",
+          "zh": "很高兴和你聊天",
+          "pt": "Foi bom falar com você",
+          "ja": "お話しできて楽しかったです"
+        }
+      },
+      {
+        "target_text": "さようなら",
+        "pronunciation": "sayounara",
+        "translations": {
+          "en": "Goodbye",
+          "es": "Adiós",
+          "fr": "Au revoir",
+          "de": "Auf Wiedersehen",
+          "ar": "وداعا",
+          "zh": "再见",
+          "pt": "Adeus",
+          "ja": "さようなら"
+        }
+      },
+      {
+        "target_text": "またね",
+        "pronunciation": "mata ne",
+        "translations": {
+          "en": "See you",
+          "es": "Nos vemos",
+          "fr": "À bientôt",
+          "de": "Bis dann",
+          "ar": "أراك لاحقا",
+          "zh": "回见",
+          "pt": "Até mais",
+          "ja": "またね"
+        }
+      },
+      {
+        "target_text": "近いうちにまた会いましょう",
+        "pronunciation": "chikai uchi ni mata aimashou",
+        "translations": {
+          "en": "See you soon",
+          "es": "Nos vemos pronto",
+          "fr": "À très bientôt",
+          "de": "Bis bald",
+          "ar": "أراك قريبا",
+          "zh": "很快再见",
+          "pt": "Até breve",
+          "ja": "近いうちにまた会いましょう"
+        }
+      },
+      {
+        "target_text": "気をつけてね",
+        "pronunciation": "ki o tsukete ne",
+        "translations": {
+          "en": "Take care",
+          "es": "Cuídate",
+          "fr": "Prends soin de toi",
+          "de": "Pass auf dich auf",
+          "ar": "اعتنِ بنفسك",
+          "zh": "保重",
+          "pt": "Se cuida",
+          "ja": "気をつけてね"
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "今日はいい天気ですね",
+        "pronunciation": "kyou wa ii tenki desu ne",
+        "translations": {
+          "en": "It's nice weather today, isn't it",
+          "es": "Hace buen tiempo hoy, ¿verdad?",
+          "fr": "Il fait beau aujourd'hui, hein",
+          "de": "Heute ist schönes Wetter, oder?",
+          "ar": "الطقس جميل اليوم، أليس كذلك",
+          "zh": "今天天气真好啊",
+          "pt": "O tempo está bom hoje, né",
+          "ja": "今日はいい天気ですね"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "そうですね、本当に気持ちいいです",
+        "pronunciation": "sou desu ne, hontou ni kimochi ii desu",
+        "translations": {
+          "en": "Yeah, it really feels nice",
+          "es": "Sí, se siente muy agradable",
+          "fr": "Oui, ça fait vraiment du bien",
+          "de": "Ja, es fühlt sich wirklich gut an",
+          "ar": "نعم، الجو ممتع حقا",
+          "zh": "是啊，感觉真舒服",
+          "pt": "É mesmo, está muito agradável",
+          "ja": "そうですね、本当に気持ちいいです"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "そろそろ行かないと。お話しできて楽しかったです",
+        "pronunciation": "sorosoro ikanai to. ohanashi dekite tanoshikatta desu",
+        "translations": {
+          "en": "I should get going soon. It was nice talking to you",
+          "es": "Ya me tengo que ir. Fue un placer hablar contigo",
+          "fr": "Je dois y aller. C'était un plaisir de parler avec toi",
+          "de": "Ich muss langsam los. Es war schön, mit dir zu reden",
+          "ar": "يجب أن أذهب الآن. كان من الجميل التحدث معك",
+          "zh": "我该走了。很高兴和你聊天",
+          "pt": "Já vou indo. Foi ótimo falar com você",
+          "ja": "そろそろ行かないと。お話しできて楽しかったです"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "私もです！近いうちにまた会いましょう",
+        "pronunciation": "watashi mo desu! chikai uchi ni mata aimashou",
+        "translations": {
+          "en": "Me too! See you again soon",
+          "es": "¡Yo también! Nos vemos pronto",
+          "fr": "Moi aussi ! À très bientôt",
+          "de": "Ich auch! Bis bald",
+          "ar": "وأنا أيضا! أراك قريبا",
+          "zh": "我也是！很快再见",
+          "pt": "Eu também! Até breve",
+          "ja": "私もです！近いうちにまた会いましょう"
+        }
+      },
+      {
+        "speaker": "A",
+        "target_text": "はい、またね。気をつけてね",
+        "pronunciation": "hai, mata ne. ki o tsukete ne",
+        "translations": {
+          "en": "Yes, see you. Take care",
+          "es": "Sí, nos vemos. Cuídate",
+          "fr": "Oui, à bientôt. Prends soin de toi",
+          "de": "Ja, bis dann. Pass auf dich auf",
+          "ar": "نعم، أراك لاحقا. اعتنِ بنفسك",
+          "zh": "好，回见。保重",
+          "pt": "Sim, até mais. Se cuida",
+          "ja": "はい、またね。気をつけてね"
+        }
+      },
+      {
+        "speaker": "B",
+        "target_text": "さようなら！",
+        "pronunciation": "sayounara!",
+        "translations": {
+          "en": "Goodbye!",
+          "es": "¡Adiós!",
+          "fr": "Au revoir !",
+          "de": "Auf Wiedersehen!",
+          "ar": "وداعا!",
+          "zh": "再见！",
+          "pt": "Adeus!",
+          "ja": "さようなら！"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,742 @@
+[
+  {
+    "lesson_order": 1,
+    "title": { "en": "Introducing Yourself: Your Name", "es": "Presentarte: Tu Nombre", "fr": "Se Présenter : Votre Nom", "de": "Sich Vorstellen: Dein Name", "ar": "التعريف بنفسك: اسمك", "zh": "自我介绍：你的名字", "pt": "Apresentando-se: Seu Nome", "ja": "自己紹介：あなたの名前" },
+    "phrases": [
+      {
+        "target_text": "مرحبا",
+        "pronunciation": "marHaban (stress on MAR)",
+        "translations": { "en": "Hello", "es": "Hola", "fr": "Bonjour", "de": "Hallo", "ar": "مرحبا", "zh": "你好", "pt": "Olá", "ja": "こんにちは" }
+      },
+      {
+        "target_text": "أهلاً",
+        "pronunciation": "ahlan (casual, stress on AH)",
+        "translations": { "en": "Hi", "es": "Hola (informal)", "fr": "Salut", "de": "Hi", "ar": "أهلاً", "zh": "嗨", "pt": "Oi", "ja": "やあ" }
+      },
+      {
+        "target_text": "السلام عليكم",
+        "pronunciation": "as-salaamu alaykum (formal greeting)",
+        "translations": { "en": "Peace be upon you (formal hello)", "es": "La paz sea contigo (saludo formal)", "fr": "Que la paix soit sur vous (salutation formelle)", "de": "Friede sei mit dir (formelle Begrüßung)", "ar": "السلام عليكم", "zh": "愿平安与你同在（正式问候）", "pt": "Que a paz esteja contigo (saudação formal)", "ja": "あなたに平和がありますように（正式な挨拶）" }
+      },
+      {
+        "target_text": "اسمي مريم.",
+        "pronunciation": "ismi Mariam (IS-mee MAR-yam)",
+        "translations": { "en": "My name is Mariam.", "es": "Me llamo Mariam.", "fr": "Je m'appelle Mariam.", "de": "Mein Name ist Mariam.", "ar": "اسمي مريم.", "zh": "我叫玛丽亚姆。", "pt": "Meu nome é Mariam.", "ja": "私の名前はマリアムです。" }
+      },
+      {
+        "target_text": "ما اسمك؟",
+        "pronunciation": "maa ismuk? (to a man) / ismuki (to a woman)",
+        "translations": { "en": "What's your name?", "es": "¿Cómo te llamas?", "fr": "Comment tu t'appelles ?", "de": "Wie heißt du?", "ar": "ما اسمك؟", "zh": "你叫什么名字？", "pt": "Qual é o seu nome?", "ja": "お名前は何ですか？" }
+      },
+      {
+        "target_text": "تشرفنا",
+        "pronunciation": "tasharrafna (tah-shar-RAF-na)",
+        "translations": { "en": "Nice to meet you", "es": "Mucho gusto", "fr": "Enchanté(e)", "de": "Freut mich", "ar": "تشرفنا", "zh": "很高兴认识你", "pt": "Prazer em conhecê-lo(a)", "ja": "はじめまして" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "مرحبا!",
+        "pronunciation": "marHaban!",
+        "translations": { "en": "Hello!", "es": "¡Hola!", "fr": "Bonjour !", "de": "Hallo!", "ar": "مرحبا!", "zh": "你好！", "pt": "Olá!", "ja": "こんにちは！" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أهلاً! ما اسمك؟",
+        "pronunciation": "ahlan! maa ismuk?",
+        "translations": { "en": "Hi! What's your name?", "es": "¡Hola! ¿Cómo te llamas?", "fr": "Salut ! Comment tu t'appelles ?", "de": "Hi! Wie heißt du?", "ar": "أهلاً! ما اسمك؟", "zh": "嗨！你叫什么名字？", "pt": "Oi! Qual é o seu nome?", "ja": "やあ！お名前は何ですか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "اسمي ليلى. وأنت؟",
+        "pronunciation": "ismi Layla. wa anta?",
+        "translations": { "en": "My name is Layla. And you?", "es": "Me llamo Layla. ¿Y tú?", "fr": "Je m'appelle Layla. Et toi ?", "de": "Mein Name ist Layla. Und du?", "ar": "اسمي ليلى. وأنت؟", "zh": "我叫莱拉。你呢？", "pt": "Meu nome é Layla. E você?", "ja": "私の名前はライラです。あなたは？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "اسمي عمر.",
+        "pronunciation": "ismi 'Omar.",
+        "translations": { "en": "My name is Omar.", "es": "Me llamo Omar.", "fr": "Je m'appelle Omar.", "de": "Mein Name ist Omar.", "ar": "اسمي عمر.", "zh": "我叫奥马尔。", "pt": "Meu nome é Omar.", "ja": "私の名前はオマルです。" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "تشرفنا يا عمر.",
+        "pronunciation": "tasharrafna ya 'Omar.",
+        "translations": { "en": "Nice to meet you, Omar.", "es": "Mucho gusto, Omar.", "fr": "Enchantée, Omar.", "de": "Freut mich, Omar.", "ar": "تشرفنا يا عمر.", "zh": "很高兴认识你，奥马尔。", "pt": "Prazer em conhecê-lo, Omar.", "ja": "オマルさん、はじめまして。" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "تشرفنا أيضاً!",
+        "pronunciation": "tasharrafna ayDan!",
+        "translations": { "en": "Nice to meet you too!", "es": "¡Mucho gusto también!", "fr": "Enchanté aussi !", "de": "Mich auch!", "ar": "تشرفنا أيضاً!", "zh": "我也很高兴认识你！", "pt": "Prazer em conhecê-la também!", "ja": "私もはじめまして！" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 2,
+    "title": { "en": "Where You're From", "es": "De Dónde Eres", "fr": "D'où Vous Venez", "de": "Woher Du Kommst", "ar": "من أين أنت", "zh": "你来自哪里", "pt": "De Onde Você É", "ja": "出身はどこですか" },
+    "phrases": [
+      {
+        "target_text": "من أين أنت؟",
+        "pronunciation": "min ayna anta? (to a man) / anti (to a woman)",
+        "translations": { "en": "Where are you from?", "es": "¿De dónde eres?", "fr": "D'où viens-tu ?", "de": "Woher kommst du?", "ar": "من أين أنت؟", "zh": "你来自哪里？", "pt": "De onde você é?", "ja": "出身はどこですか？" }
+      },
+      {
+        "target_text": "أنا من أمريكا",
+        "pronunciation": "ana min amreeka",
+        "translations": { "en": "I'm from America", "es": "Soy de Estados Unidos", "fr": "Je viens des États-Unis", "de": "Ich komme aus Amerika", "ar": "أنا من أمريكا", "zh": "我来自美国", "pt": "Eu sou dos Estados Unidos", "ja": "私はアメリカ出身です" }
+      },
+      {
+        "target_text": "أنا أعيش في القاهرة",
+        "pronunciation": "ana a'eesh fi al-qaahira",
+        "translations": { "en": "I live in Cairo", "es": "Vivo en El Cairo", "fr": "J'habite au Caire", "de": "Ich lebe in Kairo", "ar": "أنا أعيش في القاهرة", "zh": "我住在开罗", "pt": "Eu moro no Cairo", "ja": "私はカイロに住んでいます" }
+      },
+      {
+        "target_text": "ما جنسيتك؟",
+        "pronunciation": "maa jinsiyyatuk? (JIN-see-yah-tuk)",
+        "translations": { "en": "What's your nationality?", "es": "¿Cuál es tu nacionalidad?", "fr": "Quelle est ta nationalité ?", "de": "Welche Nationalität hast du?", "ar": "ما جنسيتك؟", "zh": "你的国籍是什么？", "pt": "Qual é a sua nacionalidade?", "ja": "国籍はどちらですか？" }
+      },
+      {
+        "target_text": "أنا مصري",
+        "pronunciation": "ana maSri (man) / maSriyya (woman)",
+        "translations": { "en": "I'm Egyptian", "es": "Soy egipcio/a", "fr": "Je suis égyptien(ne)", "de": "Ich bin Ägypter/in", "ar": "أنا مصري", "zh": "我是埃及人", "pt": "Eu sou egípcio/a", "ja": "私はエジプト人です" }
+      },
+      {
+        "target_text": "من أي مدينة أنت؟",
+        "pronunciation": "min ayy madeena anta?",
+        "translations": { "en": "Which city are you from?", "es": "¿De qué ciudad eres?", "fr": "De quelle ville viens-tu ?", "de": "Aus welcher Stadt kommst du?", "ar": "من أي مدينة أنت؟", "zh": "你来自哪个城市？", "pt": "De qual cidade você é?", "ja": "どちらの街の出身ですか？" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "من أين أنت؟",
+        "pronunciation": "min ayna anta?",
+        "translations": { "en": "Where are you from?", "es": "¿De dónde eres?", "fr": "D'où viens-tu ?", "de": "Woher kommst du?", "ar": "من أين أنت؟", "zh": "你来自哪里？", "pt": "De onde você é?", "ja": "出身はどこですか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أنا من فرنسا. وأنت؟",
+        "pronunciation": "ana min faransa. wa anti?",
+        "translations": { "en": "I'm from France. And you?", "es": "Soy de Francia. ¿Y tú?", "fr": "Je viens de France. Et toi ?", "de": "Ich komme aus Frankreich. Und du?", "ar": "أنا من فرنسا. وأنت؟", "zh": "我来自法国。你呢？", "pt": "Eu sou da França. E você?", "ja": "私はフランス出身です。あなたは？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "أنا مصرية، من القاهرة.",
+        "pronunciation": "ana maSriyya, min al-qaahira.",
+        "translations": { "en": "I'm Egyptian, from Cairo.", "es": "Soy egipcia, de El Cairo.", "fr": "Je suis égyptienne, du Caire.", "de": "Ich bin Ägypterin, aus Kairo.", "ar": "أنا مصرية، من القاهرة.", "zh": "我是埃及人，来自开罗。", "pt": "Eu sou egípcia, do Cairo.", "ja": "私はエジプト人で、カイロ出身です。" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "رائع! وأين تعيشين الآن؟",
+        "pronunciation": "raa'i'! wa ayna ta'eesheen al-aan?",
+        "translations": { "en": "Nice! And where do you live now?", "es": "¡Qué bien! ¿Y dónde vives ahora?", "fr": "Super ! Et où habites-tu maintenant ?", "de": "Schön! Und wo lebst du jetzt?", "ar": "رائع! وأين تعيشين الآن؟", "zh": "太好了！你现在住在哪里？", "pt": "Legal! E onde você mora agora?", "ja": "いいですね！今はどこに住んでいますか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "أعيش في دبي.",
+        "pronunciation": "a'eesh fi dubay.",
+        "translations": { "en": "I live in Dubai.", "es": "Vivo en Dubái.", "fr": "J'habite à Dubaï.", "de": "Ich lebe in Dubai.", "ar": "أعيش في دبي.", "zh": "我住在迪拜。", "pt": "Eu moro em Dubai.", "ja": "私はドバイに住んでいます。" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "مدينة جميلة!",
+        "pronunciation": "madeena jameela!",
+        "translations": { "en": "Beautiful city!", "es": "¡Una ciudad hermosa!", "fr": "Une belle ville !", "de": "Eine schöne Stadt!", "ar": "مدينة جميلة!", "zh": "很美的城市！", "pt": "Uma cidade linda!", "ja": "美しい街ですね！" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 3,
+    "title": { "en": "Greetings", "es": "Saludos", "fr": "Salutations", "de": "Begrüßungen", "ar": "التحيات", "zh": "问候语", "pt": "Cumprimentos", "ja": "挨拶" },
+    "phrases": [
+      {
+        "target_text": "صباح الخير",
+        "pronunciation": "SabaaH al-khayr",
+        "translations": { "en": "Good morning", "es": "Buenos días", "fr": "Bonjour (matin)", "de": "Guten Morgen", "ar": "صباح الخير", "zh": "早上好", "pt": "Bom dia", "ja": "おはようございます" }
+      },
+      {
+        "target_text": "مساء الخير",
+        "pronunciation": "masaa' al-khayr",
+        "translations": { "en": "Good afternoon/evening", "es": "Buenas tardes", "fr": "Bonsoir", "de": "Guten Tag/Abend", "ar": "مساء الخير", "zh": "下午好/晚上好", "pt": "Boa tarde/noite", "ja": "こんばんは" }
+      },
+      {
+        "target_text": "تصبح على خير",
+        "pronunciation": "tuSbiH 'ala khayr (to a man) / tuSbiHi (to a woman)",
+        "translations": { "en": "Good night", "es": "Buenas noches", "fr": "Bonne nuit", "de": "Gute Nacht", "ar": "تصبح على خير", "zh": "晚安", "pt": "Boa noite (ao dormir)", "ja": "おやすみなさい" }
+      },
+      {
+        "target_text": "هاي",
+        "pronunciation": "haay (casual)",
+        "translations": { "en": "Hi (casual)", "es": "Hola (casual)", "fr": "Salut (décontracté)", "de": "Hi (locker)", "ar": "هاي", "zh": "嗨（随意）", "pt": "Oi (casual)", "ja": "やあ（カジュアル）" }
+      },
+      {
+        "target_text": "كيف حالك؟",
+        "pronunciation": "kayf Haaluk? (to a man) / Haaluki (to a woman)",
+        "translations": { "en": "How are you?", "es": "¿Cómo estás?", "fr": "Comment vas-tu ?", "de": "Wie geht es dir?", "ar": "كيف حالك؟", "zh": "你好吗？", "pt": "Como você está?", "ja": "お元気ですか？" }
+      },
+      {
+        "target_text": "بخير، الحمد لله",
+        "pronunciation": "bikhayr, al-Hamdu lillah",
+        "translations": { "en": "I'm fine, thank God", "es": "Estoy bien, gracias a Dios", "fr": "Je vais bien, Dieu merci", "de": "Mir geht's gut, Gott sei Dank", "ar": "بخير، الحمد لله", "zh": "我很好，感谢主", "pt": "Estou bem, graças a Deus", "ja": "元気です、おかげさまで" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "صباح الخير!",
+        "pronunciation": "SabaaH al-khayr!",
+        "translations": { "en": "Good morning!", "es": "¡Buenos días!", "fr": "Bonjour !", "de": "Guten Morgen!", "ar": "صباح الخير!", "zh": "早上好！", "pt": "Bom dia!", "ja": "おはようございます！" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "صباح النور! كيف حالك؟",
+        "pronunciation": "SabaaH an-noor! kayf Haaluk?",
+        "translations": { "en": "Good morning (reply)! How are you?", "es": "¡Buenos días (respuesta)! ¿Cómo estás?", "fr": "Bonjour (réponse) ! Comment vas-tu ?", "de": "Guten Morgen (Antwort)! Wie geht's dir?", "ar": "صباح النور! كيف حالك؟", "zh": "早上好（回应）！你好吗？", "pt": "Bom dia (resposta)! Como você está?", "ja": "おはようございます（返事）！お元気ですか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "بخير، الحمد لله. وأنت؟",
+        "pronunciation": "bikhayr, al-Hamdu lillah. wa anta?",
+        "translations": { "en": "I'm fine, thank God. And you?", "es": "Estoy bien, gracias a Dios. ¿Y tú?", "fr": "Je vais bien, Dieu merci. Et toi ?", "de": "Mir geht's gut, Gott sei Dank. Und dir?", "ar": "بخير، الحمد لله. وأنت؟", "zh": "我很好，感谢主。你呢？", "pt": "Estou bem, graças a Deus. E você?", "ja": "元気です、おかげさまで。あなたは？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "بخير أيضاً، شكراً.",
+        "pronunciation": "bikhayr ayDan, shukran.",
+        "translations": { "en": "I'm fine too, thanks.", "es": "Yo también estoy bien, gracias.", "fr": "Je vais bien aussi, merci.", "de": "Mir geht's auch gut, danke.", "ar": "بخير أيضاً، شكراً.", "zh": "我也很好，谢谢。", "pt": "Também estou bem, obrigado.", "ja": "私も元気です、ありがとう。" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "أراك لاحقاً!",
+        "pronunciation": "araaka laaHiqan!",
+        "translations": { "en": "See you later!", "es": "¡Nos vemos luego!", "fr": "À plus tard !", "de": "Bis später!", "ar": "أراك لاحقاً!", "zh": "回头见！", "pt": "Até mais tarde!", "ja": "また後で！" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "تصبح على خير!",
+        "pronunciation": "tuSbiH 'ala khayr!",
+        "translations": { "en": "Good night!", "es": "¡Buenas noches!", "fr": "Bonne nuit !", "de": "Gute Nacht!", "ar": "تصبح على خير!", "zh": "晚安！", "pt": "Boa noite!", "ja": "おやすみなさい！" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 4,
+    "title": { "en": "Politeness & Manners", "es": "Cortesía y Modales", "fr": "Politesse et Bonnes Manières", "de": "Höflichkeit und Umgangsformen", "ar": "الأدب والمجاملات", "zh": "礼貌用语", "pt": "Educação e Boas Maneiras", "ja": "礼儀とマナー" },
+    "phrases": [
+      {
+        "target_text": "من فضلك",
+        "pronunciation": "min faDlik (to a woman) / faDlak (to a man)",
+        "translations": { "en": "Please", "es": "Por favor", "fr": "S'il te plaît", "de": "Bitte", "ar": "من فضلك", "zh": "请", "pt": "Por favor", "ja": "お願いします" }
+      },
+      {
+        "target_text": "شكراً",
+        "pronunciation": "shukran (SHUK-ran)",
+        "translations": { "en": "Thank you", "es": "Gracias", "fr": "Merci", "de": "Danke", "ar": "شكراً", "zh": "谢谢", "pt": "Obrigado/a", "ja": "ありがとう" }
+      },
+      {
+        "target_text": "عفواً",
+        "pronunciation": "'afwan ('AF-wan)",
+        "translations": { "en": "You're welcome", "es": "De nada", "fr": "Je t'en prie", "de": "Bitte schön (Antwort)", "ar": "عفواً", "zh": "不客气", "pt": "De nada", "ja": "どういたしまして" }
+      },
+      {
+        "target_text": "لو سمحت",
+        "pronunciation": "law samaHt (excuse me, to get attention)",
+        "translations": { "en": "Excuse me", "es": "Disculpa", "fr": "Excusez-moi", "de": "Entschuldigung", "ar": "لو سمحت", "zh": "打扰一下", "pt": "Com licença", "ja": "すみません" }
+      },
+      {
+        "target_text": "آسف",
+        "pronunciation": "aasif (man) / aasifa (woman)",
+        "translations": { "en": "Sorry", "es": "Lo siento", "fr": "Désolé(e)", "de": "Entschuldigung / Es tut mir leid", "ar": "آسف", "zh": "对不起", "pt": "Desculpe", "ja": "ごめんなさい" }
+      },
+      {
+        "target_text": "لا مشكلة",
+        "pronunciation": "laa mushkila",
+        "translations": { "en": "No problem", "es": "No hay problema", "fr": "Pas de problème", "de": "Kein Problem", "ar": "لا مشكلة", "zh": "没问题", "pt": "Sem problema", "ja": "問題ありません" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "لو سمحت، أين الحمام؟",
+        "pronunciation": "law samaHt, ayna al-Hammaam?",
+        "translations": { "en": "Excuse me, where's the bathroom?", "es": "Disculpa, ¿dónde está el baño?", "fr": "Excusez-moi, où sont les toilettes ?", "de": "Entschuldigung, wo ist die Toilette?", "ar": "لو سمحت، أين الحمام؟", "zh": "打扰一下，洗手间在哪里？", "pt": "Com licença, onde é o banheiro?", "ja": "すみません、お手洗いはどこですか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "هناك، من فضلك.",
+        "pronunciation": "hunaak, min faDlik.",
+        "translations": { "en": "Over there, please.", "es": "Allí, por favor.", "fr": "Là-bas, s'il te plaît.", "de": "Dort drüben, bitte.", "ar": "هناك، من فضلك.", "zh": "那边，请。", "pt": "Ali, por favor.", "ja": "あちらです、どうぞ。" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "شكراً جزيلاً!",
+        "pronunciation": "shukran jazeelan!",
+        "translations": { "en": "Thank you very much!", "es": "¡Muchas gracias!", "fr": "Merci beaucoup !", "de": "Vielen Dank!", "ar": "شكراً جزيلاً!", "zh": "非常感谢！", "pt": "Muito obrigado(a)!", "ja": "どうもありがとう！" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "عفواً.",
+        "pronunciation": "'afwan.",
+        "translations": { "en": "You're welcome.", "es": "De nada.", "fr": "Je t'en prie.", "de": "Bitte schön.", "ar": "عفواً.", "zh": "不客气。", "pt": "De nada.", "ja": "どういたしまして。" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "آسف، هل أزعجتك؟",
+        "pronunciation": "aasif, hal az'ajtuk?",
+        "translations": { "en": "Sorry, did I bother you?", "es": "Perdón, ¿te molesté?", "fr": "Désolé, je t'ai dérangé ?", "de": "Entschuldigung, habe ich dich gestört?", "ar": "آسف، هل أزعجتك؟", "zh": "抱歉，我打扰你了吗？", "pt": "Desculpe, eu te incomodei?", "ja": "ごめんなさい、迷惑でしたか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "لا مشكلة أبداً!",
+        "pronunciation": "laa mushkila abadan!",
+        "translations": { "en": "No problem at all!", "es": "¡Ningún problema!", "fr": "Aucun problème !", "de": "Überhaupt kein Problem!", "ar": "لا مشكلة أبداً!", "zh": "完全没问题！", "pt": "Sem problema nenhum!", "ja": "全然問題ありません！" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 5,
+    "title": { "en": "Asking About Someone Else", "es": "Preguntar Sobre Otra Persona", "fr": "S'informer Sur Quelqu'un d'Autre", "de": "Sich Nach Jemand Anderem Erkundigen", "ar": "السؤال عن الآخرين", "zh": "询问对方的情况", "pt": "Perguntando Sobre Outra Pessoa", "ja": "相手について尋ねる" },
+    "phrases": [
+      {
+        "target_text": "وأنت، كيف حالك؟",
+        "pronunciation": "wa anta, kayf Haaluk?",
+        "translations": { "en": "And you, how are you?", "es": "¿Y tú, cómo estás?", "fr": "Et toi, comment vas-tu ?", "de": "Und du, wie geht's dir?", "ar": "وأنت، كيف حالك؟", "zh": "那你呢，你好吗？", "pt": "E você, como está?", "ja": "あなたはどうですか？" }
+      },
+      {
+        "target_text": "ماذا تعمل؟",
+        "pronunciation": "maadha ta'mal? (to a man) / ta'maleen (to a woman)",
+        "translations": { "en": "What do you do (for work)?", "es": "¿A qué te dedicas?", "fr": "Qu'est-ce que tu fais dans la vie ?", "de": "Was machst du beruflich?", "ar": "ماذا تعمل؟", "zh": "你是做什么工作的？", "pt": "O que você faz (profissionalmente)?", "ja": "お仕事は何をされていますか？" }
+      },
+      {
+        "target_text": "هل تتكلم الإنجليزية؟",
+        "pronunciation": "hal tatakallam al-injileeziyya?",
+        "translations": { "en": "Do you speak English?", "es": "¿Hablas inglés?", "fr": "Parles-tu anglais ?", "de": "Sprichst du Englisch?", "ar": "هل تتكلم الإنجليزية؟", "zh": "你会说英语吗？", "pt": "Você fala inglês?", "ja": "英語を話しますか？" }
+      },
+      {
+        "target_text": "لا أفهم",
+        "pronunciation": "laa afham",
+        "translations": { "en": "I don't understand", "es": "No entiendo", "fr": "Je ne comprends pas", "de": "Ich verstehe nicht", "ar": "لا أفهم", "zh": "我不明白", "pt": "Eu não entendo", "ja": "分かりません" }
+      },
+      {
+        "target_text": "ممكن تعيد؟",
+        "pronunciation": "mumkin tu'eed? (can you repeat, to a man)",
+        "translations": { "en": "Can you repeat that?", "es": "¿Puedes repetirlo?", "fr": "Peux-tu répéter ?", "de": "Kannst du das wiederholen?", "ar": "ممكن تعيد؟", "zh": "你能再说一遍吗？", "pt": "Você pode repetir?", "ja": "もう一度言ってもらえますか？" }
+      },
+      {
+        "target_text": "بشكل عام، بخير",
+        "pronunciation": "bishakl 'aam, bikhayr",
+        "translations": { "en": "In general, I'm doing well", "es": "En general, estoy bien", "fr": "En général, ça va bien", "de": "Im Allgemeinen geht es mir gut", "ar": "بشكل عام، بخير", "zh": "总的来说，我很好", "pt": "No geral, estou bem", "ja": "全体的には元気です" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "كيف حالك اليوم؟",
+        "pronunciation": "kayf Haaluk al-yawm?",
+        "translations": { "en": "How are you today?", "es": "¿Cómo estás hoy?", "fr": "Comment vas-tu aujourd'hui ?", "de": "Wie geht's dir heute?", "ar": "كيف حالك اليوم؟", "zh": "你今天怎么样？", "pt": "Como você está hoje?", "ja": "今日は元気ですか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "بخير، شكراً. وأنت؟",
+        "pronunciation": "bikhayr, shukran. wa anta?",
+        "translations": { "en": "Fine, thanks. And you?", "es": "Bien, gracias. ¿Y tú?", "fr": "Bien, merci. Et toi ?", "de": "Gut, danke. Und du?", "ar": "بخير، شكراً. وأنت؟", "zh": "很好，谢谢。你呢？", "pt": "Bem, obrigado. E você?", "ja": "元気です、ありがとう。あなたは？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "بخير أيضاً. ماذا تعمل؟",
+        "pronunciation": "bikhayr ayDan. maadha ta'mal?",
+        "translations": { "en": "Good too. What do you do?", "es": "También bien. ¿A qué te dedicas?", "fr": "Bien aussi. Qu'est-ce que tu fais ?", "de": "Auch gut. Was machst du beruflich?", "ar": "بخير أيضاً. ماذا تعمل؟", "zh": "我也很好。你是做什么的？", "pt": "Também bem. O que você faz?", "ja": "私も元気です。お仕事は何ですか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "آسف، ممكن تعيد السؤال؟",
+        "pronunciation": "aasif, mumkin tu'eed as-su'aal?",
+        "translations": { "en": "Sorry, can you repeat the question?", "es": "Perdón, ¿puedes repetir la pregunta?", "fr": "Désolé, peux-tu répéter la question ?", "de": "Entschuldigung, kannst du die Frage wiederholen?", "ar": "آسف، ممكن تعيد السؤال؟", "zh": "抱歉，你能再说一遍问题吗？", "pt": "Desculpe, pode repetir a pergunta?", "ja": "すみません、質問をもう一度言ってもらえますか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "ماذا تعمل؟ هل تتكلم العربية؟",
+        "pronunciation": "maadha ta'mal? hal tatakallam al-'arabiyya?",
+        "translations": { "en": "What do you do? Do you speak Arabic?", "es": "¿A qué te dedicas? ¿Hablas árabe?", "fr": "Qu'est-ce que tu fais ? Parles-tu arabe ?", "de": "Was machst du? Sprichst du Arabisch?", "ar": "ماذا تعمل؟ هل تتكلم العربية؟", "zh": "你做什么工作？你会说阿拉伯语吗？", "pt": "O que você faz? Você fala árabe?", "ja": "お仕事は何ですか？アラビア語を話しますか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أنا مهندس، وأتكلم قليلاً من العربية.",
+        "pronunciation": "ana muhandis, wa atakallam qaleelan min al-'arabiyya.",
+        "translations": { "en": "I'm an engineer, and I speak a little Arabic.", "es": "Soy ingeniero, y hablo un poco de árabe.", "fr": "Je suis ingénieur, et je parle un peu arabe.", "de": "Ich bin Ingenieur und spreche etwas Arabisch.", "ar": "أنا مهندس، وأتكلم قليلاً من العربية.", "zh": "我是工程师，会说一点阿拉伯语。", "pt": "Sou engenheiro, e falo um pouco de árabe.", "ja": "私はエンジニアで、アラビア語を少し話します。" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 6,
+    "title": { "en": "Your Daily Routine", "es": "Tu Rutina Diaria", "fr": "Votre Routine Quotidienne", "de": "Dein Tagesablauf", "ar": "روتينك اليومي", "zh": "你的日常生活", "pt": "Sua Rotina Diária", "ja": "あなたの日課" },
+    "phrases": [
+      {
+        "target_text": "أستيقظ الساعة السابعة",
+        "pronunciation": "astayqiZ as-saa'a as-saabi'a",
+        "translations": { "en": "I wake up at seven o'clock", "es": "Me despierto a las siete", "fr": "Je me réveille à sept heures", "de": "Ich wache um sieben Uhr auf", "ar": "أستيقظ الساعة السابعة", "zh": "我七点起床", "pt": "Eu acordo às sete horas", "ja": "私は7時に起きます" }
+      },
+      {
+        "target_text": "آكل الفطور",
+        "pronunciation": "aakul al-fuToor",
+        "translations": { "en": "I eat breakfast", "es": "Desayuno", "fr": "Je prends le petit-déjeuner", "de": "Ich frühstücke", "ar": "آكل الفطور", "zh": "我吃早餐", "pt": "Eu tomo café da manhã", "ja": "私は朝食を食べます" }
+      },
+      {
+        "target_text": "أذهب إلى العمل",
+        "pronunciation": "adh-hab ilaa al-'amal",
+        "translations": { "en": "I go to work", "es": "Voy al trabajo", "fr": "Je vais au travail", "de": "Ich gehe zur Arbeit", "ar": "أذهب إلى العمل", "zh": "我去上班", "pt": "Eu vou para o trabalho", "ja": "私は仕事に行きます" }
+      },
+      {
+        "target_text": "أرجع إلى البيت",
+        "pronunciation": "arja' ilaa al-bayt",
+        "translations": { "en": "I come home", "es": "Vuelvo a casa", "fr": "Je rentre à la maison", "de": "Ich komme nach Hause", "ar": "أرجع إلى البيت", "zh": "我回家", "pt": "Eu volto para casa", "ja": "私は家に帰ります" }
+      },
+      {
+        "target_text": "أنام مبكراً",
+        "pronunciation": "anaam mubakkiran",
+        "translations": { "en": "I go to sleep early", "es": "Me duermo temprano", "fr": "Je me couche tôt", "de": "Ich schlafe früh ein", "ar": "أنام مبكراً", "zh": "我早睡", "pt": "Eu durmo cedo", "ja": "私は早く寝ます" }
+      },
+      {
+        "target_text": "في المساء أشاهد التلفاز",
+        "pronunciation": "fi al-masaa' ushaahid at-tilfaaz",
+        "translations": { "en": "In the evening I watch TV", "es": "Por la tarde/noche veo la tele", "fr": "Le soir, je regarde la télé", "de": "Am Abend schaue ich fern", "ar": "في المساء أشاهد التلفاز", "zh": "晚上我看电视", "pt": "À noite eu assisto TV", "ja": "夕方はテレビを見ます" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "متى تستيقظ عادة؟",
+        "pronunciation": "mataa tastayqiZ 'aadatan?",
+        "translations": { "en": "When do you usually wake up?", "es": "¿A qué hora te despiertas normalmente?", "fr": "Quand te réveilles-tu d'habitude ?", "de": "Wann wachst du normalerweise auf?", "ar": "متى تستيقظ عادة؟", "zh": "你通常几点起床？", "pt": "Que horas você costuma acordar?", "ja": "普段は何時に起きますか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أستيقظ الساعة السابعة، ثم آكل الفطور.",
+        "pronunciation": "astayqiZ as-saa'a as-saabi'a, thumma aakul al-fuToor.",
+        "translations": { "en": "I wake up at seven, then I eat breakfast.", "es": "Me despierto a las siete, luego desayuno.", "fr": "Je me réveille à sept heures, puis je prends le petit-déjeuner.", "de": "Ich wache um sieben auf, dann frühstücke ich.", "ar": "أستيقظ الساعة السابعة، ثم آكل الفطور.", "zh": "我七点起床，然后吃早餐。", "pt": "Acordo às sete, depois tomo café da manhã.", "ja": "7時に起きて、それから朝食を食べます。" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "وبعدين، تذهب إلى العمل؟",
+        "pronunciation": "wa ba'dayn, tadh-hab ilaa al-'amal?",
+        "translations": { "en": "And after that, do you go to work?", "es": "¿Y después vas al trabajo?", "fr": "Et après, tu vas au travail ?", "de": "Und danach gehst du zur Arbeit?", "ar": "وبعدين، تذهب إلى العمل؟", "zh": "然后你去上班吗？", "pt": "E depois, você vai trabalhar?", "ja": "その後、仕事に行きますか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "نعم، وفي المساء أرجع إلى البيت.",
+        "pronunciation": "na'am, wa fi al-masaa' arja' ilaa al-bayt.",
+        "translations": { "en": "Yes, and in the evening I come home.", "es": "Sí, y por la noche vuelvo a casa.", "fr": "Oui, et le soir je rentre à la maison.", "de": "Ja, und am Abend komme ich nach Hause.", "ar": "نعم، وفي المساء أرجع إلى البيت.", "zh": "是的，晚上我回家。", "pt": "Sim, e à noite volto para casa.", "ja": "はい、夕方には家に帰ります。" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "متى تنام؟",
+        "pronunciation": "mataa tanaam?",
+        "translations": { "en": "When do you sleep?", "es": "¿Cuándo te duermes?", "fr": "Quand dors-tu ?", "de": "Wann schläfst du?", "ar": "متى تنام؟", "zh": "你什么时候睡觉？", "pt": "Quando você dorme?", "ja": "いつ寝ますか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أنام مبكراً، حوالي الساعة العاشرة.",
+        "pronunciation": "anaam mubakkiran, Hawaali as-saa'a al-'aashira.",
+        "translations": { "en": "I sleep early, around ten o'clock.", "es": "Me duermo temprano, sobre las diez.", "fr": "Je me couche tôt, vers dix heures.", "de": "Ich schlafe früh, gegen zehn Uhr.", "ar": "أنام مبكراً، حوالي الساعة العاشرة.", "zh": "我睡得早，大约十点。", "pt": "Durmo cedo, por volta das dez.", "ja": "早く寝ます、だいたい10時ごろです。" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 7,
+    "title": { "en": "Work & School", "es": "Trabajo y Escuela", "fr": "Travail et École", "de": "Arbeit und Schule", "ar": "العمل والدراسة", "zh": "工作与学校", "pt": "Trabalho e Escola", "ja": "仕事と学校" },
+    "phrases": [
+      {
+        "target_text": "أعمل مهندساً",
+        "pronunciation": "a'mal muhandisan",
+        "translations": { "en": "I work as an engineer", "es": "Trabajo como ingeniero", "fr": "Je travaille comme ingénieur", "de": "Ich arbeite als Ingenieur", "ar": "أعمل مهندساً", "zh": "我是工程师", "pt": "Eu trabalho como engenheiro", "ja": "私はエンジニアとして働いています" }
+      },
+      {
+        "target_text": "أدرس الطب",
+        "pronunciation": "adrus aT-Tibb",
+        "translations": { "en": "I study medicine", "es": "Estudio medicina", "fr": "J'étudie la médecine", "de": "Ich studiere Medizin", "ar": "أدرس الطب", "zh": "我学医", "pt": "Eu estudo medicina", "ja": "私は医学を勉強しています" }
+      },
+      {
+        "target_text": "أنا طالب",
+        "pronunciation": "ana Taalib (man) / Taaliba (woman)",
+        "translations": { "en": "I am a student", "es": "Soy estudiante", "fr": "Je suis étudiant(e)", "de": "Ich bin Student(in)", "ar": "أنا طالب", "zh": "我是学生", "pt": "Eu sou estudante", "ja": "私は学生です" }
+      },
+      {
+        "target_text": "ماذا تعمل؟",
+        "pronunciation": "maadha ta'mal? (what do you do for work)",
+        "translations": { "en": "What do you do for work?", "es": "¿En qué trabajas?", "fr": "Que fais-tu comme travail ?", "de": "Was machst du beruflich?", "ar": "ماذا تعمل؟", "zh": "你从事什么工作？", "pt": "Em que você trabalha?", "ja": "どんなお仕事をされていますか？" }
+      },
+      {
+        "target_text": "أعمل في مكتب",
+        "pronunciation": "a'mal fi maktab",
+        "translations": { "en": "I work in an office", "es": "Trabajo en una oficina", "fr": "Je travaille dans un bureau", "de": "Ich arbeite in einem Büro", "ar": "أعمل في مكتب", "zh": "我在办公室工作", "pt": "Eu trabalho em um escritório", "ja": "私はオフィスで働いています" }
+      },
+      {
+        "target_text": "أدرس في الجامعة",
+        "pronunciation": "adrus fi al-jaami'a",
+        "translations": { "en": "I study at the university", "es": "Estudio en la universidad", "fr": "J'étudie à l'université", "de": "Ich studiere an der Universität", "ar": "أدرس في الجامعة", "zh": "我在大学读书", "pt": "Eu estudo na universidade", "ja": "私は大学で勉強しています" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "ماذا تعمل؟",
+        "pronunciation": "maadha ta'mal?",
+        "translations": { "en": "What do you do for work?", "es": "¿En qué trabajas?", "fr": "Que fais-tu comme travail ?", "de": "Was machst du beruflich?", "ar": "ماذا تعمل؟", "zh": "你从事什么工作？", "pt": "Em que você trabalha?", "ja": "どんなお仕事をされていますか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أعمل مهندساً في مكتب. وأنت؟",
+        "pronunciation": "a'mal muhandisan fi maktab. wa anti?",
+        "translations": { "en": "I work as an engineer in an office. And you?", "es": "Trabajo como ingeniero en una oficina. ¿Y tú?", "fr": "Je travaille comme ingénieur dans un bureau. Et toi ?", "de": "Ich arbeite als Ingenieur in einem Büro. Und du?", "ar": "أعمل مهندساً في مكتب. وأنت؟", "zh": "我在办公室做工程师。你呢？", "pt": "Trabalho como engenheiro em um escritório. E você?", "ja": "オフィスでエンジニアとして働いています。あなたは？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "أنا طالبة، أدرس الطب في الجامعة.",
+        "pronunciation": "ana Taaliba, adrus aT-Tibb fi al-jaami'a.",
+        "translations": { "en": "I'm a student, I study medicine at the university.", "es": "Soy estudiante, estudio medicina en la universidad.", "fr": "Je suis étudiante, j'étudie la médecine à l'université.", "de": "Ich bin Studentin, ich studiere Medizin an der Universität.", "ar": "أنا طالبة، أدرس الطب في الجامعة.", "zh": "我是学生，在大学学医。", "pt": "Sou estudante, estudo medicina na universidade.", "ja": "私は学生で、大学で医学を勉強しています。" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "رائع! هل الدراسة صعبة؟",
+        "pronunciation": "raa'i'! hal ad-diraasa Sa'ba?",
+        "translations": { "en": "Great! Is the study hard?", "es": "¡Genial! ¿Es difícil el estudio?", "fr": "Super ! Les études sont difficiles ?", "de": "Toll! Ist das Studium schwer?", "ar": "رائع! هل الدراسة صعبة؟", "zh": "太好了！学习难吗？", "pt": "Legal! Os estudos são difíceis?", "ja": "すごいですね！勉強は大変ですか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "نعم، لكنها ممتعة جداً.",
+        "pronunciation": "na'am, laakinnahaa mumti'a jiddan.",
+        "translations": { "en": "Yes, but it's very interesting.", "es": "Sí, pero es muy interesante.", "fr": "Oui, mais c'est très intéressant.", "de": "Ja, aber es ist sehr interessant.", "ar": "نعم، لكنها ممتعة جداً.", "zh": "是的，但非常有趣。", "pt": "Sim, mas é muito interessante.", "ja": "はい、でもとても面白いです。" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أتمنى لك التوفيق!",
+        "pronunciation": "atamannaa lak at-tawfeeq!",
+        "translations": { "en": "I wish you success!", "es": "¡Te deseo mucho éxito!", "fr": "Je te souhaite bonne chance !", "de": "Ich wünsche dir viel Erfolg!", "ar": "أتمنى لك التوفيق!", "zh": "祝你成功！", "pt": "Desejo-lhe sucesso!", "ja": "成功を祈っています！" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 8,
+    "title": { "en": "Feelings & Emotions", "es": "Sentimientos y Emociones", "fr": "Sentiments et Émotions", "de": "Gefühle und Emotionen", "ar": "المشاعر والأحاسيس", "zh": "感受与情绪", "pt": "Sentimentos e Emoções", "ja": "気持ちと感情" },
+    "phrases": [
+      {
+        "target_text": "أنا سعيد",
+        "pronunciation": "ana sa'eed (man) / sa'eeda (woman)",
+        "translations": { "en": "I'm happy", "es": "Estoy feliz", "fr": "Je suis heureux/heureuse", "de": "Ich bin glücklich", "ar": "أنا سعيد", "zh": "我很开心", "pt": "Estou feliz", "ja": "私は嬉しいです" }
+      },
+      {
+        "target_text": "أنا متعب",
+        "pronunciation": "ana ta'baan (man) / ta'baana (woman)",
+        "translations": { "en": "I'm tired", "es": "Estoy cansado/a", "fr": "Je suis fatigué(e)", "de": "Ich bin müde", "ar": "أنا متعب", "zh": "我很累", "pt": "Estou cansado/a", "ja": "私は疲れています" }
+      },
+      {
+        "target_text": "أنا حزين",
+        "pronunciation": "ana Hazeen (man) / Hazeena (woman)",
+        "translations": { "en": "I'm sad", "es": "Estoy triste", "fr": "Je suis triste", "de": "Ich bin traurig", "ar": "أنا حزين", "zh": "我很难过", "pt": "Estou triste", "ja": "私は悲しいです" }
+      },
+      {
+        "target_text": "أنا متحمس",
+        "pronunciation": "ana mutaHammis (man) / mutaHammisa (woman)",
+        "translations": { "en": "I'm excited", "es": "Estoy emocionado/a", "fr": "Je suis enthousiaste", "de": "Ich bin aufgeregt", "ar": "أنا متحمس", "zh": "我很兴奋", "pt": "Estou animado/a", "ja": "私はわくわくしています" }
+      },
+      {
+        "target_text": "أنا جائع",
+        "pronunciation": "ana jaa'i' (man) / jaa'i'a (woman)",
+        "translations": { "en": "I'm hungry", "es": "Tengo hambre", "fr": "J'ai faim", "de": "Ich habe Hunger", "ar": "أنا جائع", "zh": "我饿了", "pt": "Estou com fome", "ja": "お腹が空きました" }
+      },
+      {
+        "target_text": "كيف تشعر؟",
+        "pronunciation": "kayf tash'ur? (to a man) / tash'ureen (to a woman)",
+        "translations": { "en": "How do you feel?", "es": "¿Cómo te sientes?", "fr": "Comment te sens-tu ?", "de": "Wie fühlst du dich?", "ar": "كيف تشعر؟", "zh": "你感觉怎么样？", "pt": "Como você se sente?", "ja": "気分はどうですか？" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "كيف تشعر اليوم؟",
+        "pronunciation": "kayf tash'ur al-yawm?",
+        "translations": { "en": "How do you feel today?", "es": "¿Cómo te sientes hoy?", "fr": "Comment te sens-tu aujourd'hui ?", "de": "Wie fühlst du dich heute?", "ar": "كيف تشعر اليوم؟", "zh": "你今天感觉怎么样？", "pt": "Como você está se sentindo hoje?", "ja": "今日の気分はどうですか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "أنا متعب قليلاً، لكن بخير.",
+        "pronunciation": "ana ta'baan qaleelan, laakin bikhayr.",
+        "translations": { "en": "I'm a bit tired, but okay.", "es": "Estoy un poco cansado, pero bien.", "fr": "Je suis un peu fatigué, mais ça va.", "de": "Ich bin etwas müde, aber es geht mir gut.", "ar": "أنا متعب قليلاً، لكن بخير.", "zh": "我有点累，但还好。", "pt": "Estou um pouco cansado, mas bem.", "ja": "少し疲れていますが、大丈夫です。" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "أنا سعيد جداً اليوم!",
+        "pronunciation": "ana sa'eed jiddan al-yawm!",
+        "translations": { "en": "I'm very happy today!", "es": "¡Estoy muy feliz hoy!", "fr": "Je suis très heureux aujourd'hui !", "de": "Ich bin heute sehr glücklich!", "ar": "أنا سعيد جداً اليوم!", "zh": "我今天非常开心！", "pt": "Estou muito feliz hoje!", "ja": "今日はとても嬉しいです！" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "لماذا؟ ما الخبر؟",
+        "pronunciation": "limaadha? maa al-khabar?",
+        "translations": { "en": "Why? What's the news?", "es": "¿Por qué? ¿Qué noticias hay?", "fr": "Pourquoi ? Quelle nouvelle ?", "de": "Warum? Was gibt's Neues?", "ar": "لماذا؟ ما الخبر؟", "zh": "为什么？有什么好消息？", "pt": "Por quê? Qual é a novidade?", "ja": "どうしてですか？何かありましたか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "أنا متحمس جداً لرحلتي غداً!",
+        "pronunciation": "ana mutaHammis jiddan liriHlati ghadan!",
+        "translations": { "en": "I'm very excited for my trip tomorrow!", "es": "¡Estoy muy emocionado por mi viaje de mañana!", "fr": "Je suis très enthousiaste pour mon voyage de demain !", "de": "Ich freue mich sehr auf meine Reise morgen!", "ar": "أنا متحمس جداً لرحلتي غداً!", "zh": "我对明天的旅行非常兴奋！", "pt": "Estou muito animado com minha viagem amanhã!", "ja": "明日の旅行がとても楽しみです！" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "هذا رائع! استمتع بوقتك.",
+        "pronunciation": "haadhaa raa'i'! istamti' biwaqtik.",
+        "translations": { "en": "That's great! Enjoy yourself.", "es": "¡Qué bien! Disfrútalo.", "fr": "C'est super ! Profite bien.", "de": "Das ist toll! Viel Spaß.", "ar": "هذا رائع! استمتع بوقتك.", "zh": "太棒了！玩得开心。", "pt": "Que ótimo! Aproveite.", "ja": "それは素晴らしい！楽しんでくださいね。" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 9,
+    "title": { "en": "Making Plans", "es": "Haciendo Planes", "fr": "Faire des Projets", "de": "Pläne Machen", "ar": "التخطيط للقاء", "zh": "制定计划", "pt": "Fazendo Planos", "ja": "予定を立てる" },
+    "phrases": [
+      {
+        "target_text": "ماذا تفعل اليوم؟",
+        "pronunciation": "maadha taf'al al-yawm?",
+        "translations": { "en": "What are you doing today?", "es": "¿Qué haces hoy?", "fr": "Qu'est-ce que tu fais aujourd'hui ?", "de": "Was machst du heute?", "ar": "ماذا تفعل اليوم؟", "zh": "你今天要做什么？", "pt": "O que você vai fazer hoje?", "ja": "今日は何をしますか？" }
+      },
+      {
+        "target_text": "لنتقابل!",
+        "pronunciation": "linatqaabal!",
+        "translations": { "en": "Let's meet up!", "es": "¡Vamos a quedar!", "fr": "Retrouvons-nous !", "de": "Lass uns treffen!", "ar": "لنتقابل!", "zh": "我们见面吧！", "pt": "Vamos nos encontrar!", "ja": "会いましょう！" }
+      },
+      {
+        "target_text": "هل أنت متفرغ غداً؟",
+        "pronunciation": "hal anta mutafarrigh ghadan? (to a man)",
+        "translations": { "en": "Are you free tomorrow?", "es": "¿Estás libre mañana?", "fr": "Es-tu libre demain ?", "de": "Hast du morgen Zeit?", "ar": "هل أنت متفرغ غداً؟", "zh": "你明天有空吗？", "pt": "Você está livre amanhã?", "ja": "明日は空いていますか？" }
+      },
+      {
+        "target_text": "عندي خطط",
+        "pronunciation": "'indi khuTaT",
+        "translations": { "en": "I have plans", "es": "Tengo planes", "fr": "J'ai des projets", "de": "Ich habe schon etwas vor", "ar": "عندي خطط", "zh": "我有安排了", "pt": "Eu tenho planos", "ja": "予定があります" }
+      },
+      {
+        "target_text": "أراك لاحقاً",
+        "pronunciation": "araaka laaHiqan (to a man) / araaki (to a woman)",
+        "translations": { "en": "See you later", "es": "Nos vemos luego", "fr": "À plus tard", "de": "Bis später", "ar": "أراك لاحقاً", "zh": "回头见", "pt": "Até mais tarde", "ja": "また後で" }
+      },
+      {
+        "target_text": "في أي وقت؟",
+        "pronunciation": "fi ayy waqt?",
+        "translations": { "en": "What time?", "es": "¿A qué hora?", "fr": "À quelle heure ?", "de": "Um wie viel Uhr?", "ar": "في أي وقت؟", "zh": "什么时间？", "pt": "A que horas?", "ja": "何時ですか？" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "ماذا تفعل غداً؟",
+        "pronunciation": "maadha taf'al ghadan?",
+        "translations": { "en": "What are you doing tomorrow?", "es": "¿Qué haces mañana?", "fr": "Qu'est-ce que tu fais demain ?", "de": "Was machst du morgen?", "ar": "ماذا تفعل غداً؟", "zh": "你明天要做什么？", "pt": "O que você vai fazer amanhã?", "ja": "明日は何をしますか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "لا شيء. هل أنت متفرغة؟",
+        "pronunciation": "laa shay'. hal anti mutafarrigha?",
+        "translations": { "en": "Nothing. Are you free?", "es": "Nada. ¿Estás libre?", "fr": "Rien. Es-tu libre ?", "de": "Nichts. Hast du Zeit?", "ar": "لا شيء. هل أنت متفرغة؟", "zh": "没什么事。你有空吗？", "pt": "Nada. Você está livre?", "ja": "特に何も。あなたは空いていますか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "نعم! لنتقابل في المقهى.",
+        "pronunciation": "na'am! linatqaabal fi al-maqha.",
+        "translations": { "en": "Yes! Let's meet at the café.", "es": "¡Sí! Vamos a quedar en el café.", "fr": "Oui ! Retrouvons-nous au café.", "de": "Ja! Lass uns im Café treffen.", "ar": "نعم! لنتقابل في المقهى.", "zh": "好啊！我们在咖啡馆见面吧。", "pt": "Sim! Vamos nos encontrar no café.", "ja": "はい！カフェで会いましょう。" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "رائع، في أي وقت؟",
+        "pronunciation": "raa'i', fi ayy waqt?",
+        "translations": { "en": "Great, what time?", "es": "Genial, ¿a qué hora?", "fr": "Super, à quelle heure ?", "de": "Toll, um wie viel Uhr?", "ar": "رائع، في أي وقت؟", "zh": "太好了，什么时间？", "pt": "Ótimo, que horas?", "ja": "いいですね、何時にしますか？" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "الساعة الرابعة مساءً، مناسب؟",
+        "pronunciation": "as-saa'a ar-raabi'a masaa'an, munaasib?",
+        "translations": { "en": "Four o'clock in the afternoon, does that work?", "es": "A las cuatro de la tarde, ¿te viene bien?", "fr": "Seize heures, ça te convient ?", "de": "Um vier Uhr nachmittags, passt das?", "ar": "الساعة الرابعة مساءً، مناسب؟", "zh": "下午四点，可以吗？", "pt": "Às quatro da tarde, tudo bem?", "ja": "午後4時でいいですか？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "مناسب تماماً. أراك لاحقاً!",
+        "pronunciation": "munaasib tamaaman. araaki laaHiqan!",
+        "translations": { "en": "Perfect. See you later!", "es": "Perfecto. ¡Nos vemos luego!", "fr": "Parfait. À plus tard !", "de": "Passt perfekt. Bis später!", "ar": "مناسب تماماً. أراك لاحقاً!", "zh": "非常合适。回头见！", "pt": "Perfeito. Até mais tarde!", "ja": "ちょうどいいです。また後で！" }
+      }
+    ]
+  },
+  {
+    "lesson_order": 10,
+    "title": { "en": "Small Talk & Saying Goodbye", "es": "Charla Informal y Despedidas", "fr": "Petites Discussions et Adieux", "de": "Small Talk und Verabschiedung", "ar": "الحديث العابر والوداع", "zh": "闲聊与道别", "pt": "Conversa Informal e Despedida", "ja": "世間話と別れの挨拶" },
+    "phrases": [
+      {
+        "target_text": "الجو جميل اليوم",
+        "pronunciation": "al-jaww jameel al-yawm",
+        "translations": { "en": "The weather is nice today", "es": "Hace buen tiempo hoy", "fr": "Il fait beau aujourd'hui", "de": "Das Wetter ist heute schön", "ar": "الجو جميل اليوم", "zh": "今天天气真好", "pt": "O tempo está bonito hoje", "ja": "今日はいい天気ですね" }
+      },
+      {
+        "target_text": "سعدت بالحديث معك",
+        "pronunciation": "sa'idtu bilHadeeth ma'ak",
+        "translations": { "en": "It was nice talking to you", "es": "Fue un gusto hablar contigo", "fr": "C'était un plaisir de parler avec toi", "de": "Es war schön, mit dir zu reden", "ar": "سعدت بالحديث معك", "zh": "很高兴和你聊天", "pt": "Foi um prazer conversar com você", "ja": "お話しできて嬉しかったです" }
+      },
+      {
+        "target_text": "مع السلامة",
+        "pronunciation": "ma' as-salaama",
+        "translations": { "en": "Goodbye", "es": "Adiós", "fr": "Au revoir", "de": "Auf Wiedersehen", "ar": "مع السلامة", "zh": "再见", "pt": "Adeus/Tchau", "ja": "さようなら" }
+      },
+      {
+        "target_text": "إلى اللقاء قريباً",
+        "pronunciation": "ilaa al-liqaa' qareeban",
+        "translations": { "en": "See you soon", "es": "Hasta pronto", "fr": "À bientôt", "de": "Bis bald", "ar": "إلى اللقاء قريباً", "zh": "很快再见", "pt": "Até breve", "ja": "またすぐに会いましょう" }
+      },
+      {
+        "target_text": "اعتنِ بنفسك",
+        "pronunciation": "i'tani binafsik (to a man) / binafsiki (to a woman)",
+        "translations": { "en": "Take care", "es": "Cuídate", "fr": "Prends soin de toi", "de": "Pass auf dich auf", "ar": "اعتنِ بنفسك", "zh": "保重", "pt": "Cuide-se", "ja": "お元気で" }
+      },
+      {
+        "target_text": "يوماً سعيداً",
+        "pronunciation": "yawman sa'eedan",
+        "translations": { "en": "Have a nice day", "es": "Que tengas un buen día", "fr": "Bonne journée", "de": "Schönen Tag noch", "ar": "يوماً سعيداً", "zh": "祝你今天愉快", "pt": "Tenha um bom dia", "ja": "良い一日を" }
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "target_text": "الجو جميل جداً اليوم، أليس كذلك؟",
+        "pronunciation": "al-jaww jameel jiddan al-yawm, alaysa kadhaalik?",
+        "translations": { "en": "The weather is really nice today, isn't it?", "es": "Hace muy buen tiempo hoy, ¿verdad?", "fr": "Il fait vraiment beau aujourd'hui, non ?", "de": "Das Wetter ist heute wirklich schön, oder?", "ar": "الجو جميل جداً اليوم، أليس كذلك؟", "zh": "今天天气真好，不是吗？", "pt": "O tempo está mesmo bonito hoje, não é?", "ja": "今日は本当にいい天気ですね？" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "نعم، مشمس وجميل!",
+        "pronunciation": "na'am, mushmis wa jameel!",
+        "translations": { "en": "Yes, sunny and beautiful!", "es": "¡Sí, soleado y hermoso!", "fr": "Oui, ensoleillé et magnifique !", "de": "Ja, sonnig und schön!", "ar": "نعم، مشمس وجميل!", "zh": "是的，晴朗又美丽！", "pt": "Sim, ensolarado e lindo!", "ja": "はい、晴れていて素敵です！" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "حسناً، يجب أن أذهب الآن.",
+        "pronunciation": "Hasanan, yajib an adh-hab al-aan.",
+        "translations": { "en": "Well, I have to go now.", "es": "Bueno, tengo que irme ya.", "fr": "Bon, je dois y aller maintenant.", "de": "Nun, ich muss jetzt los.", "ar": "حسناً، يجب أن أذهب الآن.", "zh": "好吧，我现在得走了。", "pt": "Bem, eu preciso ir agora.", "ja": "さて、もう行かないといけません。" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "سعدت بالحديث معك!",
+        "pronunciation": "sa'idtu bilHadeeth ma'ak!",
+        "translations": { "en": "It was nice talking to you!", "es": "¡Fue un gusto hablar contigo!", "fr": "C'était un plaisir de parler avec toi !", "de": "Es war schön, mit dir zu reden!", "ar": "سعدت بالحديث معك!", "zh": "很高兴和你聊天！", "pt": "Foi um prazer conversar com você!", "ja": "お話しできて嬉しかったです！" }
+      },
+      {
+        "speaker": "A",
+        "target_text": "أنا أيضاً. إلى اللقاء قريباً!",
+        "pronunciation": "ana ayDan. ilaa al-liqaa' qareeban!",
+        "translations": { "en": "Me too. See you soon!", "es": "Yo también. ¡Hasta pronto!", "fr": "Moi aussi. À bientôt !", "de": "Ich auch. Bis bald!", "ar": "أنا أيضاً. إلى اللقاء قريباً!", "zh": "我也是。很快再见！", "pt": "Eu também. Até breve!", "ja": "私もです。またすぐに！" }
+      },
+      {
+        "speaker": "B",
+        "target_text": "مع السلامة، اعتنِ بنفسك!",
+        "pronunciation": "ma' as-salaama, i'tani binafsik!",
+        "translations": { "en": "Goodbye, take care!", "es": "¡Adiós, cuídate!", "fr": "Au revoir, prends soin de toi !", "de": "Auf Wiedersehen, pass auf dich auf!", "ar": "مع السلامة، اعتنِ بنفسك!", "zh": "再见，保重！", "pt": "Adeus, cuide-se!", "ja": "さようなら、お元気で！" }
+      }
+    ]
+  }
+]

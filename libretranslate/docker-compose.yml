@@ -1,0 +1,33 @@
+# Local, self-hosted translation for the Friends DM "translate message"
+# feature — free/offline alternative to calling the Claude API for plain
+# translation (Stage 3 grading still needs Claude; LibreTranslate only
+# translates, it can't judge/score a translation attempt).
+#
+# Start:  docker compose up -d   (run from this directory)
+# Stop:   docker compose down
+#
+# First start downloads the Argos Translate models for just the app's 8
+# languages (LT_LOAD_ONLY below) and caches them in the libretranslate_models
+# volume, so later restarts skip the download.
+services:
+  libretranslate:
+    container_name: libretranslate
+    image: libretranslate/libretranslate:latest
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    environment:
+      - LT_UPDATE_MODELS=true
+      - LT_LOAD_ONLY=en,es,fr,de,ar,zh,pt,ja
+      - LT_DISABLE_WEB_UI=true
+    volumes:
+      - libretranslate_models:/home/libretranslate/.local:rw
+    healthcheck:
+      test: ["CMD-SHELL", "./venv/bin/python scripts/healthcheck.py"]
+      interval: 10s
+      timeout: 4s
+      retries: 4
+      start_period: 5s
+
+volumes:
+  libretranslate_models:

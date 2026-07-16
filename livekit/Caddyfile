@@ -1,0 +1,4 @@
+# Replace with the real subdomain you pointed at your VPS's IP address.
+livekit.yourdomain.com {
+	reverse_proxy 127.0.0.1:7880
+}

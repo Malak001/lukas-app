@@ -1,0 +1,13 @@
+# Local development config. Not for production use — see docker-compose.local.yml.
+port: 7880
+
+rtc:
+  tcp_port: 7881
+  port_range_start: 50000
+  port_range_end: 50019
+  use_external_ip: false
+
+# Locally generated dev-only key/secret. Never reachable outside your
+# machine — never reuse these for anything internet-facing.
+keys:
+  devkey: 82470c2246412deeb76e2fb0f35f0082e86ba72cad2fc0223a01a6675bad6076
