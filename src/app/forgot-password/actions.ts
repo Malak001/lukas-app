@@ -12,14 +12,19 @@ export async function requestPasswordReset(
     return { error: "Please enter your email." };
   }
 
-  const supabase = await createClient();
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  try {
+    const supabase = await createClient();
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
-  // Always report success, whether or not the email exists, to avoid leaking
-  // which addresses have accounts.
-  await supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: `${siteUrl}/auth/callback?next=/reset-password`,
-  });
+    // Always report success, whether or not the email exists, to avoid leaking
+    // which addresses have accounts.
+    await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${siteUrl}/auth/callback?next=/reset-password`,
+    });
 
-  return { error: null, sent: true };
+    return { error: null, sent: true };
+  } catch (err) {
+    console.error("requestPasswordReset: unexpected error", err);
+    return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
+  }
 }

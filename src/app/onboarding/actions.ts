@@ -22,29 +22,34 @@ export async function saveLanguages(
     return { error: "Your target language must be different from your native language." };
   }
 
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
 
-  if (!user) {
-    return { error: "Your session expired. Please log in again." };
-  }
+    if (!user) {
+      return { error: "Your session expired. Please log in again." };
+    }
 
-  const name =
-    (user.user_metadata?.name as string | undefined)?.trim() ||
-    user.email?.split("@")[0] ||
-    "there";
+    const name =
+      (user.user_metadata?.name as string | undefined)?.trim() ||
+      user.email?.split("@")[0] ||
+      "there";
 
-  const { error } = await supabase.from("profiles").upsert({
-    id: user.id,
-    name,
-    native_language: native,
-    target_language: target,
-  });
+    const { error } = await supabase.from("profiles").upsert({
+      id: user.id,
+      name,
+      native_language: native,
+      target_language: target,
+    });
 
-  if (error) {
-    return { error: "Something went wrong saving your languages. Please try again." };
+    if (error) {
+      return { error: "Something went wrong saving your languages. Please try again." };
+    }
+  } catch (err) {
+    console.error("saveLanguages: unexpected error", err);
+    return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
   }
 
   redirect("/dashboard");

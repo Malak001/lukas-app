@@ -13,11 +13,16 @@ export async function resetPassword(
     return { error: "Password must be at least 8 characters." };
   }
 
-  const supabase = await createClient();
-  const { error } = await supabase.auth.updateUser({ password });
+  try {
+    const supabase = await createClient();
+    const { error } = await supabase.auth.updateUser({ password });
 
-  if (error) {
-    return { error: "That reset link has expired. Please request a new one." };
+    if (error) {
+      return { error: "That reset link has expired. Please request a new one." };
+    }
+  } catch (err) {
+    console.error("resetPassword: unexpected error", err);
+    return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
   }
 
   redirect("/");

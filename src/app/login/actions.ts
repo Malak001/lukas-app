@@ -15,16 +15,21 @@ export async function login(
     return { error: "Please fill in all fields." };
   }
 
-  const supabase = await createClient();
-  const { error } = await supabase.auth.signInWithPassword({ email, password });
+  try {
+    const supabase = await createClient();
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
 
-  if (error) {
-    if (error.message === "Email not confirmed") {
-      return {
-        error: "Please verify your email first — check your inbox for the confirmation link.",
-      };
+    if (error) {
+      if (error.message === "Email not confirmed") {
+        return {
+          error: "Please verify your email first — check your inbox for the confirmation link.",
+        };
+      }
+      return { error: "Incorrect email or password." };
     }
-    return { error: "Incorrect email or password." };
+  } catch (err) {
+    console.error("login: unexpected error", err);
+    return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
   }
 
   redirect("/");

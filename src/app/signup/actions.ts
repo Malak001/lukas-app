@@ -20,20 +20,31 @@ export async function signup(
     return { error: "Password must be at least 8 characters." };
   }
 
-  const supabase = await createClient();
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  try {
+    const supabase = await createClient();
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
-  const { error } = await supabase.auth.signUp({
-    email,
-    password,
-    options: {
-      data: { name },
-      emailRedirectTo: `${siteUrl}/auth/callback?next=/onboarding`,
-    },
-  });
+    const { error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        data: { name },
+        emailRedirectTo: `${siteUrl}/auth/callback?next=/onboarding`,
+      },
+    });
 
-  if (error) {
-    return { error: error.message };
+    if (error) {
+      console.error("signup: supabase auth error", {
+        name: error.name,
+        status: error.status,
+        code: error.code,
+        message: error.message,
+      });
+      return { error: error.message || "Something went wrong. Please try again." };
+    }
+  } catch (err) {
+    console.error("signup: unexpected error", err);
+    return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
   }
 
   redirect("/verify-email");
