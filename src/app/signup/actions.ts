@@ -34,16 +34,17 @@ export async function signup(
     });
 
     if (error) {
-      const details = { name: error.name, status: error.status, code: error.code, message: error.message };
-      console.error("signup: supabase auth error", details);
-      // TEMPORARY: surfacing full diagnostic details in the UI itself while
-      // we track down the "{}" bug — revert to a plain message afterward.
-      return { error: `DEBUG ${JSON.stringify(details)}` };
+      console.error("signup: supabase auth error", {
+        name: error.name,
+        status: error.status,
+        code: error.code,
+        message: error.message,
+      });
+      return { error: error.message || "Something went wrong. Please try again." };
     }
   } catch (err) {
-    const details = err instanceof Error ? { message: err.message, stack: err.stack } : { raw: String(err) };
-    console.error("signup: unexpected error", details);
-    return { error: `DEBUG ${JSON.stringify(details)}` };
+    console.error("signup: unexpected error", err instanceof Error ? err.message : err);
+    return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
   }
 
   redirect("/verify-email");
