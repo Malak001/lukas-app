@@ -22,7 +22,9 @@ export default function FriendsList({
   const [onlineIds, setOnlineIds] = useState<Set<string>>(new Set());
   const [incoming, setIncoming] = useState(incomingRequests);
   const [outgoing, setOutgoing] = useState(outgoingRequests);
+  const [friendsList, setFriendsList] = useState(friends);
   const [callingId, setCallingId] = useState<string | null>(null);
+  const [removingId, setRemovingId] = useState<string | null>(null);
 
   useEffect(() => {
     const supabase = createClient();
@@ -61,6 +63,15 @@ export default function FriendsList({
     const supabase = createClient();
     const { error } = await supabase.from("friendships").delete().eq("id", friendshipId);
     if (!error) setOutgoing((prev) => prev.filter((r) => r.friendshipId !== friendshipId));
+  }
+
+  async function removeFriend(friendshipId: string, name: string) {
+    if (!window.confirm(`Remove ${name} from your friends?`)) return;
+    setRemovingId(friendshipId);
+    const supabase = createClient();
+    const { error } = await supabase.from("friendships").delete().eq("id", friendshipId);
+    if (!error) setFriendsList((prev) => prev.filter((f) => f.friendshipId !== friendshipId));
+    setRemovingId(null);
   }
 
   async function call(friendId: string, callFormat: "audio" | "video") {
@@ -145,13 +156,13 @@ export default function FriendsList({
 
       <section>
         <h2 className="text-sm font-semibold uppercase tracking-wide text-stone-400">Friends</h2>
-        {friends.length === 0 ? (
+        {friendsList.length === 0 ? (
           <p className="mt-2 text-sm text-stone-500">
             No friends yet — add someone during or after a Stage 4 call.
           </p>
         ) : (
           <div className="mt-2 space-y-2">
-            {friends.map((f) => {
+            {friendsList.map((f) => {
               const online = onlineIds.has(f.id);
               return (
                 <div
@@ -185,6 +196,13 @@ export default function FriendsList({
                       className="rounded-lg bg-primary-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-primary-700 disabled:opacity-50"
                     >
                       Video
+                    </button>
+                    <button
+                      onClick={() => removeFriend(f.friendshipId, f.name)}
+                      disabled={removingId === f.friendshipId}
+                      className="text-sm font-medium text-stone-400 hover:text-red-600 disabled:opacity-50"
+                    >
+                      Remove
                     </button>
                   </div>
                 </div>

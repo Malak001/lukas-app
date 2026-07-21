@@ -13,36 +13,41 @@ export async function checkStage3Segment(
   targetText: string,
   userTranslation: string
 ) {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) throw new Error("Not authenticated");
+  try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) throw new Error("Not authenticated");
 
-  const { data: video } = await supabase
-    .from("stage3_videos")
-    .select("language")
-    .eq("id", videoId)
-    .single();
-  if (!video) throw new Error("Video not found");
+    const { data: video } = await supabase
+      .from("stage3_videos")
+      .select("language")
+      .eq("id", videoId)
+      .single();
+    if (!video) throw new Error("Video not found");
 
-  const { data: profile } = await supabase
-    .from("profiles")
-    .select("native_language")
-    .eq("id", user.id)
-    .single();
+    const { data: profile } = await supabase
+      .from("profiles")
+      .select("native_language")
+      .eq("id", user.id)
+      .single();
 
-  const nativeLanguage = profile!.native_language as LanguageCode;
-  const targetLanguage = video.language as LanguageCode;
+    const nativeLanguage = profile!.native_language as LanguageCode;
+    const targetLanguage = video.language as LanguageCode;
 
-  const result = await gradeTranslations({
-    targetLanguage,
-    nativeLanguage,
-    segments: [{ index: segmentIndex, targetText, userTranslation }],
-  });
+    const result = await gradeTranslations({
+      targetLanguage,
+      nativeLanguage,
+      segments: [{ index: segmentIndex, targetText, userTranslation }],
+    });
 
-  const graded = result.segments[0];
-  return { score: graded.score, feedback: graded.feedback };
+    const graded = result.segments[0];
+    return { score: graded.score, feedback: graded.feedback };
+  } catch (err) {
+    console.error("checkStage3Segment: error", err instanceof Error ? err.message : err);
+    throw err;
+  }
 }
 
 // Segments have already been graded one at a time via checkStage3Segment, so
@@ -58,79 +63,84 @@ export async function submitStage3Attempt(
     feedback: string;
   }[]
 ) {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) throw new Error("Not authenticated");
+  try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) throw new Error("Not authenticated");
 
-  const { data: video } = await supabase
-    .from("stage3_videos")
-    .select("language")
-    .eq("id", videoId)
-    .single();
-  if (!video) throw new Error("Video not found");
-
-  const targetLanguage = video.language as LanguageCode;
-
-  const overallScore = Math.round(
-    segments.reduce((sum, s) => sum + s.score, 0) / segments.length
-  );
-  const passed = overallScore >= 70;
-
-  await supabase.from("stage3_attempts").insert({
-    user_id: user.id,
-    video_id: videoId,
-    user_translation: segments.map(({ index, targetText, userTranslation }) => ({
-      index,
-      targetText,
-      userTranslation,
-    })),
-    ai_score: overallScore,
-    passed,
-    feedback: segments.map(({ index, score, feedback }) => ({
-      segment_index: index,
-      score,
-      feedback,
-    })),
-  });
-
-  if (passed) {
-    const { data: allVideos } = await supabase
+    const { data: video } = await supabase
       .from("stage3_videos")
-      .select("id")
-      .eq("language", targetLanguage);
+      .select("language")
+      .eq("id", videoId)
+      .single();
+    if (!video) throw new Error("Video not found");
 
-    const { data: passedAttempts } = await supabase
-      .from("stage3_attempts")
-      .select("video_id")
-      .eq("user_id", user.id)
-      .eq("passed", true)
-      .in("video_id", (allVideos ?? []).map((v) => v.id));
+    const targetLanguage = video.language as LanguageCode;
 
-    const distinctPassed = new Set((passedAttempts ?? []).map((a) => a.video_id));
+    const overallScore = Math.round(
+      segments.reduce((sum, s) => sum + s.score, 0) / segments.length
+    );
+    const passed = overallScore >= 70;
 
-    if (distinctPassed.size >= 3) {
-      const { data: existingStage } = await supabase
-        .from("user_stage")
-        .select("current_stage")
+    await supabase.from("stage3_attempts").insert({
+      user_id: user.id,
+      video_id: videoId,
+      user_translation: segments.map(({ index, targetText, userTranslation }) => ({
+        index,
+        targetText,
+        userTranslation,
+      })),
+      ai_score: overallScore,
+      passed,
+      feedback: segments.map(({ index, score, feedback }) => ({
+        segment_index: index,
+        score,
+        feedback,
+      })),
+    });
+
+    if (passed) {
+      const { data: allVideos } = await supabase
+        .from("stage3_videos")
+        .select("id")
+        .eq("language", targetLanguage);
+
+      const { data: passedAttempts } = await supabase
+        .from("stage3_attempts")
+        .select("video_id")
         .eq("user_id", user.id)
-        .eq("language", targetLanguage)
-        .maybeSingle();
+        .eq("passed", true)
+        .in("video_id", (allVideos ?? []).map((v) => v.id));
 
-      const nextStage = Math.max(existingStage?.current_stage ?? 1, 4);
+      const distinctPassed = new Set((passedAttempts ?? []).map((a) => a.video_id));
 
-      await supabase
-        .from("user_stage")
-        .upsert(
-          { user_id: user.id, language: targetLanguage, current_stage: nextStage },
-          { onConflict: "user_id,language" }
-        );
+      if (distinctPassed.size >= 3) {
+        const { data: existingStage } = await supabase
+          .from("user_stage")
+          .select("current_stage")
+          .eq("user_id", user.id)
+          .eq("language", targetLanguage)
+          .maybeSingle();
+
+        const nextStage = Math.max(existingStage?.current_stage ?? 1, 4);
+
+        await supabase
+          .from("user_stage")
+          .upsert(
+            { user_id: user.id, language: targetLanguage, current_stage: nextStage },
+            { onConflict: "user_id,language" }
+          );
+      }
     }
+
+    revalidatePath("/stage3");
+    revalidatePath("/dashboard");
+
+    return { score: overallScore, passed };
+  } catch (err) {
+    console.error("submitStage3Attempt: error", err instanceof Error ? err.message : err);
+    throw err;
   }
-
-  revalidatePath("/stage3");
-  revalidatePath("/dashboard");
-
-  return { score: overallScore, passed };
 }
