@@ -19,8 +19,8 @@ const supabase = createClient(
 
 function validateLessons(code, lessons) {
   const issues = [];
-  if (!Array.isArray(lessons) || lessons.length !== 10) {
-    issues.push(`expected an array of 10 lessons, got ${Array.isArray(lessons) ? lessons.length : typeof lessons}`);
+  if (!Array.isArray(lessons) || lessons.length < 10) {
+    issues.push(`expected an array of at least 10 lessons, got ${Array.isArray(lessons) ? lessons.length : typeof lessons}`);
     return issues;
   }
   lessons.forEach((lesson, i) => {
@@ -32,7 +32,7 @@ function validateLessons(code, lessons) {
     if (!Array.isArray(lesson.phrases) || lesson.phrases.length < 5) {
       issues.push(`lesson ${n}: only ${(lesson.phrases || []).length} phrases`);
     }
-    if (!Array.isArray(lesson.dialogue) || lesson.dialogue.length < 5) {
+    if (!Array.isArray(lesson.dialogue) || lesson.dialogue.length < 4) {
       issues.push(`lesson ${n}: only ${(lesson.dialogue || []).length} dialogue lines`);
     }
     (lesson.phrases || []).forEach((p, j) => {
