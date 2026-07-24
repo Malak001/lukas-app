@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { languageName, type LanguageCode } from "@/lib/languages";
-import type { LessonContent } from "@/lib/lessons";
+import { substituteLearnerName, type LessonContent } from "@/lib/lessons";
 import Nav from "@/components/Nav";
 import PracticeQuiz from "./PracticeQuiz";
 
@@ -21,7 +21,7 @@ export default async function LessonPage({
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("native_language, target_language")
+    .select("name, native_language, target_language")
     .eq("id", user!.id)
     .single();
 
@@ -39,6 +39,7 @@ export default async function LessonPage({
   if (!lesson) notFound();
 
   const content = lesson.content as LessonContent;
+  content.phrases = substituteLearnerName(content.phrases, profile!.name);
 
   const { data: existingProgress } = await supabase
     .from("lesson_progress")

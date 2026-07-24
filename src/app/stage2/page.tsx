@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { languageName, type LanguageCode } from "@/lib/languages";
-import type { LessonContent } from "@/lib/lessons";
+import { substituteLearnerName, type LessonContent } from "@/lib/lessons";
 import { GATING_DISABLED } from "@/lib/stages";
 import Nav from "@/components/Nav";
 import ExamRunner from "./ExamRunner";
@@ -15,7 +15,7 @@ export default async function Stage2Page() {
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("native_language, target_language")
+    .select("name, native_language, target_language")
     .eq("id", user!.id)
     .single();
 
@@ -45,10 +45,13 @@ export default async function Stage2Page() {
     .eq("language", targetLanguage)
     .single();
 
-  const lessonsForExam = (lessons ?? []).map((l) => ({
-    lesson_order: l.lesson_order,
-    content: l.content as LessonContent,
-  }));
+  const lessonsForExam = (lessons ?? []).map((l) => {
+    const content = l.content as LessonContent;
+    return {
+      lesson_order: l.lesson_order,
+      content: { ...content, phrases: substituteLearnerName(content.phrases, profile!.name) },
+    };
+  });
 
   return (
     <div className="min-h-screen bg-stone-50">

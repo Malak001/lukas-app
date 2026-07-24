@@ -14,9 +14,9 @@
         "translations": { "en": "Hello (formal)", "es": "Hola (formal)", "fr": "Bonjour (formel)", "de": "Guten Tag (formell)", "ar": "مرحباً (رسمي)", "zh": "您好", "pt": "Olá (formal)", "ja": "こんにちは（丁寧）" }
       },
       {
-        "target_text": "我叫玛丽亚姆",
-        "pronunciation": "wǒ jiào Mǎ Lì Yà Mǔ",
-        "translations": { "en": "My name is Mariam", "es": "Me llamo Mariam", "fr": "Je m'appelle Mariam", "de": "Ich heiße Mariam", "ar": "اسمي مريم", "zh": "我叫玛丽亚姆", "pt": "Meu nome é Mariam", "ja": "私の名前はマリアムです" }
+        "target_text": "我叫{name}",
+        "pronunciation": "wǒ jiào",
+        "translations": { "en": "My name is {name}", "es": "Me llamo {name}", "fr": "Je m'appelle {name}", "de": "Ich heiße {name}", "ar": "اسمي {name}", "zh": "我叫{name}", "pt": "Meu nome é {name}", "ja": "私の名前は{name}です" }
       },
       {
         "target_text": "你叫什么名字？",

@@ -14,9 +14,9 @@
         "translations": { "en": "Hello", "es": "Buenos días", "fr": "Bonjour", "de": "Guten Tag", "ar": "صباح الخير / مرحباً", "zh": "你好", "pt": "Bom dia / Olá", "ja": "こんにちは" }
       },
       {
-        "target_text": "Je m'appelle Mariam",
-        "pronunciation": "zhuh mah-PELL mah-ree-AM (silent 'e' in 'je')",
-        "translations": { "en": "My name is Mariam", "es": "Me llamo Mariam", "fr": "Je m'appelle Mariam", "de": "Ich heiße Mariam", "ar": "اسمي مريم", "zh": "我叫玛丽亚姆", "pt": "Meu nome é Mariam", "ja": "私の名前はマリアムです" }
+        "target_text": "Je m'appelle {name}",
+        "pronunciation": "zhuh mah-PELL (silent 'e' in 'je')",
+        "translations": { "en": "My name is {name}", "es": "Me llamo {name}", "fr": "Je m'appelle {name}", "de": "Ich heiße {name}", "ar": "اسمي {name}", "zh": "我叫{name}", "pt": "Meu nome é {name}", "ja": "私の名前は{name}です" }
       },
       {
         "target_text": "Comment tu t'appelles ?",

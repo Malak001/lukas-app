@@ -55,17 +55,17 @@
         }
       },
       {
-        "target_text": "私の名前はマリアムです",
-        "pronunciation": "watashi no namae wa Mariamu desu",
+        "target_text": "私の名前は{name}です",
+        "pronunciation": "watashi no namae wa ... desu",
         "translations": {
-          "en": "My name is Mariam",
-          "es": "Me llamo Mariam",
-          "fr": "Je m'appelle Mariam",
-          "de": "Ich heiße Mariam",
-          "ar": "اسمي مريم",
-          "zh": "我的名字是玛丽亚姆",
-          "pt": "Meu nome é Mariam",
-          "ja": "私の名前はマリアムです"
+          "en": "My name is {name}",
+          "es": "Me llamo {name}",
+          "fr": "Je m'appelle {name}",
+          "de": "Ich heiße {name}",
+          "ar": "اسمي {name}",
+          "zh": "我的名字是{name}",
+          "pt": "Meu nome é {name}",
+          "ja": "私の名前は{name}です"
         }
       },
       {

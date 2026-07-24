@@ -19,9 +19,9 @@
         "translations": { "en": "Good day. (formal greeting)", "es": "Buenos días. (formal)", "fr": "Bonjour. (formel)", "de": "Guten Tag.", "ar": "نهارك سعيد. (رسمي)", "zh": "您好。（正式）", "pt": "Bom dia/Boa tarde. (formal)", "ja": "こんにちは。（丁寧）" }
       },
       {
-        "target_text": "Ich heiße Mariam.",
-        "pronunciation": "ish HY-suh mah-ree-AHM",
-        "translations": { "en": "My name is Mariam.", "es": "Me llamo Mariam.", "fr": "Je m'appelle Mariam.", "de": "Ich heiße Mariam.", "ar": "اسمي مريم.", "zh": "我叫玛丽亚姆。", "pt": "Meu nome é Mariam.", "ja": "私の名前はマリアムです。" }
+        "target_text": "Ich heiße {name}.",
+        "pronunciation": "ish HY-suh",
+        "translations": { "en": "My name is {name}.", "es": "Me llamo {name}.", "fr": "Je m'appelle {name}.", "de": "Ich heiße {name}.", "ar": "اسمي {name}.", "zh": "我叫{name}。", "pt": "Meu nome é {name}.", "ja": "私の名前は{name}です。" }
       },
       {
         "target_text": "Wie heißt du?",

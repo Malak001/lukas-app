@@ -14,9 +14,9 @@
         "translations": { "en": "Hello, pleasure to meet you (formal).", "es": "Hola, un placer conocerlo.", "fr": "Bonjour, enchanté de vous rencontrer.", "de": "Hallo, es freut mich, Sie kennenzulernen.", "ar": "مرحبًا، تشرفت بمقابلتك.", "zh": "您好，很高兴认识您。", "pt": "Olá, prazer em conhecê-lo.", "ja": "こんにちは、お会いできて光栄です。" }
       },
       {
-        "target_text": "Meu nome é Mariam.",
-        "pronunciation": "MEH-oo NOH-mee eh mah-ree-AHM",
-        "translations": { "en": "My name is Mariam.", "es": "Me llamo Mariam.", "fr": "Je m'appelle Mariam.", "de": "Mein Name ist Mariam.", "ar": "اسمي مريم.", "zh": "我叫玛丽亚姆。", "pt": "Meu nome é Mariam.", "ja": "私の名前はマリアムです。" }
+        "target_text": "Meu nome é {name}.",
+        "pronunciation": "MEH-oo NOH-mee eh",
+        "translations": { "en": "My name is {name}.", "es": "Me llamo {name}.", "fr": "Je m'appelle {name}.", "de": "Mein Name ist {name}.", "ar": "اسمي {name}.", "zh": "我叫{name}。", "pt": "Meu nome é {name}.", "ja": "私の名前は{name}です。" }
       },
       {
         "target_text": "Qual é o seu nome?",

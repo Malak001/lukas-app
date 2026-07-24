@@ -19,9 +19,9 @@
         "translations": { "en": "Peace be upon you (formal hello)", "es": "La paz sea contigo (saludo formal)", "fr": "Que la paix soit sur vous (salutation formelle)", "de": "Friede sei mit dir (formelle Begrüßung)", "ar": "السلام عليكم", "zh": "愿平安与你同在（正式问候）", "pt": "Que a paz esteja contigo (saudação formal)", "ja": "あなたに平和がありますように（正式な挨拶）" }
       },
       {
-        "target_text": "اسمي مريم.",
-        "pronunciation": "ismi Mariam (IS-mee MAR-yam)",
-        "translations": { "en": "My name is Mariam.", "es": "Me llamo Mariam.", "fr": "Je m'appelle Mariam.", "de": "Mein Name ist Mariam.", "ar": "اسمي مريم.", "zh": "我叫玛丽亚姆。", "pt": "Meu nome é Mariam.", "ja": "私の名前はマリアムです。" }
+        "target_text": "اسمي {name}.",
+        "pronunciation": "ismi (IS-mee)",
+        "translations": { "en": "My name is {name}.", "es": "Me llamo {name}.", "fr": "Je m'appelle {name}.", "de": "Mein Name ist {name}.", "ar": "اسمي {name}.", "zh": "我叫{name}。", "pt": "Meu nome é {name}.", "ja": "私の名前は{name}です。" }
       },
       {
         "target_text": "ما اسمك؟",
