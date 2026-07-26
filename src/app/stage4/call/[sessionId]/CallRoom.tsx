@@ -12,6 +12,7 @@ import {
 } from "@livekit/components-react";
 import { languageName } from "@/lib/languages";
 import type { LanguageCode } from "@/lib/languages";
+import Whiteboard from "./Whiteboard";
 
 const SESSION_SECONDS = 600;
 const PHASE_SECONDS = 300;
@@ -44,6 +45,7 @@ export default function CallRoom({ sessionId }: { sessionId: string }) {
   const [data, setData] = useState<TokenData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [callEnded, setCallEnded] = useState(false);
+  const [whiteboardOpen, setWhiteboardOpen] = useState(false);
   const endedRef = useRef(false);
 
   useEffect(() => {
@@ -138,6 +140,7 @@ export default function CallRoom({ sessionId }: { sessionId: string }) {
         sessionId={sessionId}
         onTimeUp={handleLeave}
         onLeave={handleLeave}
+        onToggleWhiteboard={() => setWhiteboardOpen((v) => !v)}
       />
       <div className="flex flex-1 overflow-hidden">
         {data.callFormat === "video" ? (
@@ -156,6 +159,7 @@ export default function CallRoom({ sessionId }: { sessionId: string }) {
         )}
       </div>
       <PartnerLeftWatcher onPartnerLeft={handleLeave} />
+      {whiteboardOpen && <Whiteboard onClose={() => setWhiteboardOpen(false)} />}
     </LiveKitRoom>
   );
 }
@@ -178,6 +182,7 @@ function CallHeader({
   sessionId,
   onTimeUp,
   onLeave,
+  onToggleWhiteboard,
 }: {
   sessionType: "matched" | "direct";
   startedAt: string;
@@ -189,6 +194,7 @@ function CallHeader({
   sessionId: string;
   onTimeUp: () => void;
   onLeave: () => void;
+  onToggleWhiteboard: () => void;
 }) {
   const [now, setNow] = useState(() => Date.now());
   const timeUpFired = useRef(false);
@@ -248,6 +254,12 @@ function CallHeader({
           </span>
         )}
         <AddFriendButton partnerId={partner.id} initialStatus={friendshipStatus} />
+        <button
+          onClick={onToggleWhiteboard}
+          className="rounded-lg border border-stone-700 px-3 py-1.5 text-xs font-medium text-stone-300 hover:bg-stone-800"
+        >
+          Whiteboard
+        </button>
         <button
           onClick={() => setReportOpen(true)}
           className="rounded-lg border border-stone-700 px-3 py-1.5 text-xs font-medium text-stone-300 hover:bg-stone-800"
